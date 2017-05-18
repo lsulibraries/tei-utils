@@ -1,0 +1,2202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it -->
+<?xml-model href="../schemas/exercise.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schemas/exercise.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- the two lines above are processing instructions for finding the schema; -->
+<!-- they are intended for oXygen, but other software might use them, also -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="your own CSS"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- put title here --></title>
+        <author>
+          <persName><!-- author's name here --></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><!-- publisher here --></publisher>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+      <text>
+        <front>
+          <!-- front matter, if any, goes in <div>s, here -->
+        </front>
+        <body>
+          <!-- main document goes here, possibly divided into <div>s -->
+              <div><p>﻿THE BROADWAY JOURNAL.
+VOL, 2,	NEW YORK, SATURDAY, OCTOBER 11, 1845.	NO. 14.
+Three Dollars per Annum.	EditEd by	Published at 135 Nassau-st*
+Single Copies, 6 1-4 Cents.	EDGAR A. POE asd HENRY O. WATSON.	By JOHN BISCO.
+Beauty in Shadow.
+I mark a sadness on thy brow,
+Not meet in one so fair as thou;
+And as I hear thy accent now,
+There’s sorrow in each tone;—
+O! sure thou hast not felt the chain,
+The venom of love’s shaft—the pain,
+That from a dream, forever vain,
+Leaves life’s sad waking lone!
+Like some sweet waters poured to waste,
+With few to see, with none to taste,
+</p><p>Do thy heart’s precious fountains haste
+<lb/>To desert sands and seas?
+<lb/>Oh! flowers thy hope in friendless sky,</p><p>Beneath no fond, imploring eye—
+Or, like some harp, that hangs on high,
+Among forgotten trees?
+W. Gll.MORE SlMMS.
+Ms. Found in a Bottle.
+Q.ui n’a plus qu’un moment a vivre
+N’a plus rien a dissimuler__Quinault—Alys.
+</p><p>Of my country and of my family I have little to say.
+<lb/>Ill usage and length of years have driven me from the
+<lb/>one, and estranged me from the other. Hereditary wealth
+<lb/>afforded me an education of no common order, and a con-
+<lb break="no"/>templative turn of mind enabled me to methodize the
+<lb/>stores which early study very diligently garnered up.—
+<lb/>Beyond all things, the works of the German moralists
+<lb/>gave me great delight; not from any ill-advised admira-
+<lb break="no"/>tion of their eloquent madness, but from the ease with
+<lb/>which my habits of rigid thought enabled me to detect
+<lb/>their falsities. I have often been reproached with the
+<lb/>aridity of my genius; a deficiency of imagination has
+<lb/>been imputed to me as a crime; and the Pyrrhonism of
+<lb/>my opinions has at all times rendered me notorious. In-
+<lb break="no"/>deed, a strong relish for physical philosophy has, I fear,
+<lb/>tinctured my mind with a very common error of this
+<lb/>age—I mean the habit of referring occurrences, even the
+<lb/>east susceptible of such reference, to the principles of
+<lb/>that science. Upon the whole, no person could be less
+<lb/>liable than myself to be led away from the severe pre-
+<lb break="no"/>eincts of truth by the ignes fatui of superstition. I have
+<lb/>bought proper to premise thus much, lest the incredible
+<lb/>tale I have to tell should be considered rather the raving
+<lb/>of a crude imagination, than the positive experience of
+<lb/>a mind to which the reveries of fancy have been a dead
+<lb/>tetter and a nullity.</p><p></p><p>After many years spent in foreign travel, I sailed in
+<lb/>the year 18—, from the port of Batavia, in the rich and
+<lb/>Populous island of Java, on a voyage to the Archipelago 
+<lb/>of the Sunda islands. I went as passenger—having no
+<lb/>other inducement than a kind of nervous restlessness
+<lb/>which haunted me as a fiend.</p><p></p><p>Our vessel was a beautiful ship of about four hundred
+<lb/>tons, copper-fastened, and built at Bombay of Malabar
+<lb/>teak. She was freighted with cotton-wool and oil, from
+<lb/>the Lachadive islands. We had also on board coir, jag-
+<lb break="no"/>geree, ghee, cocoa-nuts, and a few cases of opium. The
+<lb/>stowage was clumsily done, and the vessel consequently
+<lb/>crank.</p><p></p><p>We got under way with a mere breath of wind, and
+<lb/>for many days stood along the eastern coast of Java,
+<lb/>without any other incident to beguile the monotony of
+<lb/>our course than the occasional meeting with some of the
+<lb/>small grabs of the Archipelago to which we were bound.</p><p></p><p>One evening, leaning over the taffrail, I observed a
+<lb/>very singular, isolated cloud, to the N. W. It was re-
+<lb break="no"/>markable, as well for its color, as from its being the first
+<lb/>we had seen since our departure from Batavia. I watch-
+<lb break="no"/>ed it attentively until sunset, when it spread all at once
+<lb/>to the eastward and westward, girting in the horizon
+<lb/>with a narrow strip of vapor, and looking like a long
+<lb/>line of low beach. My notice was soon afterwards at-
+<lb break="no"/>tracted by the dusky-red appearance of the moon, and
+<lb/>the peculiar character of the sea. The latter was under-
+<lb break="no"/>going a rapid change, and the water seemed more than
+<lb/>usually transparent. Although I could distinctly see the
+<lb/>bottom, yet, heaving the lead, I found the ship in fifteen
+<lb/>fathoms. The air now became intolerably hot, and was
+<lb/>loaded with spiral exhalations similar to those arising
+<lb/>from heated iron. As night came on, every breath of
+<lb/>wind died away, and a more entire calm it is impossible
+<lb/>to conceive. The flame of a candle burned upon' the
+<lb/>poop without the least perceptible motion, and a long
+<lb/>hair, held between the finger and thumb, hung without
+<lb/>the possibility of detecting a vibration. However, as the
+<lb/>captain said he could perceive no indication of danger,
+<lb/>and as we were drifting in bodily to shore, he ordered
+<lb/>the sails to be furled, and the anchor let go. No watch
+<lb/>was set, and the crew, consisting principally of Malays,
+<lb/>stretched themselves deliberately upon deck. I went be-
+<lb break="no"/>low—not without a full presentiment of evil. Indeed,
+<lb/>every appearance warranted me in apprehending a Si-
+<lb break="no"/>moom. I told the captain my fears; but he paid no at-
+<lb break="no"/>tention to what I said, and left me without deigning to
+<lb/>give a reply. My uneasiness, however, prevented me
+<lb/>from sleeping, and about midnight I went upon deck.—
+<lb/>As I placed my foot upon the upper step of the compan-
+<lb break="no"/>ion-ladder, I was startled by a loud, humming noise,
+<lb/>like that occasioned by the rapid revolution of a mill-
+<lb break="no"/>wheel, and before I could ascertain its meaning, I found
+<lb/>the ship quivering to its centre. In the next instant, a
+<lb/>wilderness of foam hurled us upon our beam-ends, and,
+<lb/>rushing over us fore and aft, swept the entire decks from
+<lb/>stem to stern.</p><p></p><p>The extreme fury of the blast proved, in a great meas-
+<lb break="no"/>ure, the salvation of the ship. Although completely wa-
+<lb break="no"/>ter-logged, yet, as her masts had gone by the board, she
+<lb/>rose, after a minute, heavily from the sea, and, stagger-</p><p><pb n="204" break="no" />
+ing awhile beneath the immense pressure of the tempest,
+finally righted.
+</p><p>By what miracle I escaped destruction, it is impossible
+<lb/>to say. Stunned by the shock of the water, I found my-
+<lb break="no"/>self, upon recovery, jammed in between the stern-post
+<lb/>and rudder. With great difficulty I gained my feet, and
+<lb/>looking dizzily around, was, at first, struck with the idea
+<lb/>of our being among breakers ; so terrific, beyond the wild-
+<lb break="no"/>est imagination, was the whirlpool of mountainous and
+<lb/>foaming ocean within which we were engulfed. After a
+<lb/>while, I heard the voice of an old Swede, who had ship-
+<lb break="no"/>ped with us at the moment of our leaving port. I hal-
+<lb break="no"/>looed to him with all my strength, and presently he came
+<lb/>reeling aft. We soon discovered that we were the sole
+<lb/>survivors of the accident. All on deck, with the excep-
+<lb break="no"/>tion of ourselves, had been swept overboard;—the cap-
+<lb break="no"/>tain and mates must have perished as they slept, for the
+<lb/>cabins were deluged with water. Without assistance,
+<lb/>we could expect to do little for the security of the ship,
+<lb/>and our exertions were at first paralyzed by the momen-
+<lb break="no"/>tary expectation of going down. Our cable had, of course,
+<lb/>parted like pack-thread, at the first breath of the hurri-
+<lb break="no"/>cane, or we should have been instantaneously overwhelm-
+<lb break="no"/>ed. We scudded with frightful velocity before the sea,
+<lb/>and the water made clear breaches over us. The frame-
+<lb break="no"/>work of our stern was shattered excessively, and, in al-
+<lb break="no"/>most every respect, we had received considerable injury;
+<lb/>but to our extreme joy we found the pumps unchoked,
+<lb/>and that we had made no great shifting of our ballast.—
+<lb/>The main fury of the blast had already blown over, and
+<lb/>we apprehended little danger from the violence of the
+<lb/>wind; but we looked forward to its total cessation with
+<lb/>dismay; well believing, that, in our shattered condition,
+<lb/>we should inevitably perish in the tremendous swell
+<lb/>which would ensue. But this very just apprehension
+<lb/>seemed by no means likely to be soon verified. For five
+<lb/>entire days and nights—during which our only subsist-
+<lb break="no"/>ence was a small quantity of jaggeree, procured with
+<lb/>great difficulty from the forecastle—the hulk flew at a
+<lb/>rate defying computation, before rapidly succeeding flaws
+<lb/>of wind, which, without equalling the first violence of
+<lb/>the Simoom, were still more terrific than any tempest I
+<lb/>had before encountered. Our course for the first four
+<lb/>days was, with trifling variations, S. E. and by S.; and
+<lb/>we must have run down the coast of New Holland.—
+<lb/>On the fifth day the cold became extreme, although the
+<lb/>wind had hauled round a point more to the northward.—
+<lb/>The sun arose with a sickly yellow lustre, and clambered
+<lb/>a very few degrees above the horizon—emitting no deci-
+<lb break="no"/>sive light. There were no clouds apparent, yet the wind
+<lb/>was upon the increase, and blew with a fitful and un-
+<lb break="no"/>steady fury. About noon, as nearly as we could guess,
+<lb/>our attention was again arrested by the appearance of the
+<lb/>sun. It gave out no light, properly so called, but a dull
+<lb/>and sullen glow without reflection, as if all its rays were
+<lb/>polarized. Just before sinking within the turgid sea, its
+<lb/>central fires suddenly went out, as if hurriedly extin-
+<lb break="no"/>guished by some unaccountable power. It was a dim,
+<lb/>silver-like rim, alone, as it rushed down the unfathomable
+<lb/>ocean.</p><p></p><p>We waited in vain for the arrival of the sixth day—
+<lb/>that day to me has not arrived—to the Swede, never did
+<lb/>arrive. Thenceforward we were enshrouded in pitchy
+<lb/>darkness, so that we could not have seen an object at
+<lb/>twenty paces from the ship. Eternal night continued to
+<lb/>envelop us, all unrelieved by the phosphoric sea-brillian-
+<lb break="no"/>cy to which we had been accustomed in the tropics. We
+<lb/>observed too, that, although the tempest continued to</p><p></p><p>rage with unabated violence, there was no longer to be
+<lb/>discovered the usual appearance of surf, or foam, which
+<lb/>had hitherto attended us. All around were horror, and
+<lb/>thick gloom, and a black sweltering desert of ebony.—
+<lb/>Superstitious terror crept by degrees into the spirit of the
+<lb/>old Swede, and my own soul was wrapped up in silent
+<lb/>wonder. We neglected all care of the ship, as worse
+<lb/>than useless, and securing ourselves, as well as possible,
+<lb/>to the stump of the mizen-mast, looked out bitterly into
+<lb/>the world of ocean. We had no means of calculating
+<lb/>time, nor could we form any guess of our situation. We
+<lb/>were, however, well aware of having made farther to
+<lb/>the southward than any previous navigators, and felt
+<lb/>great amazement at not meeting with the usual impedi-
+<lb break="no"/>ments of ice. In the meantime every moment threaten-
+<lb break="no"/>ed to be our last—every mountainous billow hurried to
+<lb/>overwhelm us. The swell surpassed anything I had
+<lb/>imagined possible, and that we were not instantly buried
+<lb/>is a miracle. My companion spoke of the lightness of
+<lb/>our cargo, and reminded me of the excellent qualities of
+<lb/>our ship; but I could not help feeling the utter hopeless-
+<lb break="no"/>ness of hope itself, and prepared myself gloomily for that
+<lb/>death which I thought nothing could defer beyond an
+<lb/>hour, as, with every knot of way the ship made, the
+<lb/>swelling of the black stupendous seas became more dis-
+<lb break="no"/>mally appalling. At times we gasped for breath at an
+<lb/>elevation beyond the albatross—at times became dizzy
+<lb/>with the velocity of our descent into some watery hell,
+<lb/>where the air grew stagnant, and no sound disturbed the
+<lb/>slumbers of the kraken.</p><p></p><p>We were at the bottom of one of these abysses, when
+<lb/>a quick scream from my companion broke fearfully upon
+<lb/>the night. “See!” see!” cried he, shrieking in my
+<lb/>ears, “Almighty God! see! see!” As he spoke, I be-
+<lb break="no"/>came aware of a dull, sullen glare of red light which
+<lb/>streamed down the sides of the vast chasm where we
+<lb/>lay, and threw a fitful brilliancy upon our deck. Casting
+<lb/>my eyes upwards, I beheld a spectacle which froze the
+<lb/>current of my blood. At a terrific height directly above
+<lb/>us, and upon the very verge of the precipitous descent,
+<lb/>hovered a gigantic ship of, perhaps, four thousand tons.
+<lb/>Although upreared upon the summit of a wave more
+<lb/>than a hundred times her own altitude, her apparent
+<lb/>size still exceeded that of any ship of the line or East
+<lb/>Indiaman in existence. Her huge hull was of a deep
+<lb/>dingy black, unrelieved by any of the customary carvings
+<lb/>of a ship. A single row of brass cannon protruded from
+<lb/>her open ports, and dashed from their polished surfaces
+<lb/>the fires of innumerable battle-lanterus, which swung to
+<lb/>and fro about her rigging. But what mainly inspired us
+<lb/>with horror and astonishment, was that she bore up un-
+<lb break="no"/>der a press of sail in the very teeth of that supernatural
+<lb/>sea, and of that ungovernable hurricane. When we first
+<lb/>discovered her, her bows were alone to be seen, as she
+<lb/>rose slowly from the dim and horrible gulf beyond her.
+<lb/>For a moment of intense terror she paused upon the gid-
+<lb break="no"/>dy pinnacle, as if in contemplation of her own sublimity,
+<lb/>then trembled and tottered, and—came down.</p><p></p><p>At this instant, I know not what sudden self-possession
+<lb/>came over my spirit. Staggering as far aft as I could, I
+<lb/>awaited fearlessly the ruin that was to overwhelm. Our
+<lb/>own vessel was at length ceasing from her struggles,
+<lb/>and sinking with her head to the sea. The shock of the
+<lb/>descending mass struck her, consequently, in that portion
+<lb/>of her frame which was already under water, and the in-
+<lb break="no"/>evitable result was to hurl me, with irresistible violence,
+<lb/>upon the rigging of the stranger.</p><p>
+<pb n="205"/>
+</p><p>As I fell, the ship hove in stays, and went about; and to
+<lb/>the confusion ensuing I attributed my escape from the
+<lb/>notice of the crew. With little difficulty I made my
+<lb/>way unperceived to the main hatchway, which was par-
+<lb break="no"/>tially open, and soon found an opportunity of secreting
+<lb/>myself in the hold. Why I did so I can hardly tell. An
+<lb/>indefinite sense of awe, which at first sight of the navi,
+<lb/>gators of the ship had taken hold of my mind, was per-
+<lb break="no"/>haps the principle of my concealment. I was unwilling
+<lb/>to trust myself with a race of people who had offered, to
+<lb/>the cursory glance I had taken, so many points of vague
+<lb/>novelty, doubt, and apprehension. I therefore thought
+<lb/>proper to contrive a hiding-place in the hold. This I did
+<lb/>by removing a small portion of the shifting-boards, in
+<lb/>such a manner as to afford me a convenient retreat be-
+<lb break="no"/>tween the huge timbers of the ship.</p><p></p><p>I had scarcely completed my work, when a footstep in
+<lb/>the hold forced me to make use of it. A man passed by
+<lb/>my place of concealment with a feeble and unsteady
+<lb/>gait. I could not see his face, but had an opportunity of
+<lb/>observing his general appearance. There was about it
+<lb/>an evidence of great age and infirmity. His knees tot-
+<lb break="no"/>tered beneath a load of years, and his entire frame quiv-
+<lb break="no"/>ered under the burthen. He muttered to himself, in a
+<lb/>low broken tone, some words of a language which I could
+<lb/>not understand, and groped in a corner among a pile of
+<lb/>singular-looking instruments, and decayed charts of na-
+<lb break="no"/>vigation. His manner was a wild mixture of the pee-
+<lb break="no"/>vishness of second childhood, and the solemn dignity of
+<lb/>a God. He at length went on deck, and I saw him no
+<lb/>more.</p><p>*	*	*	*	*	*	*
+</p><p>A feeling, for which I have no name, has taken pos-
+<lb break="no"/>session of my soul—a sensation which will admit of no
+<lb/>analysis, to which the lessons of by-gone time are inade-
+<lb break="no"/>quate, and for which I fear futurity itself will offer me
+<lb/>no key. To a mind constituted like my own, the latter
+<lb/>consideration is an evil. I shall never—I know that I
+<lb/>shall never—be satisfied with regard to the nature of my
+<lb/>conceptions. Yet it is not wonderful that these concep-
+<lb break="no"/>tions are indefinite, since they have their origin in sour-
+<lb break="no"/>ces so utterly novel. A new sense—a new entity is added</p><p>to my soul. *	*	*	*	*
+</p><p>It is long since I first trod the deck of this terrible
+<lb/>ship, and the rays of my destiny are, I think, gathering
+<lb/>to a focus. Incomprehensible men! Wrapped up in me-
+<lb break="no"/>ditations of a kind which I cannot divine, they pas! me
+<lb/>by unnoticed. Concealment is utter folly on my part, for
+<lb/>the people trill not see. It was but just now that I
+<lb/>passed directly before the eyes of the mate—it was no
+<lb/>long while ago that I ventured into the captain’s own
+<lb/>private cabin, and took thence the materials with which
+<lb/>I write, and have written. I shall from time to time
+<lb/>continue this journal. It is true that I may not find an
+<lb/>opportunity of transmitting it to the world, but I will
+<lb/>not fail to make the endeavour. At the last moment I
+<lb/>will enclose the MS. in a bottle, and cast it within the
+<lb/>sea.*	*	*	*	*	* </p><p>
+</p><p>An incident has occurred which has given me new
+<lb/>room for meditation. Are such things the operation of
+<lb/>ungoverned Chance? I had ventured upon deck and
+<lb/>thrown myself down, without attracting any notice,
+<lb/>among a pile of ratlin-stuff and old sails, in the bottom
+<lb/>of the yawl. While musing upon the singularity of my
+<lb/>fate, I unwittingly daubed with a tar-brush the edges of
+<lb/>a neatly-folded studding-sail which lay near me on a
+<lb/>barrel The studding-sail is now bent upon the ship,</p><p>and the thoughtless touches of the brush are spread out
+into the word DISCOVERY. *	*	*
+</p><p>I have made many observations lately upon the struc-
+<lb break="no"/>ture of the vessel. Although well armed, she is not, I
+<lb/>think, a ship of war. Her rigging, build, and general
+<lb/>equipment, all negative a supposition of this kind. What
+<lb/>she is not, I can easily perceive—what she is I fear it is
+<lb/>impossible to say. I know not how it is, but in scrutini-
+<lb break="no"/>zing her strange model and singular cast of spars, her
+<lb/>huge size and overgrown suits of canvass, her severely
+<lb/>simple bow and antiquated stern, there will occasionally
+<lb/>flash across my mind a sensation of familiar things, and
+<lb/>there is always mixed up with such indistinct shadows
+<lb/>of recollection, an unaccountable memory of old foreign
+<lb/>chronicles and ages long ago. *	*	*</p><p></p><p>I have been looking at the timbers of the ship. She
+<lb/>is built of a material to which I am a stranger. There
+<lb/>is a peculiar character about the wood which strikes me
+<lb/>as rendering it unfit for the purpose to which it has been
+<lb/>applied. I mean its extreme porousnses, considered in-
+<lb break="no"/>dependently of the worm-eaten condition which is a con-
+<lb break="no"/>sequence of navigation in these seas, and apart from the
+<lb/>rottenness attendant upon age. It will appear perhaps
+<lb/>an observation somewhat over-curious, but this wood
+<lb/>would have every characteristic of Spanish oak, if Span-
+<lb break="no"/>ish oak were distended by any unnatural means.</p><p></p><p>In reading the above sentence a curious apothegm of
+<lb/>an old weather-beaten Dutch navigator comes full upon
+<lb/>my recollection. “It is as sure,” he was wont to say,
+<lb/>when any doubt was entertained of his veracity, “as
+<lb/>sure as there is a sea where the ship itself will grow in
+<lb/>bulk like the living body of the seaman.” *	*</p><p></p><p>About an hour ago, I made bold to thrust myself among
+<lb/>a group of the crew. They paid me no manner of atten-
+<lb break="no"/>tion, and, although I stood in the very midst of them all,
+<lb/>seemed utterly unconscious of my presence. Like the
+<lb/>one I had at first seen in the hold, they all bore about
+<lb/>them the marks of a hoary old age. Their knees trem-
+<lb break="no"/>bled with infirmity; their shoulders were bent double
+<lb/>with decrepitude; their shrivelled skins rattled in the
+<lb/>wind; their voices were low, tremulous and broken;
+<lb/>their eyes glistened with the rheum of years; and their
+<lb/>gray hairs streamed terribly in the tempest. Around
+<lb/>them, on every part of the deck, lay scattered mathema-
+<lb break="no"/>tical instruments of the most quaint and obsolete con-
+<lb break="no"/> struction.	*****</p><p></p><p>I mentioned some time ago the bending of a studding-
+<lb break="no"/>sail. From that period the ship, being thrown dead off
+<lb/>the wind, has continued her terrific course due south,
+<lb/>with every rag of canvass packed upon her, from her
+<lb/>trucks to her lower studding-sail booms, and rolling every
+<lb/>moment her top-gallant yard-arms into the most appall-
+<lb break="no"/>ing hell of water which it can enter into the mind of man
+<lb/>to imagine. I have just left the deck, where I find it
+<lb/>impossible to maintain a footing, although the crew
+<lb/>seem to experience little inconvenience. It appears to
+<lb/>me a miracle of miracles that our enormous bulk is not
+<lb/>swallowed up at once and forever. We are surely doomed
+<lb/>to hover continually upon the brink of Eternity, without
+<lb/>taking a final plunge into the abyss. From billows a thou-
+<lb break="no"/>sand times more stupendous than any I have ever seen,
+<lb/>we glide away with the facility of the arrowy sea-gull;
+<lb/>and the colossal waters rear their heads above us like
+<lb/>demons of the deep, but like demons confined to simple
+<lb/>threats and forbidden to destroy. I am led to attribute
+<lb/>these frequent escapes to the only natural cause which
+<lb/>can account for such effect.—I must suppose the ship to</p><p><pb n="206"/>
+be within the influence of some strong current, or impe-
+tuous under-tow.	*	*	*	*
+</p><p>I have seen the captain face to face, and in his own
+<lb/>cabin—hut, as I expected, he paid me no attention. Al-
+<lb break="no"/>though in his appearance there is, to a casual observer,
+<lb/>nothing which might bespeak him more or less than man
+<lb/>—still a feeling of irrepressible reverence and awe min-
+<lb break="no"/>gled with the sensation of wonder with which I regard-
+<lb break="no"/>ed him. In stature he is nearly my own height; that is,
+<lb/>about five feet eight inches. He is of a well-knit and
+<lb/>compact frame of body, neither robust nor remarkably
+<lb/>otherwise. But it is the singularity of the expres-
+<lb break="no"/>sion which reigns upon the face—it is the intense, the
+<lb/>wonderful, the thrilling evidence of old age so utter, so
+<lb/>extreme, which excites within my spirit a sense—a sen-
+<lb break="no"/>timent ineffable. His forehead, although little wrinkled,
+<lb/>seems to bear upon it the stamp of a myriad of years.—
+<lb/>His gray hairs are records of the past, and his grayer
+<lb/>eyes are Sybils of the future. The cabin floor was thick-
+<lb break="no"/>ly strewn with strange, iron-clasped folios, and moulder-
+<lb break="no"/>ing instruments of science, and obsolete long-forgotten
+<lb/>charts. His head was bowed down upon his hands, and
+<lb/>he pored, with a fiery unquiet eye, over a paper which I
+<lb/>took to be a commission, and which, at all events, bore
+<lb/>the signature of a monarch. He muttered to himself, as
+<lb/>did the first seaman whom I saw in the hold, some low
+<lb/>peevish syllables of a foreign tongue, and although the
+<lb/>speaker was close at my elbow, his voice seemed to reach
+<lb/>my ears from the distance of a mile. * 	*</p><p></p><p>The ship and all in it are imbued with the spirit of
+<lb/>Eld. The crew glide to and fro like the ghosts of buried
+<lb/>centuries; their eyes have an eager and uneasy meaning;
+<lb/>and when their figures fall athwart my path in the wild
+<lb/>glare of the battle-lanterns, I feel as I have never felt be-
+<lb break="no"/>fore, although I have baen all my life a dealer in antiqui-
+<lb break="no"/>ties, and have imbibed the shadows of fallen columns at
+<lb/>Balbec, and Tadmor, and Persepolis, until my very soul
+<lb/>has become a ruin.	*	*	*	*</p><p></p><p>When I look around me I feel ashamed of my former
+<lb/>apprehensions. If I trembled at the blast which has
+<lb/>hitherto attended us, shall I not stand aghast at a war-
+<lb break="no"/>ring of wind and ocean, to convey any idea of which the
+<lb/>words tornado and simoom are trivial and ineffective!
+<lb/>All in the immediate vicinity of the ship is the black-
+<lb break="no"/>ness of eternal night, and a chaos of foamless water;
+<lb/>but, about a league on either side of us, may be seen, in-
+<lb break="no"/>distinctly and at intervals, stupendous ramparts of ice,
+<lb/>towering away into the desolate sky, and looking like
+<lb/>the walls of the universe.	*	*	*</p><p></p><p>As I imagined, the ship proves to be in a current; if
+<lb/>that appellation can properly be given to a tide which,
+<lb/>howling and shrieking by the white ice, thunders on to
+<lb/>the southward with a velocity like the headlong dashing
+<lb/>of a cataract. *****</p><p></p><p>To conceive the horror of my sensations is, I presume,
+<lb/>utterly impossible; yet a curiosity to penetrate the mys-
+<lb break="no"/>teries of these awful regions, predominates even over my
+<lb/>despair, and will reconcile me to the most hideous aspect
+<lb/>of death. It is evident that we are hurrying onwards to
+<lb/>some exciting knowledge—some never-to-be-imparted se-
+<lb break="no"/>cret, whose attainment is destruction. Perhaps this cur-
+<lb break="no"/>rent leads us to the southern pole itself. It must be con-
+<lb break="no"/>fessed that a supposition apparently so wild has every
+<lb/>probability in its favor. *	*	*	*</p><p>The crew pace the deck with unquiet and tremulous
+step; but there is upon their countenances an expression
+more of the eagerness of hope than of the apathy of de-
+spair.
+In the meantime the wind is still in our poop, and, as
+we carry a crowd of canvass, the ship is at times lifted
+bodily from out the sea——Oh, horror upon horror!
+</p><p>the ice opens suddenly to the right, and to the left, and
+<lb/>we are whirling dizzily, in immense concentric circles,
+<lb/>round and round the borders of a gigantic amphitheatre,
+<lb/>the summit of whose walls is lost in the darkness and
+<lb/>the distance. But little time will be left me to ponder
+<lb/>upon my destiny—the circles rapidly grow small—we
+<lb/>are plunging madly within the grasp of the whirlpool—
+<lb/>and amid a roaring, and bellowing, and thundering of
+<lb/>ocean and of tempest, the ship is quivering, oh God!
+<lb/>and—going down.	Edgar a. Poe.</p><p>Stanzas.
+Oh! lay not her loveliness under the sod,
+When life’s silver chord shall have parted;
+The frame of the late when the music’s with God—
+The gentle girl now broken-hearted!
+Would ye that the worms of the valley should prey
+On the lips once like roses above her?
+Or rather the Fire King waft her away,
+Forever, in free air, to hover I
+Then of amber and wood of the sandal-tree rear
+All fragrant the funeral pyre:
+For sure there is nothing of darksome or drear
+In the shadowless Spirit of Fire!
+Oh! beautiful he is, and hath not his peers
+In the elements—he is their master!
+To him give her blighted bloom dew’d with our tears,
+And he, though he burn, will not blast her!
+She shall scorch, like the lily she looks, in his breath;
+But paly, and pure, and perfuming,
+His arms shall her beauty unhlemished enwreath,
+And even refine whilst consuming.
+Ye will find that, when clouds which conceal her unfold,
+She hath fled in her rich robes of burning!
+But glean from the smouldering pile and when cold
+Give the ashes a splendid inurning!
+And oft as the evening star chastens the blush
+Of sunset that brightens beneath her,
+Ye will deem it her heart, which its soft fires flush,
+That palpitates in the pure ether!
+William Gibbon,, U. S. N.
+The Due De L'Omelette.
+And stepped at once into a cooler clime.—Cowper.
+</p><p>Keats fell by a criticism. Who was it died of “The
+<lb/>Andromache?"*  Ignoble souls!—De L’Omelette perish-
+<lb break="no"/>ed of an ortolan. L'histoire en est brère. Assist me, Spi-
+<lb break="no"/>rit of Apicius!</p><p></p><p>A golden cage bore the little winged wanderer, ena-
+<lb break="no"/>mored, melting, indolent, to the Chaussée D'Antin, from
+<lb/>its home in far Peru. From its queenly possessor La Bel-</p><p>• Montfleury. The author of the Parnasse Réformé makes him
+thus speak in Hades:—“L'Komme done qui roudrait savoir ce dont
+Je suis mart, qui'l ne demande pas si’l fut de fievrt ou de podagre
+on d'autre chose, mais qu'il entende que ce fut de 'L'Andromache.’"
+<pb n="207"/>
+lissima, to the Due De L’Omelette, six peers of the em-
+pire conveyed the happy bird.
+</p><p>That night the Due was to sup alone. In the privacy
+<lb/>of his bureau he reclined languidly on that ottoman, for
+<lb/>which he sacrificed his loyalty in outbidding his king,—
+<lb/>the notorious ottoman of Cadet.</p><p></p><p>He buries his face in the pillow. The clock strikes!
+<lb/>Unable to restrain his feelings, his Grace swallows an
+<lb/>olive. At this moment the door gently opens to the
+<lb/>sound of soft music, and lo! the most delicate of birds
+<lb/>is before the most enamored of men! But what inex-
+<lb break="no"/>pressible dismay now overshadows the countenance of</p><p>the Due ?—“Horreur!—chien!—Baptiste —I’oiseau!
+</p><p>ah, bon Dieu! cet oiseau modeste que tu as deshabillé de
+<lb/>ses plumes, et que tu as servi sans papier!" It is su-
+<lb break="no"/>perfluous to say more:—the Due expired in a paroxysm
+<lb/>of disgust. *	*	*	*	*</p><p>“Ha! ha! ha!”, said his Grace on the third day af-
+ter his decease.
+“He! he! he!”, replied the Devil faintly, drawing
+himself up with an air of hauteur.
+</p><p>“Why, surely you are not serious,” retorted De L’Om-
+<lb break="no"/>elette. “I have sinned—c'est vrai—but, my good sir,
+<lb/>consider!—you have no actual intention of putting such
+<lb/>—such—barbarous threats into execution.”</p><p>“No what ?” said his majesty— "come, sir, strip!”
+</p><p>“Strip, indeed!—very pretty i’ faith!—no, sir, I shall
+<lb/>not strip. Who are you, pray, that I, Due De L’Ome-
+<lb break="no"/>lette, Prince de Foie-Gras, just come of age, author of
+<lb/>the ‘Mazurkiad,’ and Member of the Academy, should
+<lb/>divest myself at your bidding of the sweetest pantaloons
+<lb/>ever made by Bourdon, the daintiest robe-de-chambre ev-
+<lb break="no"/>er put together byRombert—to say nothing of the taking
+<lb/>my hair out of paper—not to mention the trouble I should
+<lb/>have in drawing off my gloves?”</p><p></p><p>“Who am I?—ah, true! I am Baal-Zebub, Prince of
+<lb/>the Fly. I took thee, just now, from a rose-wood coffin
+<lb/>inlaid with ivory. Thou wast curiously scented, and la-
+<lb break="no"/>belled as per invoice. Belial sent thee,—my Inspector
+<lb/>of Cemeteries. The pantaloons, which thou sayest were
+<lb/>made by Bourdon, are an excellent pair of linen draw-
+<lb break="no"/>ers, and thy robe-de-chambre is a shroud of no scanty di-
+<lb break="no"/>mensions.”</p><p></p><p>“Sir!” replied the Due, “I am not to be insulted with
+<lb/>impunity!—Sir! I shall take the earliest opportunity of
+<lb/>avenging this insult!—Sir! you shall hear from me! In
+<lb/>the meantime au revoir!”—and the Due was bowing
+<lb/>himself out of the Satanic presence, when he was inter-
+<lb break="no"/>rupted and brought back by a gentleman in waiting.—</p><p></p><p>Hereupon his Grace rubbed his eyes, yawned, shrugged
+<lb/>his shoulders, reflected. Having become satisfied of his
+<lb/>identity, he took a bird’s eye view of his whereabouts.</p><p></p><p>The apartment was superb. Even De L’Omelette pro-
+<lb break="no"/>nounced it bien comme il faut. It was not its length nor
+<lb/>its breadth,—but its height—ah, that was appalling!—
+<lb/>There was no ceiling—certainly none—but a dense whirl-
+<lb break="no"/>ing inass of fiery-colored clouds. His Grace’s brain reel-
+<lb break="no"/>ed as he glanced upwards. From above, hung a chain
+<lb/>of an unknown blood-red metal—its upper end lost, like
+<lb/>the city of Boston, parmi let nues. From its nether ex-
+<lb break="no"/>tremity swung a large cresset. The Due knew it to be a
+<lb/>ruby; but from it there poured a light so intense, so still,
+<lb/>to terrible, Persia never worshipped such—Gheber never
+<lb/>imagined such—Mussulman never dreamed of such when,
+<lb/>drugged with opium, he has tottered to a bed of poppies,
+<lb/>his back to the flowers, and his face to the God Apollo.
+<lb/>The Due muttered a slight oath, decidedly approbatory.</p><p></p><p>The corners of the room were rounded into niches.—
+<lb/>Three of these were filled with statues of gigantic pro-
+<lb break="no"/>portions. Their beauty was Grecian, their deformity
+<lb/>Egyptian, their tout ensemble French. In the fourth
+<lb/>niche the statue was veiled; it was not colossal. But
+<lb/>then there was a taper ankle, a sandalled foot. De L’Om-
+<lb break="no"/>elette pressed his hand upon his heart, closed his eyes,
+<lb/>raised them, and caught his Satanic Majesty—in a blush.</p><p>But the paintings!—Kupris! Astarte! Astoreth!—a
+thousand and the same! And Rafaelle has beheld them!
+Yes, Rafaelle has been here; for did he not paint the——?
+</p><p>and was he not consequently damned? The paintings!
+<lb/>—the paintings! O luxury! 0 love!—who, gazing on
+<lb/>those forbidden beauties, shall have eyes for the dainty
+<lb/>devices of the golden frames that besprinkle, like stars,
+<lb/>the hyacinth and the porphyry walls?</p><p></p><p>But the Due’s heart is fainting within him. He is not,
+<lb/>however, as you suppose, dizzy with magnificence, nor
+<lb/>drunk with the ecstatic breath of those innumerable
+<lb/>censers. C'est vrai que de toutes ces choses il a pense
+<lb/>beaucoup—mais! The Due De L’Omelette is terror-
+<lb break="no"/>stricken; for, through the lurid vista which a single un-
+<lb break="no"/>curtained window is affording, lo! gleams the most
+<lb/>ghastly of all fires!</p><p></p><p>Le pauvre Duc! He could not help imagining that
+<lb/>the glorious, the voluptuous, the never-dying melodies
+<lb/>which pervaded that hall, as they passed filtered and
+<lb/>transmuted through the alchemy of the enchanted win-
+<lb break="no"/>dow-panes, were the wailings and the howlings of the
+<lb/>hopeless and the damned! And there, too !—there!—
+<lb/>upon that ottoman!—who could he be?—he, the petil-
+<lb break="no"/>maitre—no, the Deity—who sat as if carved in marble,
+<lb/>et qui sourit, with his pale countenance, si amérement?</p><p></p><p>Mats il faut agir,—that is to say, a Frenchman never
+<lb/>faints outright. Besides, his Grace hated a scene—De
+<lb/>L’Omelette is himself again. There were some foils
+<lb/>upon a table—some points also. The Due had studied</p><p>under B——; il avail tue ses six homines. Now, then,
+</p><p>il peut s'échapper. He measures two points, and, with
+<lb/>a grace inimitable, offers his majesty the choice, Hor-
+<lb break="no"/>reur! his Majesty does not fence!</p><p></p><p>Mats tl joue!—how happy a thought!—but his Grace
+<lb/>had always an excellent memory. He had dipped in the
+<lb/>“ Diable” of the Abbe Gualtier. Therein it is said “que
+<lb/>le Diable n’ose pas refuser un jeu d'écarte."</p><p></p><p>But the chances—the chances! True—desperate: but
+<lb/>scarcely more desperate than the Due. Besides, was he
+<lb/>not in the secret?—had he not skimmed over Père Le
+<lb/>Bran?—was he not a member of the Club Vingt-un?—
+<lb/>“Si je perds," said he, “je serai deux fois perdu—I
+<lb/>shall be doubly damned—votla tout! (Here his Grace
+<lb/>shrugged his shoulders) Si je gagne, je reviendrai à
+<lb/>mes ortolans—que les cartes soient préparées!”</p><p></p><p>His Grace was all care, all attention—his Majesty all
+<lb/>confidence. A spectator would have thought of Francis
+<lb/>and Charles. His Grace thought of his game. His Ma-
+<lb break="no"/>jesty did not think; he shuffled. The Duc cut.</p><p>The cards are dealt. The trump is turned—it is—it
+is—the king! No—it was the queen. His Majesty curs-
+ed her masculine habiliments. De L’Omelette placed
+his hand upon his heart.
+</p><p>They play. The Duc counts. The hand is out. His
+<lb/>Majesty counts heavily, smiles, and is taking wine. The
+<lb/>Due slips a card.</p><p></p><p>"C'est à rous à faire," said his Majesty, cutting. His
+<lb/>Grace bowed, dealt, and arose from the table en presen-
+<lb break="no"/>tant le Roi.</p><p>2o<pb n="8"/>
+His Majesty looked chagrined.
+</p><p>Had Alexander not been Alexander, he would have
+<lb/>been Diogenes; and the Duc assured his antagonist in ta-
+<lb break="no"/>king leave, “que s'il n'eut pas été Be L’Omelette il n'au-
+<lb break="no"/>rait point d’objection d’etre le Diable."</p><p>Littleton Barry.
+To Constance.
+Forgive me, Lady, if I bring to bear
+Upon my case, a fable of old times;
+Since Poesie did ne’er such beauty wear
+As in the breathing of those antique rhymes.
+Love was Ideal then, and Fancy dress’d,
+Some mortal form in attributes divine;
+She was the Deity all men confessed,
+And bowed down soul and reason at her shrine.
+Where shall we find such passion now? ah! where?
+Are not those vain, though sweet, delusive lays?
+Love and Romance grow strangers year by year,
+’Till rare their meeting in these actual days.
+But sometimes there is found amidst the throng
+A being aged in care, with heart still young,
+Who still finds truth in the wild dreamer’s song,
+Like ivy, clinging, where in youth he clung.
+These are but few, yet rarer still we find
+The God-like cause, that makes such thoughts to be;
+I might have liqed and perished cold and blind
+To all such bliss, had it not been for thee.
+FABLE.
+“Thou art, like me, but common earth—then why
+Shouldst thou so rich in rarest odors be?”
+This was the modest and the wise reply:—
+“I nursed the Rose—its sweetness lives with me!”
+So I, who am but common clay, have caught
+From thy bright Presence some of its pure light;
+As great a change is in my being wrought,
+As brings the sun to the down-winged night.
+I am of thee poor counterfeit, alas!
+Grafting thy virtues on a worthless tree;
+Yet from my heart their glory shall not pass,
+But hallow, like the Rose, their sanctuary.	w.
+The Falling Star.
+</p><p>It was deep midnight, and no moon shone, but the thou-
+<lb break="no"/>sand stars of heaven looked down upon the sleeping
+<lb/>earth, and kept their watch for her. A fair girl knelt by 
+<lb/>the bed of the dying minstrel—she was his sister. She
+<lb/>had tended him for many days with an untiring love—she
+<lb/>would not that an alien eye should catch his latest look,
+<lb/>or menial hand minister to his latest earthly want. For
+<lb/>many hours she had not left his side, but kneeling there,
+<lb/>with one hand clasped in her upraised hands, she gazed
+<lb/>alternately from him to the vast heaven, searching its
+<lb/>inmost depths with an untiring ken, as if she would tear
+<lb/>from out its mystic heart the secret of a fate so interwoven
+<lb/>with hers. But no sign came, and she turned and wept.
+<lb/>Oh! the deep agony of that young heart! It was an un-
+<lb break="no"/>alloyed sorrow, which admitted of no earthly consola-
+<lb break="no"/>tion. They were alone—these two young hearts—and
+<lb/>other tie had none. All they had loved were in the
+<lb/>grave, and they awoke one day as from a trance, and
+<lb/>looked around and cried out for a friend, but they found
+<lb/>none, and from that day they were one heart. They were
+<lb/>both beautiful, and genius had been their heritage, and
+<lb/>grew alike in both, only that hers was much less bold
+<lb/>than His, for that it had received its tone from her sweet</p><p></p><p>gentleness, mixed with deep reverence for his more rea-
+<lb break="no"/>soning mind—as the gazer on water sees some bright star
+<lb/>reflected on its bosom, and sees they are alike, save that
+<lb/>the image is more shadowy, which is but caused by the
+<lb/>properties of that in which it shows. So wrapt were
+<lb/>they in each other, that the outer world had no charm for
+<lb/>them, saving its humanities; the follies of fashion and
+<lb/>the frivolities of life were unknown to them. They had
+<lb/>drawn around them a magic circle, in which nought save
+<lb/>what was bright and beautiful dare enter. Day after day
+<lb/>did they gather wisdom from the pages of the mighty
+<lb/>dead, and as the old world opened to their ardent minds,
+<lb/>the present faded as a dream. They loved to dwell upon
+<lb/>some tale of rare affection, of deep devotion, or self-im-
+<lb break="no"/>molation at the shrine of duty—instances of which the
+<lb/>Past has in perfection, gilded perhaps by the romance a
+<lb/>lapse of time never fails to bestow, but still unaffectedly
+<lb/>human. And when they rose from their labor of love,
+<lb/>they felt the deep effect which lessons of exalted virtue
+<lb/>ever impress on reflecting minds. They impart a dig-
+<lb break="no"/>nity to life which is unobserved in the every-day world,
+<lb/>and link the heart to its kind by the noblest sentiments
+<lb/>that nature can evince. They were the Philanthropists
+<lb/>of the closet, unbounded in their sympathy, but from their
+<lb/>sensibility and refinement, all unfit to mingle with the
+<lb/>coarser spirits of the world. What excited their benevo-
+<lb break="no"/>lence in a mass would most probably cause disgust in the
+<lb/>individual, and they would turn away heart-sick to find
+<lb/>the world not what they thought it. They would mourn
+<lb/>for the suffering million, but the leprous wretch in the
+<lb/>filthy hovel would be a loathed and hideous object in their
+<lb/>eyes. Such is the difference between the theoretical and
+<lb/>the practical Christian—the one refines and gives out
+<lb/>Utopian theories to the world, which never are adopted,
+<lb/>benefitting no one, though not the less noble in their aim,
+<lb/>—the other seeks out Misery in its home, and bars out
+<lb/>hungering Famine from the starving wretch; and though
+<lb/>the means of assistance may be small, the never-failing
+<lb/>font of Sympathy skins over the wounds it cannot radi-
+<lb break="no"/>cally heal. They saw that the world was beautiful, and
+<lb/>were content to breathe the odor of its flowers, without
+<lb/>distilling the poison from their hearts. They were dream-
+<lb break="no"/>ers, and had they been separate, such feelings would
+<lb/>have craved the sympathy of some kindred heart, and
+<lb/>they might have loved; but they were all in all to each
+<lb/>other; their feelings were so knit, so interwoven, that
+<lb/>the approach of any other sentiment seemed to threaten a
+<lb/>disruption of the tie, and they sensitively and gladly
+<lb/>shrank back into the gentle and unreserved commune of
+<lb/>their own pure thoughts. They were orphans, and friend-
+<lb break="no"/>less,—they were alone, and loving! And now the sister
+<lb/>knelt by the side of her dying brother! That was her
+<lb/>grief;—for him her tears flowed fast, and the visible si-
+<lb break="no"/>lence was broken by deep and fervent prayers. But the
+<lb/>fever raged with unabated violence,—he muttered wild
+<lb/>words, which conjured up the vision of a thousand hap-
+<lb break="no"/>py hours, and caused a fresh burst of grief from the
+<lb/>spirit-broken girl. The malady was evidently approach-
+<lb break="no"/>ing its crisis; every moment the stillness became more
+<lb/>awful. She longed to call for some one to share her
+<lb/>watch, yet could not for a moment tear herself from the
+<lb/>couch. He had breathed hardly until now, but now she
+<lb/>missed the sound—it had sunk to a child’s breathing—
+<lb/>and faint and frequent throbbed the pulses at his heart:—
+<lb/>the eye which had been glaring and restless became fix-
+<lb break="no"/>ed;—she longed to scream, but the voice seemed frozen
+<lb/>at her heart, More feebly still he breathed; an expres-</p><p><pb n="209" break="no" />
+</p><p>sion of agony was on his brow; his hand relaxed its
+<lb/>grasp, and with one deep sigh his features faded into a
+<lb/>quiet smile; his spirit seemed to have left its earthly
+<lb/>home! Throwing her despairing eyes to heaven, she
+<lb/>shrieked, “Oh, God, have mercy!”—And a bright star
+<lb/>fell!</p><p>But he recovered, and a week hence was seated on a
+couch, with that fair girl nestling at his feet. *	*	*
+****	*	*	*	* * I "have been a grievous
+</p><p>trouble to thee, Marian! Thine eye is as bright, thy
+<lb/>smile as sweet, but thy cheek is pale, and thy hands have
+<lb/>shrunk to thinness. And I fear that in my sadness, I may
+<lb/>have spoken harsh words to thee, or have been wilful and
+<lb/>fretful, or wishful and exacting; but now I crave your
+<lb/>pardon, dearest, and throw myself upon your love for your
+<lb/>forgiveness." “Hush! hush!” said Marian, as she placed
+<lb/>her hand upon his mouth—“dear Ernest, most wrongfully
+<lb/>do you accuse yourself;—both gentle and patient were
+<lb/>you during all your sufferings; no murmur fell from your
+<lb/>lips; no repining—no impatience—and every office I per-
+<lb break="no"/>formed for you was more than repaid by the look of love
+<lb/>and thankfulness with which it was received.” “But—”
+<lb/>“Nay, hear me. If I have lost the ruddiness of health
+<lb/>from off my cheek and its fullness from my form, it was
+<lb/>not caused by watching and waiting upon your couch,
+<lb/>but by the ever present fear that you might be taken from
+<lb/>me. It tortured me through the day, and affrighted me
+<lb/>in the night. I could not fly from the thought. I read it
+<lb/>in the setting sun—in the flickering taper—and as the
+<lb/>stars came out, and faded as the night wore on, each
+<lb/>seemed to bear upon it a ray of mystic recognition of
+<lb/>your embodied spirit.” “I have but faint remembrance
+<lb/>of the past. I know the days—though cheered by sight
+<lb/>of you—seemed endless.” “’Twas strange, too, Earnest;
+<lb/>throughout the day you would appear strangely unset-
+<lb break="no"/>tied; a feverish restlessness seemed to pervade your j
+<lb/>frame; but as the night came on this was superseded by
+<lb/>a calmness, trance-like, nay, almost deathly, that made
+<lb/>my blood stagnate in every vein—at those times, with a
+<lb/>a philosophy which failed me utterly in the day, I would
+<lb/>speculate upon the possibility of your death—and all at
+<lb/>once I seemed to cease to be a being of the earth—the
+<lb/>mystic line was spoken, and my mind was cognizant of
+<lb/>the immaterial elements. Countless bright shapes peo-
+<lb break="no"/>pled the circumambient air—if shapes they could be call-
+<lb break="no"/>ed that were without a form or substance. I was in the
+<lb/>heart of Nature, and I saw how the progress of decay
+<lb/>was but a preface to another birth—a state of being in
+<lb/>which soul was all—I was conscious of an elevation of
+<lb/>mind, an expansion of intellect, which rendered the deep-
+<lb break="no"/>sought, stored-up knowledge of a thousand generations
+<lb/>of men, but as a grain of sand to the earth’s gross bulk—
+<lb/>and I saw that those of earth who approached nearest
+<lb/>to the imagination of a state of being which in truth
+<lb/>surpasses all that the powers of imagination can con-
+<lb break="no"/>jure up, were those who in the earnestness of a benefi-
+<lb break="no"/>cent nature sought out the Humanities from Wisdom’s
+<lb/>page, and blending both, saw nature through the heart
+<lb/>and mind—neither with the misjudging warmth of the
+<lb/>enthusiast, nor the fact-deducing coldness of the philo-
+<lb break="no"/>sopher—but offering at her shrine the uttermost attain-
+<lb break="no"/>able refinement of intellect, warmed by the Spirit of an-
+<lb break="no"/>gelic Love! I saw through the world, man yearning un-
+<lb break="no"/>ceasingly to rise, the soul warring with its human-be-
+<lb break="no"/>ing clay, and striving ever to sever from it—the pale
+<lb/>student in his midnight study, burying the recollection
+<lb/>of the miseries of the by-gone day, forgetting the want</p><p></p><p>of friends, the cold repulse, the unappreciation, the
+<lb/>want of sympathy, the hungering morrow, in his ab-
+<lb break="no"/>sorbing loye of the truth—the haughty statesman retir-
+<lb break="no"/>ing from the admiring crowd, and seeking consolation
+<lb/>in seclusion from those aspiring but baseless hopes that
+<lb/>sought to raise the herd from its desperate besotted
+<lb/>state,—repaid by revilement, scorn, and disbelief, by
+<lb/>that very class he sought to benefit;—and, seeking in that
+<lb/>solitude deep commune with his own heart, he sought to
+<lb/>work out, from the philosophy of the past and the sad
+<lb/>experience of the present, a state of mind in which the
+<lb/>desire of dispensing happiness should be of itself suffi-
+<lb break="no"/>cient compensation apart and independent of the recep-
+<lb break="no"/>tion of the benefit by the object of it. Thus deeply pon-
+<lb break="no"/>dering and in secret, the quiet came upon his soul and
+<lb/>he became of us. I cannot describe to you the nameless
+<lb/>feeling that possessed me at those times—there was a
+<lb/>consciousness of existence, without its cares; of know-
+<lb break="no"/>ledge without the blindness of prejudice which ever ac-
+<lb break="no"/>companies our earthly wisdom. I felt that I was apart
+<lb/>from the world, yet of it; for that sympathy which per-
+<lb break="no"/>vades all nature, which binds heart to heart, and is the
+<lb/>medium through which human sensations and affections
+<lb/>are felt alike and conveyed throughout the universe now
+<lb/>and forever, was acting upon my spirit with a mighty
+<lb/>force; my nature was etherealized, and I was in an im-
+<lb break="no"/>palpable though sentient link of that wondrous harmoni-
+<lb break="no"/>zer of creation, Sympathy or Love! And you were there,
+<lb/>my brother;—our spirits met in that bright star with
+<lb/>which we have so oft imagined that our fates were inse-
+<lb break="no"/>parably connected.”</p><p></p><p>“Stay, Marian, dearest, thou dost remember me, that
+<lb/>as I lay upon my bed of sickness, I had a dream of a
+<lb/>most terrible and strange import. I know that for days
+<lb/>I lay unconscious of all, save of an intolerable and ra-
+<lb break="no"/>ging fever, that seemed to dry up all moisture in my
+<lb/>blood and brain. I seemed to breathe hot air, which, in
+<lb/>its passage, dried up my tongue, and parched and crack-
+<lb break="no"/>ed my livid lips. Day and night revolved, but Time
+<lb/>seemed to have stayed its course. Each day, as it broke,
+<lb/>brought with it an increasing but nameless terror, which,
+<lb/>ever and anon, like unto ice-strings made each trembling
+<lb/>nerve; and, though the fury of a thousand fires leaped
+<lb/>through each vein, my heart felt chill. On that night
+<lb/>which caused thee so much terror, this harassing feeling
+<lb/>was upon me, and grappled me with a giant’s hand; nor
+<lb/>could I fortify myself against it, for my mind seemed to
+<lb/>have lost the power of connecting ideas of any kind;—all
+<lb/>was vagueness and dread. As the night wore on, the in-
+<lb break="no"/>creasing stillness added a new terror to my mind. Me-
+<lb break="no"/>thought I lay chained and immovable in the midst of a
+<lb/>vast sandy plain, over which the hot sun was vertical—
+<lb/>throughout the day, from morn till night, he poured his
+<lb/>fierce beams upon my seething skin, until I felt it crack
+<lb/>and gape like the parched earth; and when the sun had
+<lb/>set, the moon’s rays and the beams of the golden stars
+<lb/>seemed to have fire that scorched my brain to madness.
+<lb/>There was no rest for me, night nor day—my fevered
+<lb/>tongue could not give out my agony. And I was alone in
+<lb/>my suffering—when suddenly a mighty form approached.
+<lb/>It was of a grave but beautiful aspect—and on its brow
+<lb/>there was a calm that chilled at once my burning blood.
+<lb/>It seemed as if it had never known a youth, nor could
+<lb/>know age—it was not the calm of thought, nor the pas-
+<lb break="no"/>siveness of overwhelming grief, but I felt at once that it
+<lb/>was the cold, eternal calm of Death. Nearer it came on,
+<lb/>and my soul recoiled at its approach. Nearer, still near-</p><p><pb n="210" break="no" />
+</p><p>er—it had gained my feet, when in a moment the cells of
+<lb/>memory gave up their treasured store. Father, mother,
+<lb/>friends came flocking around me—our happy home and
+<lb/>childish sports; each happy hour, that in its passage bore
+<lb/>a pleasant thought; snatches of old wild melodies, and
+<lb/>all the thousand things that endeared and made a joy of
+<lb/>life, rushed forth to keep the dreaded terror off,—but in
+<lb/>vain! It paused not in its career—it raised its hands
+<lb/>above me—a cold sweat stood upon my brow—I strove to
+<lb/>speak, but no sound came forth—and struggled to arise, 
+<lb/>but the mighty spell withheld me, and I was sinking fast, 
+<lb/>Slowly the withering hand descended towards my heart, 
+<lb/>—already did I feel its grasp stilling the pulse of life,— 
+<lb/>my soul paused, wavering, ere it took its flight, when on 
+<lb/>the still night air the deep and fervent prayers of thy in-
+<lb break="no"/>nocent heart arose, and from the orbed heaven rushed
+<lb/>forth a radiant form, and stood between me and my dread-
+<lb break="no"/>ed foe”—</p><p>“My brother! I saw that star fall!"
+Henry C. Watson.
+Critical Notices.
+The Broken Vow and Other Poems. By Amanda M. Ed-
+mond. Boston: Gould, Kendall if Lincoln.
+</p><p>An octavo of more than 320 pages, beautifully printed
+<lb/>on fine paper, “embellished” with six expensive steel en-
+<lb break="no"/>gravings (including a portrait of the authoress,) and
+<lb/>showily as well as substantially bound.</p><p></p><p>The name—Amanda-M. Edmond—is quite unknown to
+<lb/>us: although if we may judge from the number of poems
+<lb/>contained in the volume (110) the fair poetess must have
+<lb/>been for several years before the public. Perhaps, how- 
+<lb/>ever, she may have employed a nom-de-plume, or written 
+<lb/>altogether anonymously. We do not remember having
+<lb/>before seen any one poem of the collection. They are by
+<lb/>no means impressive. The subjects, generally, are such
+<lb/>as find favor in boarding-schools. Many of the pieces
+<lb/>are on abolition topics. Some of them, from their charac-
+<lb break="no"/>ter, have no right to the title of poem, and should not
+<lb/>have been included in the volume: we refer to such
+<lb/>things as “Washing-Day” and “Illi cui Carmina appli-
+<lb break="no"/>cent"—mere doggrel. In the minor merits Miss Edmond
+<lb/>is not particularly deficient. Her English, her versifica-
+<lb break="no"/>tion, and her imagery, are at least respectable—but in
+<lb/>the virtues of the Muse—in the loftier and distinctive at-
+<lb break="no"/>tributes, we are pained to say that she is totally want-
+<lb break="no"/>ing. We look in vain throughout her volume for one
+<lb/>spark of poetic fire. In justice, we cull what we con-
+<lb break="no"/>sider the best specimen of her powers:</p><p>THE MOON.
+Beautiful moon! oh, how I love to hail
+Thy glorious coming in the eastern sky,
+When starry gems along thy pathway lie,
+Trembling and turning in thy presence pale;
+Brightest adorner of Night’s pensive brow,
+Fairest of all her radiant jewels, tbou!
+Wreathing with light the fleecy cloud that veils
+With its thin mantle, for a little space,
+The full-orbed lustre of thy beaming face—
+Casting thy splendor on the sleeping dales,
+Fields, woods and waters that beneath thee rest,
+With Night’s dark shadows on thy peaceful breast—
+Oh, I do love thee! but the most, sweet moon,
+In the still hour of midnight’s sacred noon;
+Calm then are spirits that with day have striven,
+And Earth's repose seems kin to that of Heaven!
+We have said that the English of Miss Edmond is ge- 
+</p><p>nerally respectable; but in the very first sentence of the
+<lb/>Preface there is an ambiguity which, in a second edition,
+<lb/>should be cleared up. “A poetical contribution” says
+<lb/>the poetess, “offered to the public, presupposes in the
+<lb/>author the existence of the true spirit of song.” Now a
+<lb/>poetical contribution, so offered, presupposes in the au-
+<lb break="no"/>thor only about the ten thousandth part of what Miss Ed-
+<lb break="no"/>mond (no doubt through mere grammatical inadvertence)
+<lb/>has maintained it to presuppose. The “poetical contri-
+<lb break="no"/>bution” presupposes in the author not the existence but
+<lb/>the conviction of the existence, of “the true spirit of
+<lb/>song”—and here there is about the same difference as
+<lb/>between Peter Schlemil and his Shadow.</p><p>Oracles from the Poets: A Fanciful Diversion for the
+Drawing-Room. By Caroline Grilman. New-York:
+Wiley if Putnam.
+</p><p>This is the third edition of a book which has been ex-
+<lb break="no"/>ceedingly popular, and justly so. Nothing could be bet-
+<lb break="no"/>ter adapted for the amusement of an evening party.—
+<lb/>The game is composed of fourteen questions with sixty
+<lb/>answers each, numbered. The Oracle, for example, de-
+<lb break="no"/>mands of a gentleman—“What is the personal appear-
+<lb break="no"/>ance of her who loves you ?” The gentleman answers
+<lb/>with any number from 1 to 60—say 20. Turning to 20,
+<lb/>the oracle reads as follows, from Washington Allston:
+<lb/>Every thought and feeling throw
+<lb/>Their shadows o’er her face,</p><p>And so are every thought and feeling joined,
+’Twere hard to answer whether thought or mind
+Of either were the native place.
+The volume is beautifully printed and bound, and forms
+a most appropriate present.
+ Wiley if Putnam's Library if Choice Reading. No.
+XXV. Table-Talk. By William Hazlitt. Second
+ Series Part I.
+</p><p>Of the first series of the Table-Talk we spoke so fully
+<lb/>in a previous number, that it will be needless to say any-
+<lb break="no"/>thing of the second—which is, of course, a continuation.</p><p></p><p>In lieu of any comments from ourselves, therefore, we
+<lb/> make a quotation of some length, on a topic of deep in-
+<lb break="no"/>terest treated as only Hazlitt could treat it:</p><p></p><p>Capacity is not the same thing as genius. Capacity may be
+<lb/>described to relate to the quantity of knowledge, however acquired;
+<lb/>genius to its quality and the mode of acquiring it. Capacity is
+<lb/>a power over given ideas or combinations of ideas; genius is the
+<lb/>power over those which are not given, and for which no obvious
+<lb/>or precise rule can be laid down. Or capacity is power of any
+<lb/>sort: genius is power of a different sort from what has yet been
+<lb/>shown. A retentive memory, a clear understanding is capacity,
+<lb/>but it is not genius. The admirable Crichton was a person of pro-
+<lb break="no"/>digious capacity; but there is no proof (that I know of) that he
+<lb/>had an atom of genius. His verses that remain are dull and ster-
+<lb break="no"/>ile. He could learn all that was known or any subject; he could
+<lb/>do anything if others could show him the way to do it. This was
+<lb/>very wonderful; but that is all you can say of it. It requires a
+<lb/>good capacity to play well at chess ; but alter all, it is a game of
+<lb/>skill, and not of genius. Know what you will of it, the under-</p><p></p><p> standing still moves in certain tracks in which others have trod
+<lb/>before it, quicker or slower, with more or less comprehension and
+<lb/>presence of mind. The greatest skill strikes out nothing for itself,
+<lb/>from its own peculiar resources; the nature of the game is a thing
+<lb/>determinate and fixed; there is no royal or poetical road to check-
+<lb break="no"/>mate your adversary. There is no place for genius but in the in-
+<lb break="no"/>definite and unknown. The discovery of the binomial theorem
+<lb/>was an effort of genius: but there was none shown in Jedediah
+<lb/> Buxton’s being able to multiply 9 figures by 9 in his head. If he
+<lb/>could have multiplied 90 figures by 90 instead of nine, it would</p><p><pb n="211"/>
+</p><p>have been equally useless toil and trouble.* He is a man of ca-
+<lb break="no"/>pacity who possesses considerable intellectual riches: he is a man
+<lb/>of genius who finds out a vein of new ore. Originality is the
+<lb/>seeing nature different from all others, and yet as it is in itself.
+<lb/>It is not singularity or affectation, but the discovery of new and
+<lb/>valuable truth. All the world do not see the whole meaning of
+<lb/>any object they have been looking at. Habit blinds them to some
+<lb/>things; short-sightedness to others. Every mind is not a guage
+<lb/>and measure of truth. Nature has her surface and her dark re-
+<lb break="no"/>cesses. She is deep, obscure, and infinite. It is only minds on
+<lb/>whom she makes her fullest impressions that can penetrate her
+<lb/>shrine or unveil her Holy of Holies. It is only those whom she
+<lb/>has filled with her spirit that have the boldness or the power to re-
+<lb break="no"/>veal her mysteries to others. But nature has a thousand aspects,
+<lb/>and one man can only draw out one of them. Whoever does this,
+<lb/>is a man of genius. One displays her force, another her refine-
+<lb break="no"/>ment, one her power of harmony, another her suddenness of con-
+<lb break="no"/>trast, one her beauty of form, another her splendor of color. Each
+<lb/>does that for which he is best fitted by his particular genius, that
+<lb/>is to say, by some quality of mind into which the quality of the
+<lb/>object sinks deepest, where it finds the most cordial welcome, is
+<lb/>perceived to its utmost extent, and where again it forces its way
+<lb/>out from the fulness with which it has taken possession of the
+<lb/>mind of the student. The imagination gives out what it has first
+<lb/>absorbed by congeniality of temperament, what it has attracted
+<lb/>and moulded into itself by elective affinity, as the loadstone draws
+<lb/>and impregnates iron. A little originality is more esteemed and
+<lb/>sought for than the greatest acquired talent, because it throws a
+<lb/>new light upon things, and is peculiar to the individual. The
+<lb/>other is common; and may be had for the asking, to any
+<lb/>amount.</p><p></p><p>The value of any work is to be judged of by the quantity of
+<lb/>originality contained in it. A very ltttle of this will go a great
+<lb/>way. If Goldsmith had never written anything but the two or
+<lb/>three first chapters of the Vicar of Wakefield, or the character of
+<lb/>a Village Schoolmaster, they would have stamped him a man of
+<lb/>genius. The Editors of Encyclopedias are not usually reckoned
+<lb/>the first literary characters of the age. The works, of which they
+<lb/>have the management, contain a great deal of knowledge, like
+<lb/>chests or warehouses, but the goods are not their own. We should
+<lb/>as soon think of admiring the shelves of a library; but the shelves
+<lb/>of a library are both useful and respectable. I was once applied
+<lb/>to in a delicate emergency, to write an article on a difficult subject
+<lb/>for an Encyclopedia, and was advised to take time and give it a
+<lb/>systematic and scientific form, to avail myself of all the knowledge
+<lb/>that was to be obtained on the subject, and arrange it with clear-
+<lb break="no"/>ness and method. I made answer that as to the first, I had taken
+<lb/>time to do all that I ever pretended to do, as I had thought inces-
+<lb break="no"/>santly on difierent matters for twenty years of my life; that I had
+<lb/>no particular knowledge of the subject in question, and no head
+<lb/>for arrangement; and that the utmost I could do in such a case
+<lb/>would be, when a systematic and scientific article was prepared, to
+<lb/>write marginal notes upon it, to insert a remark or illustration of
+<lb/>ray own (not to be found in former Encyclopedias) or to suggest a
+<lb/>better definition than had been offered in the text. There are two
+<lb/>sorts of writing. The first is compilation; and consists in collect-
+<lb break="no"/>ing and stating all that is already known of any question
+<lb/>in the best possible manner, for the benefit of the uninformed</p><p></p><p>*The only good thing I ever heard come of this singular man’s
+<lb/>faculty of memory was the following. A gentleman was mention-
+<lb break="no"/>ing his having been sent up to London from where he lived to see
+<lb/>Garrick act. When he went back into the country, he was asked
+<lb/>what he thought of the player and the play. “Oh!” he said, “he
+<lb/>did not know; he had only seen a little man strut about the stage,
+<lb/>and repeat 7956 words.” We all laughed at this, but a person in
+<lb/>one corner of the room, holding one hand to his forehead, and
+<lb/>seemingly mightily delighted, called out, “Ay, indeed! And
+<lb/>Pray, was he found to be correct?” This was the supererogation
+<lb/>of literal matter-of-fact curiosity. Jedediah Buxton’s counting the
+<lb/>number of words was idle enough; but here was a fellow who
+<lb/>wanted some one to count them over again to see that he was cor-
+<lb break="no"/>rect.</p><p>“The force of dulness could no farther go!"
+Sir Joshua Reynolds being asked how long it had taken him to
+do a certain picture, made answer, “All his life.”
+</p><p>reader. An author of this class is a very learned amanuensis of
+<lb/>other people’s thoughts. The second sort proceeds on an entirely
+<lb/>different principle. Instead of bringing down the account of
+<lb/>knowledge to the point at which it has already arrived, it pro-
+<lb break="no"/>fesses to start from that point on the strength of the writer’s in-
+<lb break="no"/>dividual reflections; and supposing the reader in possession of
+<lb/>what is already known, supplies deficiencies, fills up certain
+<lb/>blanks, and quits the beaten road in search of new tracts of obser-
+<lb break="no"/>vation or sources of feeling. It is in vain to object to this last
+<lb/>style that it is disjointed, disproportioned, and irregular: It is
+<lb/>merely a set of additions and corrections to other men’s works, or
+<lb/>to the common stock of human knowledge, printed separately.
+<lb/>You might as well expect reasoning in the notes to a book. It
+<lb/>skips all the trite, intermediate, level common-places of the subject,
+<lb/>and only stops at the difficult passages of the human mind, or
+<lb/>touches on some striking point that has been overlooked in pre-
+<lb break="no"/>vious editions. A view of a subject, to be connected and regular,
+<lb/>cannot be all new. A writer will always be liable to be charged
+<lb/>either with paradox or common-place, either with dulness or affec-
+<lb break="no"/>tation. But we have no right to demand from any one more than
+<lb/>he pretends to. There is indeed a medium in all things, but to
+<lb/>unite opposite excellences is a task ordinarily too hard for mortal-
+<lb break="no"/>ity. The man who succeeds in what he aims at, or who takes
+<lb/>the lead in any one mode or path of excellence, may think himself
+<lb/>very well off. It would not be fair to complain of the style of an
+<lb/>Encyclopedia as dull, as wanting volatile salt; nor of the style of
+<lb/>an Essay because it is too light and sparkling, because it is not a
+<lb/>caput mortuvm. So it is rather an odd objection to a work that it is
+<lb/>made up entirely of “brilliant passages”—at least it is a fault that
+<lb/>can be found with few works, and the book might be pardoned for
+<lb/>its singularity. The censure might indeed seem like adroit flat-
+<lb break="no"/>tery, if it were not passed on an author whom any objection is suf-
+<lb break="no"/>ficient to render unpopular and ridiculous. I grant it is best to
+<lb/>unite solidity with show, general information with particular in-
+<lb break="no"/>genuity. This is the pattern of a perfect style; but I myself do not
+<lb/>pretend to be a perfect writer. In fine, we do not banish light
+<lb/>French wines from our tables, or refuse to taste sparkling Cham-
+<lb break="no"/>pagne when we can get it, because it has not the body of Old Port.
+<lb/>Besides, I do not know that dulness is strength, or that an observa-
+<lb break="no"/>tion is slight, because it is striking. Mediocrity, insipidity, want
+<lb/>of character, is the great fault. Mediocribus esse poctis non Dii, non
+<lb/>homines, non concessére columna. Neither is this privilege allowed
+<lb/>to prose-writers in our time, any more than to poets formerly.</p><p></p><p>It is not then acuteness of organs or extent of capacity that con-
+<lb break="no"/>stitutes rare genius, or produces the most exquisite models of art,
+<lb/>but an intense sympathy with some one beauty or distinguished
+<lb/>characteristic in nature. Irritability alone, or the interest taken
+<lb/>in certain things, may supply the place of genius in weak and
+<lb/>otherwise ordinary minds. As there are certain instruments fitted
+<lb/>to perform certain kinds of labor, there arc certain minds so framed
+<lb/>as to produce certain chéf-d'æuvres in art and literature, which is
+<lb/>surely the best use they can be put to. If a man had all sorts of
+<lb/>instruments in his shop, and wanted one, he would rather have
+<lb/>that one than be supplied with a double set of all the others. It
+<lb/>he had them all twice over, he could only do what he can do as it
+<lb/>is, whereas without that one perhaps he cannot finish any one work
+<lb/>he has in hand. So if a man can do one thing better than any
+<lb/>body else, the value of this one thing is what he must stand or fall
+<lb/>by, and his being able to do a hundred other things merely as well
+<lb/>as any body else, would not alter the sentence or add to his respec-
+<lb break="no"/>tability; on the contrary, his being able to do so many other things
+<lb/>well would probably interfere with and encumber him in the exe-
+<lb break="no"/>cution of the only thing that others cannot do as well as he, and so
+<lb/>far be a drawback and a disadvantage. More people in fact fail
+<lb/>from a multiplicity of talents and pretensions, than from an abso-
+<lb break="no"/>lute poverty of resources. I have given instances of this else-
+<lb break="no"/>where Perhaps Shakspeare’s tragedies would in some respects
+<lb/>have been better, if he had never written comedies at all; and
+<lb/>in that case his comedies might well have been spared, though
+<lb/>they might have cost us some regret. Racine, it is said, might
+<lb/>have rivalled Molière in comedy; but he gave up the cultivation
+<lb/>of his comic talents to devote himself wholly to the tragic Muse.—</p><p><pb n="212"/>
+</p><p>If, as the French tell us, he in consequence attained to the perfec-
+<lb break="no"/>tion of tragic composition, this was better than writing comedies
+<lb/>as well as Molière and tragedies as well as Crebrillon. Yet I count
+<lb/>those persons tools, who think it a pity that Hogarth did not suc-
+<lb break="no"/>ceed better in serious subjects. The division of labor is an excel-
+<lb break="no"/>lent principle in taste as well as mechanics. Without this, I find
+<lb/>by Adam Smith, we could not have a pin made to the degree of
+<lb/>perfection it is. We do not, on any rational scheme of criticism,
+<lb/>inquire into the variety of a man’s excellences, or the number of
+<lb/>his works, or his facility of production. Venice Preserved is suf-
+<lb break="no"/>ficient tor Otway’s fame. I hate all those nonsensical stories about
+<lb/>Lopez de Vega, and his writing a play in the morning before
+<lb/>breakfast. He had time enough to do it alter. If a man leaves
+<lb/>behind him any work which is a model in its kind, we have no
+<lb/>right to ask whether he could do any thing else, or how he did it,
+<lb/>or how long he was about it. All that talent which is not necessa-
+<lb break="no"/>ry to the actual quantity of excellence existing in the world, loses
+<lb/>its object, is so much waste talent, or talent to let. I heard a sensi-
+<lb break="no"/>ble man say, he should like to do some one thing better than all
+<lb/>the rest of the world. Why should a man do more than his part?
+<lb/>The rest is vanity and vexation of spirit. We look with jealous
+<lb/>and grudging eye at all those qualifications which are not essen-
+<lb break="no"/>tial; first because they are superfluous, and next, because we sus-
+<lb break="no"/>pect they will be prejudicial. Why does Mr. Kean play all those
+<lb/>harlequin tricks of singing, dancing, fencing, &amp;c.? They say, “It
+<lb/>is for his benefit.” It is not for his reputation. Garrick, indeed,
+<lb/>shone equally as well in comedy and tragedy. But he was first,
+<lb/>not second-rate in both. There is not a greater impertinence than
+<lb/>to ask if a man is clever out of his profession. I have heard of
+<lb/>people trying to cross examine Mrs. Siddons. I would as soon try
+<lb/>to entrap one of the Elgin Marbles into an argument. Good nature
+<lb/>and common sense are required from all people; but one proud
+<lb/>distinction is enough for any one individual to possess or to aspire
+<lb/>to!</p><p>Of course we admire all this—it is pointedly put—but
+we assent to only about one half of it.
+</p><p>History of the War in France and Belgium, in 1815;
+<lb/>Containing Minute Details of Quatre-Bras, Ligny,
+<lb/>Wavre, and Waterloo. By Captain W. Siborne, Sec-
+<lb break="no"/>retary and Adjutant of the Royal Military Asylum;
+<lb/>constructor of the “Waterloo Model” first Amer-
+<lb break="no"/>ican from the Second London edition. With Plans of
+<lb/>the Battles and Maps. Philadelphia: Lea and Blan-
+<lb break="no"/>chard.</p><p></p><p>A beantifully printed volume of nearly 650 pages.
+<lb/>Captain Siborne, it is well understood, had access, through
+<lb/>his staff appointment, as well as through private inter-
+<lb break="no"/>est, to the most authentic sources of information, and his
+<lb/>work was looked for with the greatest interest in Eng-
+<lb break="no"/>land, as one that would settle a great many disputed
+<lb/>points in reference to the Waterloo campaigns. Since
+<lb/>the issue of the book, much has been said against it—
+<lb/>but a very great deal more in its favor, and we ure in-
+<lb break="no"/>clined to side with its supporters. An unmistakeable
+<lb/>air of candor pervades every page, and the accuracy of
+<lb/>detail seems to be self-demonstrated. The manner is ex-
+<lb break="no"/>ceedingly good.</p><p></p><p>Historical Sketch of the Second War between the United
+<lb/>States of America and Great Britain, declared by Act
+<lb/>of Congress, the 18M of June 1812, and Concluded by
+<lb/>Peace, the 15th of February 1815. fly Charles J. In-
+<lb break="no"/>gersoll. In Three Volumes. Vol. I. Embracing the
+<lb/>Events of 1812-13. Philadelphia: Lea aud Blan-
+<lb break="no"/>chard.</p><p></p><p>A volume of more than 500 pages octavo. It is rather
+<lb/>a series of vivid pictures on the subject of the late War,
+<lb/>than an Historical Sketch of it. Force and novelty
+<lb/>abound, and we are never permitted to doubt the honesty
+<lb/>of the narration, but there is a slight tinge of the whim-
+<lb break="no"/>sical about the book which may operate, in the first in-</p><p></p><p>stance, to prevent a very general appreciation of its mer-
+<lb break="no"/>its—which are undoubtedly great. By way of exemplifi-
+<lb break="no"/>ing our meaning we quote a brief passage from an account
+<lb/>of Timothy Pickering.</p><p></p><p>His reputation was that ot a consistent upright man, who lived
+<lb/>and died firm to the conviction he cherished; hard but honest.
+<lb/>On a great field day debate in 1841, on the Loan Bill, when the
+<lb/>House, in committee of the whole, gave six weeks to those speech-
+<lb break="no"/>es for political capital at home and abroad, which are among the
+<lb/>ways and means of free countries with a free press—much prefer-
+<lb break="no"/>able to more serious combats—Mr. Pickering, in the course of his
+<lb/>harangue, looking through his spectacles full in the chairman’s
+<lb/>face, said, with great emphasis, swinging his long arm aloft, that
+<lb/>he stood on a rock. “I stand on a rock’, said he “from which all
+<lb/>democracy”—then raising his voice and repeatrng it—“not all
+<lb/>democracy and hell to bool, can move me—the rock of integrity and
+<lb/>truth."</p><p></p><p>“These things are more honored in the breach than in
+<lb/>the observance”—by silence than by historical record.
+<lb/>The passage, too, will afford some idea of Mr. Inger-
+<lb break="no"/>soll’s style which, like Mr. Pickering’s character, is
+<lb/>“hard but honest”—as well as (more definitely) of his
+<lb/>mere English, which is loose and uncouth to a very rep-
+<lb break="no"/>rehensible degree. Take, for instance, the first para-
+<lb break="no"/>graph of the volume:</p><p></p><p>In this historical sketch I shall endeavor to submit the truth in
+<lb/>an account of the contest between Great Britain and the United
+<lb/>States of America, declared by Act of Congress, approved the 18th
+<lb/>of June, 1812. It enacted that war was already declared to exist
+<lb/>between the United Kingdoms of Great Britain and Ireland, and
+<lb/>the Dependencies thereof, and the U. S. of America and their terri-
+<lb break="no"/>tories; and that the President of the U. S. was thereby authorized
+<lb/>to use the whole land and naval force of the U. S., to carry the
+<lb/>same into effect, and to issue to private armed vessels of the U, S.,
+<lb/>commissions, or letters of marque and general reprisal, in such
+<lb/>form as he should think proper, and under the seal of the U. S.
+<lb/>against the vessels, goods and effects of the government of the said
+<lb/>United Kingdom of Great Britain and Ireland and the subjects
+<lb/>thereof.</p><p></p><p>Here a “contest” is “ declared.” Whether the “ there-
+<lb break="no"/>by” in “thereby unauthorized” refers to the territories,
+<lb/>the war, or the act, it is difficult to determine. “The
+<lb/>same” is equally ambiguous as regards its reference, and
+<lb/>it seems to be the “Seal of the U. S.” which is set
+<lb/>“against the vessels, goods and effects” off the British.
+<lb/>The whole paragraph is awkward in the extreme.</p><p></p><p>But happily the value of the book does not depend upon
+<lb/>trifles such as these. It gives a plain, discerning and evi-
+<lb break="no"/>dently faithful view of the events of the war, and will be
+<lb/>received with favor by all who are competent to decide
+<lb/>upon the worth of an historical treatise.</p><p></p><p>Ollendorf's New Method of learning to read, write,
+<lb/>and speak the German Language; to which is added
+<lb/>a Systematic Outline of the Different Parts of Speech,
+<lb/>their Inflection and Use, with full Paradigms and a
+<lb/>Complete Table of the Irregular Verbs. By J. G. Ad-
+<lb break="no"/>ler, A. B. New-York: D. Appleton&amp; Co.</p><p></p><p>The New Method of Ollendorf affords, unquestiona-
+<lb break="no"/>bly, the best means of studying the German. In no oth-
+<lb break="no"/>er grammar do we obtain so much information, so lumi-
+<lb break="no"/>nously given. His great merit is that he does not plunge
+<lb/>in medias res res, but begins at the beginning. He presup-
+<lb break="no"/>poses no knowledge on the part of the beginner. Other
+<lb/>German grammarians take for granted, among other gra-
+<lb break="no"/>tuities, an intimate cognizance of the English. The
+<lb/>work before us is especially rich, too, in its system of
+<lb/>idiomatic instruction—and in every respect is invaluable.
+<lb/>We speak feelingly on this subject; for we have felt the</p><p><pb n="213"/>
+thousand difficulties and ambiguities of other grammars,
+which have been written by good Germanists, certainly,
+but, at the same time, by indifferent metaphysicians._
+To instruct, demands a thorough metaphysical educa-
+tion.
+</p><p>We shall speak of this volume at length hereafter.—
+<lb/>In the meantime we cordailly recommend it. It is ad-
+<lb break="no"/>mirably gotten up—printed with accuracy in large type,
+<lb/>and neatly bound.</p><p></p><p>Norman's New-Orleans and Environs: Containing a
+<lb/>Brief Historical Sketch of the Territory and State of
+<lb/>Louisiana, and the City of New-Orleans, from the
+<lb/>Earliest Period to the Present Time: Presenting a
+<lb/>Complete Guide to all Subjects of General Interest in
+<lb/>the Southern Metropolis, with a Correct and Improved
+<lb/>Plan of the City, Pictorial Illustrations of Public
+<lb/>Buildings, etc. etc. New-Orleans: B. B. Norman.</p><p></p><p>We give the full title to show the design of the work;
+<lb/>which is all that it professes to be—and a little more.—
+<lb/>A very excellent and satisfactory volume, of about 200
+<lb/>pages duodecimo, neatly bound. There is a fine steel
+<lb/>frontispiece of New-Orleans. Mr. Norman proposes to
+<lb/>issue, on the first of next month, a map of the city to
+<lb/>accompany the book now published.</p><p></p><p>The Prince and the Pedler. A Novel. By Miss Ellen
+<lb/>Pickering, Author of “Nan Darrell," etc. New-York:
+<lb/>E. Ferrett, &amp; Co.</p><p></p><p>Miss Pickering has written some of the most praise-
+<lb break="no"/>worthy and popular novels of the day; and “The Prince
+<lb/>and the Pedler is one of her best.</p><p>The Modern Standard Drama. Edited by Epes Sargent,
+New York: William Taylor, No. 2 Astor-House.
+</p><p>All play-goers and play-readers should be careful to
+<lb/>take this series, as it is issued. It is an exceedingly neat
+<lb/>and accurate one. We have seen nothing of the kind so
+<lb/>good. The plays already published are Ion, Fazio, The
+<lb/>Lady of Lyons, Richelieu, The Wife, and The Honey-
+<lb break="no"/>moon—the latter to be out this day, (Saturday). The edi-
+<lb break="no"/>tor’s well-known taste, especially in dramatic matters,
+<lb/>should answer for the fidelity and for the success of his
+<lb/>labors.</p><p></p><p>Pictorial History of the World. By John Frost, L. L.
+<lb/>D.. Philadelphia: Walker if Gillis. New-York: Wil-
+<lb break="no"/>liam H. Graham.</p><p>No. 9 is issued. To be completed in 30 numbers, at 25
+cents.
+</p><p>The Knickerbocker for October is unusually good, but
+<lb/>we are too much pressed for space to do more, just now.
+<lb/>than recommend to the especial attention of our readers
+<lb/>the papet entitled “Who are our National Poets?”</p><p></p><p>The Westminster Review for September has been re-
+<lb break="no"/>printed by Messrs. Leonard Scott &amp; Co., and contains its
+<lb/>usual amount of valuable matter:—among other things,
+<lb/>a review of Humboldt’s “Kosmos”—a review of “Sy-
+<lb break="no"/>bil”—and a paper on “Shaksperian Criticism and Act-
+<lb break="no"/>ing.”</p><p>______
+</p><p>The Southern Lit. Messenger for October contains a
+<lb/>very condemnatory and in our opinion a very just review
+<lb/>of “Poems by William W. Lord.”</p><p></p><p>The Democratic Review for October has a fine mezzo-
+<lb break="no"/>tint of Cave Johnson, and one of the most exciting stories
+<lb/>We ever read, “The Monomaniac,” by Mrs. E. F. Ellet.</p><p></p><p>Wiley &amp; Putnam’s Library of American Books. No VI.
+<lb/>Wanderings of a Pilgrim under the Shadow of Mount
+<lb/>Blanc. By George B. Cheever, D. D.</p><p></p><p>History of France from the Earliest Period to the Pre-
+<lb break="no"/>sent Time. By M. Michlet, Professeur-suppléant à la
+<lb/>Faculté des Lettres, etc. Translated by G. H. Smith,
+<lb/>F. G. S. No. 5. New York: D Appleton dfCo.</p><p></p><p>A Cyclopedia of Several Thousand Practical Receipts,
+<lb/>etc. By Arnold James Cooley. No 5. New York: D.
+<lb/>Appleton &amp; Co.</p><p></p><p>A Plea for Social and Popular Repose; Delivered be-
+<lb break="no"/>fore the Literary Societies of the University of the
+<lb/>City of New York. By D. D. Barnard.</p><p></p><p>The Songs of our Land, and other Poems. By Mary E.
+<lb/>Hewitt. Boston: William D. Ticknor &amp; Co. For
+<lb/>sale by Langley.</p><p></p><p>We have received these five last publications at too
+<lb/>late a period to do more than announce them this week.
+<lb/>To Mrs. Hewitt’s beautiful book, in especial, we shall at-
+<lb break="no"/>tend very particularly in our next.</p><p>The Fine Arts.
+</p><p>National Gallery at the Rotunda.—We proceed
+<lb/>to picture No. seven, the second of the Series:—we
+<lb/>might say the second page of the History. In this it is
+<lb/>evident that society has already made great strides to-
+<lb break="no"/>wards civilization. The hunter has long passed away,</p><p>and the shepherd is making room for the husbandman.—
+</p><p>The locality is nearly, but not quite the same, as in the
+<lb/>last picture; we have still the “boulder” promontory in
+<lb/>the distance, but we have shifted our ground, and have
+<lb/>moved to the right, and further from the river. Before
+<lb/>us stands a group of glorious trees—primeval giants of
+<lb/>the forest—beneath whose mighty arms</p><p>The ground was never trenched by spade,
+And flowers spring up unseen.
+</p><p>On the left rises a gentle hill, on which a ploughman is
+<lb/>seen driving his share into the mellow earth, while in
+<lb/>the middle distance on the bank of the river, stands an
+<lb/>eminence crowned with a Druid’s Temple. At the foot,
+<lb/>on a rock, we see a growing little town. White sails
+<lb/>are on the sea, an on the shore we see and antique ves-
+<lb break="no"/>sel on the stocks. Everything gives indication of an ac-
+<lb break="no"/>tive people, yet all are not busy with the ruder cares of
+<lb/>life, for the refining arts—Music and Painting—have al-
+<lb break="no"/>ready dawned. Beneath the shade of the mighty trees,
+<lb/>we see maidens wreathed with flowers, dancing gaily
+<lb/>and gracefully to the shepherd’s pipe, and on a huge
+<lb/>stone (a rustic bridge) in the foreground, an embryo
+<lb/>painter scrawls his first attempt at the pictorial art.—
+<lb/>Near him his mother plies the busy spindle, while seat-
+<lb break="no"/>ed close at hand, an old man traces in the dust a geomet-
+<lb break="no"/>rical figure, indicating the beginning of the abstruser
+<lb/>sciences.</p><p></p><p>The contemplation of this charming production carries
+<lb/>us back to our boyish dreams of rural felicity all is
+<lb/>beauty and joy, and but for the presence of an armed
+<lb/>man, passing through the ravine up to the front of the
+<lb/>picture, we might suppose it an illustration of the Poet’s
+<lb/>“Golden Age.”</p><p></p><p>The painter has chosen, with great propriety, the Dru-
+<lb break="no"/>idical circle, as the rude temple of the earliest worship-
+<lb break="no"/>pers, while the volumes of smoke which issue from it in-</p><p><pb n="214" break="no" />
+dicate that living victims heap the altars of a sanguinary
+God.
+</p><p>It were tedious to enumerate the thousand little objects
+<lb/>which attract our attention, and the many delicate tints,
+<lb/>of which words can convey no idea. As well might we
+<lb/>attempt to give a description of the exquisite transitions
+<lb/>of sound in a fine musical composition, as the delicate
+<lb/>gradations of color from the full green of the foreground,
+<lb/>to the faint blue haze of the distant landscape. We feel
+<lb/>that it would be almost hypercritical to pick out faults in
+<lb/>this composition, and yet the station we have assumed
+<lb/>calls upon us to display our judgment, by finding fault,
+<lb/>otherwise the public may conclude that we are no critics.
+<lb/>Well, gentle readers, we will make an effort to gratify
+<lb/>you, by wishing that the sheep in the middle ground
+<lb/>were of an “improved breed,” as they make the shep-
+<lb break="no"/>herd appear too tall.	w.</p><p></p><p>To all lovers of the true and beautiful in art we recom-
+<lb break="no"/>mend a visit to the Ivory Christ, brought from Italy by
+<lb/>C. Edwards Lester, our Consul at Genoa, and now being
+<lb/>exhibited in Broadway opposite the Park. This figure
+<lb/>(it cannot properly be called a statue) is the work of an
+<lb/>Italian Monk, an educated man, but with little knowl-
+<lb break="no"/>edge of art. A deep enthusiasm—an overwhelming pas-
+<lb break="no"/>sion to do justice to the intellectual and physical charac-
+<lb break="no"/>ter of the God-man, seems to have been in this case at
+<lb/>once the instigation and the instruction. The material
+<lb/>is the tusk of an antique elephant—a tusk of enormous
+<lb/>size. Much of it had to be cut away on account of its ca-
+<lb break="no"/>rious condition, and yet the figure is 32 inches long, (we
+<lb/>believe) and 8 inches broad through the shoulders:—all
+<lb/>this solid—the arms are wrought from separate pieces.</p><p></p><p>The first point noticeable in this Christ is the intellec-
+<lb break="no"/>tuality of its expression. All other representations of the
+<lb/>Saviour make him merely benevolent, dignified, meek,
+<lb/>self-sustained, and beautiful in feature. In this, mind—
+<lb/>genius—predominates. The whole face is eminently in-
+<lb break="no"/>tellectual.</p><p></p><p>The second thing to be observed is the absolute truth
+<lb/>of the entire design. The figure depends from the cross
+<lb/>precisely as the human form would depend under the cir-
+<lb break="no"/>cumstances. The moment chosen is that immediately
+<lb/>succeeding death. We are made to fancy that the last
+<lb/>sigh has just issued from his lips—on which is now fa-
+<lb break="no"/>ding a divine smile. We can see, nevertheless, that
+<lb/>the death has been agonizing. The contraction of
+<lb/>the muscles, more particularly about the calves, toes
+<lb/>and lumbar regions, are absolute in the truth of their
+<lb/>expression. In anatomy the whole figure is perfect. We
+<lb/>douht if a better model of the human frame is to be found
+<lb/>anywhere. The work altogether is of a very high order
+<lb/>of genius.</p><p></p><p>In our next we shall endeavor to do justice to the inimi-
+<lb break="no"/>table Sortie du Bain—De Kuyper’s—now to be seen at
+<lb/>the Society Library. We have no patience with those
+<lb/>who decry it.	P.</p><p>Musical Department. 
+</p><p>Trinity Church Organ.—Having been favored, by
+<lb/>the kindness of Richard Upjohn, Esq., the gifted architect
+<lb/>of Trinity Church, with an elegant drawing of the front
+<lb/>elevation of the new Organ which will shortly be erect-
+<lb break="no"/>ed in that noble edifice, we are enabled this week to af-
+<lb break="no"/>ford a similar gratification to our readers, by presenting
+<lb/>them with a fine engraving on steel of the same, execu-
+<lb break="no"/>ted by James Duthie.</p><p></p><p>In order to render this the more interesting and intelli-
+<lb break="no"/>gible, we have procured from Dr. Edward Hodges, who
+<lb/>first planned, and now has the oversight and superintend-
+<lb break="no"/>ence of the construction of the interior of the ponderous
+<lb/>instrument, the following particulars concerning its di-
+<lb break="no"/>mensions and intended contents.</p><p></p><p>Of the beautiful and appropriate design of the organ front and
+<lb/>subjacent screen, harmonizing as it does with the imposing effect
+<lb/>of the interior of the building, I need not say anything; the draw-
+<lb break="no"/>ing will speak for itself. The whole is to be of oak, and much of
+<lb/>it has already been executed in a most thoroughly substantial and
+<lb/>workmanlike manner.</p><p></p><p>The height of the screen to the level of the floor of the organ
+<lb/>loft is 14 feet 5 inches; above which the Organ will tower 38 feet
+<lb/>farther; making a total elevation of nearly 53 feet.</p><p></p><p>The width of the organ front is 24 feet, but as the floor will be
+<lb/>trussed out about 4 feet on each side as well as towards the nave,
+<lb/>the width of the organ-loft will be 34 feet—thus affording abund-
+<lb break="no"/>ant room for an effective choir, should it be finally resolved to place
+<lb/>the choir at that (the wrong) end of the church. This gallery or
+<lb/>organ-loft will be surrounded, on three sides, by latticed work to a
+<lb/>considerable altitude, as seen in the drawing.</p><p></p><p>The only way to give a just idea of the nature and extent of
+<lb/>an Organ, is by stating its leading divisions (e. g. an Organ of
+<lb/>two, three, or more ranks of keys,) enumerating the stops, and giv-
+<lb break="no"/>ing the magnitudes of the largest pipes connected with each de-
+<lb break="no"/>partment, to which all the rest are adjusted in a well known pro-
+<lb break="no"/>portional order. Simply to state the number of stops and the
+<lb/>number of pipes pertaining to each, can communicate no accu-
+<lb break="no"/>rate or satisfactory information; for, as the magnitudes in de-
+<lb break="no"/>scending the scale increase in geometrical progression, it may hap-
+<lb break="no"/>pen that a dozen pipes in one organ may require and occupy as
+<lb/>much room as a thousand pipes in another, or in another part of
+<lb/>the same instrument. We cannot estimate the power or effect of
+<lb/>an organ, therefore, by the number of its pipes; any more than
+<lb/>we could that of a ship of war merely by learning the number of
+<lb/>guns she carries, without ascertaining whether they are four
+<lb/>pounders or Paixhan sixty-fours. Suffice it then to add here, for
+<lb/>the sake of those who have no technical acquaintance with the
+<lb/>subject, that the lengths of the pipes intended for the Trinity or-
+<lb break="no"/>gan vary from nearly thirty feel to something less than an inch,
+<lb/>and the diameters from three feet to the size of a small goose-quill.</p><p></p><p>A custom has obtained amongst organists and organ-builders
+<lb/>of naming the pipes and the notes which bear the denomination
+<lb/>of the letter C in various octaves of the great scale, by the con-
+<lb break="no"/>venient designation of a round number of feet, not precisely accu-
+<lb break="no"/>rate as to the actual admeasurement, but near the truth. Thus we
+<lb/>speak of 2 feet C, of 4 feet C, See. (each octave doubling the fore-
+<lb break="no"/>going;) and when we come to the bottom, of 32 feet C, although,
+<lb/>it the pipe be of larger diameter it may not exceed 28 or 29 feet.
+<lb/>One cause of this has probably been the successive changes of
+<lb/>pitch, to accommodate modern orchestral instruments; which chan-
+<lb break="no"/>ges, until a very recent period, were invariably towards the shar-
+<lb break="no"/>per or more acute limit of the scale of musical sounds. And, of
+<lb/>course, organ-builders have been nothing loath to fall into the pre-
+<lb break="no"/>vailing fashion in (his respect, seeing that when the pitch had as-
+<lb break="no"/>cended but a single semitone (and it has been supposed to have
+<lb/>varied thrice as much,) it lessened the magnitude, the weight, and
+<lb/>the cost of any given instrument by at least as much as a twen-
+<lb break="no"/>tieth part of the whole. At present a check seems to have been
+<lb/>put upon this innovating tendency, and the pitch may be consider-
+<lb break="no"/>ed as settled. The public, however, ought to be made aware of the
+<lb/>fact that fraud can be practised in this particular, and that the pitch
+<lb/>of an organ is not an affair of so small consequence as some per-
+<lb break="no"/>sons would represent it to be.</p><p></p><p>There is deception of another species not seldom exercised with
+<lb/>regard to this complex instrument. Certain organ-builders, com-
+<lb break="no"/>ing to the knowledge of the fact that in the hands of ignorant and
+<lb/>unskilful organists, the note G G# in the extreme bass was seldom
+<lb/>put in requisition, affected to consider that note as useless, and so
+<lb/>omitted it; although, upon an ordinary G G organ this arrange-
+<lb break="no"/>ment excluded the largest pipe but one iu every stop. And this</p><p>The Organ of Trinity Church
+New-York.
+<pb n="215"/>
+</p><p>practice (which originated, as candor requires me to confess, in
+<lb/>England,) has continued to our day. Many such organs are still
+<lb/>built, and advertised for sale—the compass being with audacious
+<lb/>effrontery stated to be from G G upwards, without any mention
+<lb/>tion made of this most important deficiency. But as long as good
+<lb/>people are satisfied to order and purchase organs without any re-
+<lb break="no"/>ference to persons competent to afford them professional advice on
+<lb/>the subject, they must remain content to be duped.</p><p></p><p>Thus much being premised, the following description may pos-
+<lb break="no"/>sibly become tolerably intelligible even to those who have not
+<lb/>been initiated in the mysteries of the organ-craft:</p><p></p><p>The Organ for Trinity Church, then, is to consist of four distinct
+<lb/>departments, having three ranks of manual keys, and one of pe-
+<lb break="no"/>dals, or keys for the feet. The manuals pertain to the Swell, the
+<lb/>Great Organ, and the Choir Organ, respectively. The Swell is an
+<lb/>organ of 4 ft.; (that, being, as before explained, the size of the
+<lb/>longest pipe); the Choir Organ, (seen in front, projecting from the
+<lb/>gallery,] an 8 ft. organ; the Great Organ, 16 ft.; the Pedal Organ,
+<lb/>32 ft.</p><p></p><p>Little more remains than to give an enumeration of the stops,
+<lb/>which are to be grouped right and left of the keys, as exhibited in
+<lb/>the following diagram.</p><p>1	Clarion.
+2	Trumpet.
+3	Hautboy.
+4	Stopped Diapason.
+5	Double Stopped Diapason.
+6	Dulciana.
+7	Open Diapason.
+8	Principal.
+left.            9 Cornet (5 ranks.)	right.
+10 Great Organ and Swell at octaves.
+Swell.        11 do. do. and do. at unison.                 Choir Organ.
+12 Great Organ and Choir, do.	__ ____
+1	13 Choir and Swell at octaves.
+2	3	14	Pedals and Choir Organ.	24	23	26
+15 Choir and Swell.
+4	5	6	16	Pedals and Great Organ, 16 ft.	27	28
+17 Do. and do.	8 ft. 
+7	8	18 Pedals and Swell Bass.	Great Organ.
+9            19 Pedals, 32 ft.	29	30
+20 Pedals, 16 ft.
+Couplers.	21	Double Diapason.	31	32	33
+22 Bassoon (half stop.)
+10	23 Clarionet (half stop.)	34	35
+11	12      24 Stopped Diapason.	36	37	38
+25 Dulciana.
+13	14	15	26	Principal.	39	40
+27 Flute.
+16	17	28	Fifteenth.	           Swell Bass.
+18	29	Trumpet.	40	42
+30 Clarion.
+19	20	31	Sesquialtera (3 ranks.)	Bellows.
+32 Twelfth.
+Pedals. 	33	Mixture (3 ranks.)	43
+21	34	Fifteenth.
+35	Large Flute.
+36	Principal.
+37	Stopped Diapason.
+38	Principal.
+39	Open Diapason.
+40	Open Diapason.
+41	Dulciana.
+42	Serpent.
+43	Wind.
+</p><p>The compass or extent of the organs, respectively, is as follows:
+<lb/>Of the Swell, four octaves and a half, or fifty-four keys; of the
+<lb/>Choir organ, the same, although at an octave lower pitch, the lat-
+<lb break="no"/>ter ending at fin alt., the other at f in altissimo; of the Great Or-
+<lb break="no"/>gan. five octaves and a half, or sixty-six keys; and of the Pedals,
+<lb/>‘wo octaves, or twenty-five keys. In connexion with this latter
+<lb/>department there is this peculiarity, that the stop consists of thirty-</p><p></p><p>seven pipes, and can be drawn so as to play two octaves from 32 ft.
+<lb/>C, or two octaves from 16 ft. upwards; or both together. The stops
+<lb/>called “Swell Bass” are also, properly speaking, pedal stops, al-
+<lb break="no"/>though they can be acted upon by the manual keys also, so as to
+<lb/>afford a great variety of effect.</p><p>The number of pipes can now be easily ascertained.
+Swell,	13	ranks	of 54	pipes each,	-	-	702
+Choir Organ, 6	“	of	54	“	“	-	-	324
+Great Organ, 16	“	of	66	“	“	-	-	-	1056
+Swell Bass, 2	“	of	25	“	“	-	-	-	50
+Pedals, -	37
+2169
+</p><p>The Swell is constructed upon the plan which I first introduced
+<lb/>in England about twenty years ago, and a full description of which
+<lb/>I drew up and published in the "(Quarterly Musical Magazine &amp;
+<lb/>Review," vol. 8, No. xxxii., 1826. It may be briefly described as
+<lb/>resembling in principle the ordinary refrigerator. It consists of
+<lb/>three distinct boxes or cases, through each of which (when closed)
+<lb/>the sound has to pass ere it reaches (he ear. Thus the most deli-
+<lb break="no"/>cate effects, in the way of expression, are capable of being produ-
+<lb break="no"/>ced, by the gradual removal or interposition of obstacles to the
+<lb/>transmission of sound.</p><p></p><p>The Pedal keys likewise are as yet comparatively new in this
+<lb/>country, being of brass. These I likewise introduced in England a
+<lb/>year or two prior to my new swell, and described in No. xxxii of
+<lb/>the periodical just mentioned. They must gradually make their
+<lb/>way into extensive use, as they afford great facilities to the player,
+<lb/>enabling him to do a great deal more with one foot than wa3 before
+<lb/>at all practicable, and thus setting the other at liberty for the com-
+<lb break="no"/>mand of the swell.</p><p></p><p>The number of coupling stops in the organ is, I believe, almost
+<lb/>if not altogether unprecedented. They will conduce to almost in-
+<lb break="no"/>terminable varieties of combinations. It would be a wearisome
+<lb/>task to attempt to calculate them. There will, therefore, be great
+<lb/>room for the exhibition of taste and skill in their adaptation to spe-
+<lb break="no"/>cific purposes of accompaniment, &amp;c.</p><p></p><p>Mr. Henry Erben is the contractor, and the work has already
+<lb/>made very considerable progress, nearly all the machinery of the
+<lb/>organ being in a state of forwardness, at his spacious and well-
+<lb break="no"/>furnished factory in Centre street. The workmen employed de-
+<lb break="no"/>serve great credit for the masterly manner in which they have ac-
+<lb break="no"/>quitted themselves hitherto in the construction of this unique in-
+<lb break="no"/>strument; and if the voicing of the pipes (not commenced) shall
+<lb/>prove as satisfactory as the mechanism unquestionably is, the pub-
+<lb break="no"/>lic may expect to hear an organ which will add to the attractions
+<lb/>of this great city.</p><p></p><p>I am afraid that my description will be found tediously long;
+<lb/>but, like the witty Frenchman who apologized to his friend for
+<lb/>sending him so long a letter, I must say that I had not time to
+<lb/>write it shorter.	E. H.</p><p></p><p>Ole Bull’s Second Concert.—We attended the second
+<lb/>concert of this artist, having received from him at length,
+<lb/>though unsolicited, the courtesy of the usual free admis-
+<lb break="no"/>sions. No concert of his in this city has ever been so
+<lb/>poorly attended. The vast area of the Tabernacle con-
+<lb break="no"/>tained not more than from five to six hundred listeners of
+<lb/>all sorts. We copy the programme of the evening:</p><p>PART I.
+1.	Grand	Overture,.......................................Full	Orchestra.
+2.	Song,..................................................Mr.	Duffield.
+3.	Sicillia a	e 	Tarrentella, composed and performed by Ole Bull.
+4. Song,.................................................Miss	Northall,
+5. Norges Fjelde, Mountains of Norway, Fanta-
+sia, composed and performed by.....................Ole Bull,
+part II.
+1. Song...................................................Mr.	Duffield,
+2. Carnival of Venice, composed by Paganini,
+and performed by...............................Ole Bull,
+3.	Song,.................................................Miss	Northall.
+4.	Polacca Guerriera, composed and performed by....Ole Bull.
+</p><p>Mr. Duffield comes to us from the Western country,
+<lb/>and the only recommendation we have seen of his talent
+<lb/>j is copied from some Westem paper, and concludes with</p><p><pb n="216"/>
+</p><p>something to this effect:—“He never sings the song
+<lb/>“Fifty years ago” without receiving demonstrations of
+<lb/>delight from a buck-eyed auditory.” This is praise con-
+<lb break="no"/>siderable, but we do not think it will weigh much with
+<lb/>our Northern people. Mr. Duffield has a light, pleasing
+<lb/>and melodious voice, but of its compass and power we
+<lb/>were unable to judge, for his intonation was so faulty,
+<lb/>and his manner so cold and uncultivated, that we rarely
+<lb/>heard the true quality of his organ. However, the indi-
+<lb break="no"/>cations were sufficient to warrant the opinion, that, with
+<lb/>careful and hard study, he may become an ornament to
+<lb/>his profession. His last song was “Stand to your guns.”
+<lb/>It requires great descriptive powers, a vast deal of ener-
+<lb break="no"/>gy, and a most powerful voice. Mr, Duffield, at present,
+<lb/>lacks all these qualifications, and consequently the song
+<lb/>was a failure. He took the tempo of the song nearly one
+<lb/>half too slow; at least, the conductor, Mr. Hill, lead the
+<lb/>song off too slow, and the singer followed—but presently
+<lb/>Mr. Duffield, by a variety of expressive gestures, intima-
+<lb break="no"/>ted his wish that the time should be increased; the con-
+<lb break="no"/>ductor took the hint, and communicated the same to the
+<lb/>band, which ultimately consented to accede to their uni-
+<lb break="no"/>ted wishes.</p><p></p><p>Of Miss Northall we spoke last week, and we saw no
+<lb/>reason on this occasion to alter our opinion then express-
+<lb break="no"/>ed. She has a most beautiful voice, and we should be
+<lb/>delighted to find that she cultivated it to advantage, for
+<lb/>she is quite young yet, and has, we hope, many years in
+<lb/>prospective which may yield her high honor and large
+<lb/>profit. In her last song, with orchestral accompani-
+<lb break="no"/>ments, it was really painful to hear how the conductor
+<lb/>labored with hands and feet to impress the tempo upon
+<lb/>the band, and it was equally painful to observe what very
+<lb/>little success attended his efforts.</p><p></p><p>Of Ole Bull we have much to say, both in praise and
+<lb/>in condemation. We cannot but admire his adagio per-
+<lb break="no"/>formances; they are full of passion and sentiment. His
+<lb/>allegros are brilliant and forcible, and his scherzos are
+<lb/>piquant and striking; but with all these undoubted ex-
+<lb break="no"/>cellences, there is mingled so much of trickery and what
+<lb/>is termed professional “gaggery,” that the beauties are
+<lb/>often clouded, and sometimes quite obscured. Many of
+<lb/>his peculiarities are undoubtedly the natural impulse of
+<lb/>his genius, which is nothing if not wildly eccentric; but
+<lb/>there are others which display no other intention than to
+<lb/>tickle the ears, without appealing to the mind.</p><p></p><p>Ole Bull was wretchedly accompanied; we really felt
+<lb/>for him. He tried all he could to lead the conductor by
+<lb/>gesture and cue, but they were mostly at difference, and
+<lb/>the band differed from both, producing confusion worse
+<lb/>confounded.	——</p><p></p><p>The Musical Convention had its sitting this week at
+<lb/>the Tabernacle. The only object of the Convention, as far
+<lb/>as we can learn, is to procure a large sale for Boston Mu-
+<lb break="no"/>sic books—from which we especially pray to be preserved
+<lb/>—and to exalt a few little men into falsely magnified
+<lb/>positions, before a portion of the public. Why did not
+<lb/>the Boston Convention stay in Boston?</p><p>Editorial Miscellany.
+</p><p>The New-York Mirror has been much enlarged, and
+<lb/>in some respects greatly improved—although we regret
+<lb/>the necessity of the brevier in place of the bold bourgeois
+<lb/>—and although we miss the original and racy editorials
+<lb/>of Willis. In newspaper not less than in theatrical man-
+<lb break="no"/>agement we think the * system is a bad one.</p><p></p><p>Mr. or Mrs. Asterisk honored us lately with half a co-
+<lb break="no"/>lumn which we have been sadly at a loss to comprehend.
+<lb/>Can any of our readers help us out?</p><p></p><p>Poe-lemical.—In the last number of the Broadway Journal, the
+<lb/>critical and learned editor reiterates his opinion of Mr. Simms,
+<lb/>whom he considers the “best novelist that this country has, upon
+<lb/>the whole produced.” Mr. Poe seems to have quite an original
+<lb/>and peculiar standard of judging of the merits of men and books.
+<lb/>Success is the common measure of talent, not only in regard to the
+<lb/>productions of literary men, but in business also, in works of art
+<lb/>or of usefulness; and in all the varied pursuits of life. It is the
+<lb/>victory that coolers fame on the hero, father than brave bearing,
+<lb/>and manly courage on the battle-field. We are too apt to look at
+<lb/>results merely, and to honor and praise the successful, rather than
+<lb/>the meritorious man. In business, the millionare, into whose lap
+<lb/>fortune has poured her treasures, and to whose prosperity the winds
+<lb/>of heaven have seemed subservient, gains with his wealth the re-
+<lb break="no"/>putation of being wiser and shrewder than his competitors, who
+<lb/>may perhaps have struggled harder, and reasoned better, and yet
+<lb/>been thwarted in their efforts beyond avoidance or control. And
+<lb/>in literature, also, the popular man, is the great man,—the author
+<lb/>who sells best—who is most read—and oftenest quoted,—he is the
+<lb/>man whom the people will honor in spite of all the critics. But
+<lb/>then one class of philosophers tell us that the judgment of the mil-
+<lb break="no"/>lion is always wrong—that the great majority of men, blinded by
+<lb/>passion, and swayed by prejudice, are wholly incapable of deciding
+<lb/>in matters of taste or morals, in politics or religion. On the other
+<lb/>hand, there are many learned Thebans,” who as strenuously
+<lb/>maintain that the voice of the multitude is the voice of truth and
+<lb/>God; and that in all cases it is the duty of the minority to acqui-
+<lb break="no"/>esce in the verdict of the people. Here, we take it, is the great
+<lb/>rock on which politicians, moralists, and critics split and separate.
+<lb/>Leaving this primal question as undecided as it is likely to remain
+<lb/>until the “World’s Convention” shall eradicate from human na-
+<lb break="no"/>ture all the causes which lead to differences in the opinions of men,
+<lb/>we are inclined to believe that it is above the power of any single
+<lb/>critic—or of all the critics in the country combined, to convince
+<lb/>the world that William Gilmore Simms is a better novelist than
+<lb/>Cooper, or Brockden Brown. He is certainly less known and read
+<lb/>at home and abroad. We doubt if the copy-right of all Mr.
+<lb/>Simms’ collected works would bring as good a price in America
+<lb/>or England, as the "Norman Leslie” of Fay, or the "Sketch
+<lb/>Book” of Irving. But our surprise at Mr. Poe’s estimate is some-
+<lb break="no"/>what diminished, when, on turning to another article, we find him
+<lb/>speaking of our old friend, “Christopher North,” as “the ignorant
+<lb/>and egotistical Wilson!” and adding, that, “with the exception
+<lb/>of Macaulay and Dilke, and one or two others, there is not in
+<lb/>Great Britain a critic who can be fairly considered worthy the
+<lb/>name!" This is indeed, “bearding the lion in his den;” and as
+<lb/>Mr. Poe is preparing to publish an edition of his "Tales" in
+<lb/>England, (omitting the story of the Gold Bug, we suppose,) he can
+<lb/>expect but little mercy from the Amir-biting reviews of the Lock-
+<lb break="no"/>harts and Fonblanques, those bull-dogs of the English press. It is,
+<lb/>however, a matter of some pride that we have, at least, one critic,
+<lb/>who is brave and Quixotic enough to attack any wind-mill, either
+<lb/>in Europe or America, however formidable it may appear; and
+<lb/>our good wishes go with our valiant neighbor.</p><p></p><p>Mr. (or Mrs.) Star suggests here first, (if we are not
+<lb/>mistaken) that success is (or is not) the test of merit, and
+<lb/>secondly, that it is not (or is). Are we right in this in-
+<lb break="no"/>terpretation? No doubt of it.</p><p></p><p>The separation of our passage about Mr. Simms from
+<lb/>its context, brings about a total misrepresentation of our
+<lb/>ideas.</p><p>Mr. Simms is “better known” than Brockden Brown.
+</p><p>Putting the author of “Norman Leslie” by the side of
+<lb/>the author of the “Sketch-Book,” is like speaking of
+<lb/>“The King and I”—of Pop Emmons and Homer—of a
+<lb/>Mastodon and a mouse. If we were asked which was
+<lb/>the most ridiculous book ever written upon the face of
+<lb/>the earth—we should answer at once, “Norman Leslie.”</p><p>We are not “preparing to publish” our Tales in Eng-
+<pb n="217" break="no" />
+</p><p>land; we leave such manoeuvres to
+<lb/>those who are in the habit of bowing
+<lb/>down to the Golden Calf of the British
+<lb/>opinion. Our book, to be sure, has been
+<lb/>re-published in England—long ago—
+<lb/>but we had nothing to do with its re-
+<lb break="no"/>publication, Should we ever think of
+<lb/>such a thing, however, we should un-
+<lb break="no"/>doubtedly give The “Bug” a more pro-
+<lb break="no"/>minent position than it even occupies at
+<lb/>present. We should call the book “The
+<lb/>Gold-Bug and Other Tales”—instead
+<lb/>of “Tales,” as its title stands. How-
+<lb break="no"/>ever highly we respect Mr. Willis’ ta-
+<lb break="no"/>lents, we feel nothing but contempt for
+<lb/>his affectations.</p><p></p><p>But we have a curiosity to solve the
+<lb/>anonymous of the * The star-dust
+<lb/>theory is exploded—but can any one
+<lb/>tell us which is the very smallest of
+<lb/>all the stars to be found in the “Milky
+<lb/>Way”?</p><p>PAINE &amp; BURGESS
+HAVE JUST PUBLISHED
+</p><p>THE CITIZEN OF a REPUBLIC, by
+<lb/>Ansaldo Ceba. 1 vol. 12 mo. “A book
+<lb/>of rare and condensed thoughts, like dia-
+<lb break="no"/>monds finely polished and richly set.”</p><p></p><p>The Florentine Histories, by Machiavelli,
+<lb/>2 vols. 12 mo. “The charmed records of
+<lb/>the classic city of the Arno, by the master
+<lb/>spirit of his age.”</p><p></p><p>The Challenge of Barletta, a Romance of
+<lb/>the Times of the Medici. 1 vol. 12 mo. “A
+<lb/>gem gathered from the jewelled mines of
+<lb/>Italian Romance.”</p><p>WILL PUBLISH SOON,
+The Autobiography of Alfieri.
+Melodies, by Gen. Geo. P. Morris.
+The Artist, Merchant and Statesman. 2
+vols. 12 mo. By C. Edwards Lester.
+Prairiedom; or Texas and New Estrama-
+dura. By a Southerner. 1 vol. 12 mo.
+</p><p>A New Work on Greece. By G. A. Per-
+<lb break="no"/>dicari, U. S. Consul at Athens. 2 vols. 12
+<lb/>mo.</p><p></p><p>Rambles by Land and Water, or Notes of
+<lb/>Travel in Cuba and Mexico. By B. M.
+<lb/>Norman, author of Rambles in Yucatan, etc.
+<lb/>1 vol. Illustrated.</p><p></p><p>Fanny Forrester’s First Book of Sketches.
+<lb/>Man in the Republic. By C. Matthews.
+<lb/>32 mo. Gilt. A new and carefully revised
+<lb/>edition.</p><p>The Prince. By Machiavelli.
+161 Broadway, September, 1845.
+WILEY &amp; PUTNAM'S
+Library OF CHOICE READING.;
+	“BOOKS WHICH ARC BOOKS.”
+</p><p>THE PUBLISHERS of the Library of Choice
+<lb/>Heading beg leave to call attention to the following clarification of the books published in the
+<lb/>series by which it will appear that novelty, variety,
+<lb/>and standard merit have always been preserved,
+<lb/>and the promise of the original prospectus faithfully,
+<lb/>kept. It was proposed to publish "the best books of
+<lb/>Travels, Biographies, works of Classic Fiction— 
+<lb/>where the moral is superior to the mere story, with
+<lb/>out any sacrifice of the interest—occasional choice 
+<lb/>volumes of Poetry, Essays, Criticism. Contributions
+<lb/>to History, and generally such single volumes, writ-
+<lb break="no"/>ten by men 0f genius as will equally delight the 
+<lb/>scholar and the general reader.” The books already
+<lb/>issued and ready for immediate publication may be
+<lb/>arranged as follows:
+<lb/>	BOOKS OF TRAVELS.</p><p>EOTHEN, OR TRACES OF TRAVEL BROUGHT
+home FROM THE EAST.
+FRENCH IN ALGIERS. By Lady Duff
+Gordon.
+THE CRESCENT AND THE CROSS—2 vols. By
+Warburton.
+Sir Francis HEAD'S BUBBLES FROM THE
+BRUNNEN.
+</p><p>BECKFORD'S ITALY, SPAIN, PORTUGAL, AND
+<lb/>vist TO THE MONASTERIES OF ALCO-
+<lb break="no"/>BACA AND BATALHA—in press.</p><p>NOTES ON A JOURNEY THROUGH FRANCE
+AND ITALY. By Hazlitt—in runs.
+</p><p> These will be followed by Sir Francis Head’s
+<lb/>Rough Notes of a Journey across the Pampas;—
+<lb/>Waterton’s Wanderings in South America; Miss
+<lb/>Rigby’s Letters from the Baltic; Henry Nelson
+<lb/>Coleridge’s Six Months in the West Indies, and
+<lb/>Thackeray’s Notes of a Journey from London to
+<lb/>Cairo, and others—forming altogether one of the
+<lb/>. most original and select collections of books of travels ever published.</p><p>CLASSIC FICTION.
+</p><p>MARY SCHWEIDLER, THE AMBER WITCH
+<lb/>The most interesting Trial for Witchcraft ever 
+<lb/>published.</p><p></p><p>UNDINE AND SINTRAM AND HIS COMPAN-
+<lb break="no"/>IONS. From the German of La Motte Fouque. 
+<lb/>THE DIARY OF LADY WILLOUGHHY	</p><p></p><p>HEADLONG HALL AND NIGHTMARE. ABBEY 
+<lb/>ZSCHOKKE’S TALES. Translated by Parke God-
+<lb break="no"/>win.</p><p>THE CROCK OF GOLD. By Martin Farquhar
+Tapper.
+HEART AND THE TWINS. By Marlin Farquhar
+Tupper.—in press.
+</p><p>Under this department will be included the choicest
+<lb/>new works of fiction as they issue from the press
+<lb/>and choice translations from the writers of the Continent. The following have been already announced: Mrs. INCHBALD'S Nature and Art; Tales from
+<lb/>TIECK and Hoffman, the White Lady and Peter
+<lb/>Schlemihl; The Life and Adventures of Peter Wilkins, a Cornish Man; Melincourt and Crotchet Cas</p><p>  the, by the author of Headlong Hall.
+</p><p>ILLUSTRATIONS OF ENGLISH LITERATURE
+<lb/>LEIGH HUNTS IMAGINATION AND FANCY
+<lb/>HAZLITT’S DRAMATIC WRITERS OF THE
+<lb/>AGE OF ELIZABETH.</p><p></p><p>HAZLITT’S CHARACTERS OF SHAKSPEARE
+<lb/>WILSON’S GENIUS AND CHARACTER OF 
+<lb/>BURNS.</p><p>HAZLITT’S LECTURES ON THE COMIC WRITERS—in press.
+HAZLITT’S LECTURES ON THE ENGLISH
+POETS—in PRESS
+</p><p>The works of Hazlitt in this department, the
+<lb/>most eloquent commentator on English Literature,
+<lb/>will be followed by various writings of Campbell,
+<lb/>Wilson, COLERIDGE, SOUTHEY, Ellis and others.</p><p>BIOGRAPHY AND GENERAL LITERATURE.
+LEIGH HUNT’S INDICATOR AND COMPANION— 2 vols.
+HOOD’S PROSE AND VERSE—2 vols.
+CHARLES LAMB'S ESSAYS Of ELIA.
+HAZLITT'S TABLE TALK—2d seriәs, 2 vols.
+AUTOBIOGRAPHY OF BENVENUTO CELLINI
+—IN PRESS.
+</p><p>A complete collection of the writings of Hazlitt
+<lb/>and Leigh hunt will form part of the senes to be
+<lb/>published at short intervals; Walter Satage Lam
+<lb/>dor's writings: De Quincet’s (the English opium
+<lb/>eater) Miscellaneous Writings; names Smith's Re-
+<lb break="no"/>jected Addresses and the Poems and Ballads of Box
+<lb/>Gualtier.</p><p>OLD ENGLISH LITERATURE.
+</p><p>BASIL MONTAGU’S SELECTIONS FROM TAY
+<lb/>LOR. SOUTH, BARROW. FULLER, &amp;c.
+<lb/>CHARLES LAMB’S SPECIMENS OF OLD ENG-
+<lb break="no"/>LISH DRAMATISTS WHO LIVED ABOUT 
+<lb/>THE TIME OF SHAKSPEARE.	</p><p></p><p>Three, the most perfect collections of the kind
+<lb/>ever published, will form the introduction in prose
+<lb/>and ve.se ton series of the old English writers,
+<lb/>including Sir Thomas More, Herbert, Fuller,
+<lb/>Sir Thomas Browse, Milton, Selden, Bacon and
+<lb/>others.</p><p>AMERICAN SERIES.
+Of the “Library of American Books, the fol-
+lowing have already been issued:
+JOURNAL OF AN AFRICAN CRUISER, EDITED
+BY NATHANIEL HAWTHORNE.
+LETTERS FROM ITALY. BY J T. HEADLEY
+THE WIGWAM AND THE CABIN. BY W. GIL
+MORE SIMMS. 
+BIG ABEL AND THE LITTLE MANHATTAN, 
+BY CORNELIUS MATHEWS.
+WANDERINGS OF THE PILGRIM UNDER THE
+SHADOW OF THE JUNGFRAU, BY GEORGE
+B, CHEEVER, D. D.—Just ready.
+</p><p>The following are in press:—Western Clearings,
+<lb/>by Mary Clavers (Mrs. Kirkland); Wanderings
+<lb/>of a Pilgrim under the Shadow of the Jungfrau by
+<lb/>George B. Cheever; Views and Reviews in Ame-
+<lb break="no"/>rica History, Literature, and Fiction, a Miscellany,
+<lb/>by W. Gilmore Simms; The Forest and the Prairie
+<lb/>by James hall, author of the Border tales; a new</p><p></p><p>volume, by Nathaniel Hawthorne; The Old Eng
+<lb/>lish Library. by W. N. Jones; and other productions
+<lb/>of American authors.	</p><p>Gurney's
+PREMIUM DAGUERRIAX GALLERY,
+189 BROADWAY, NEW-YORK.
+</p><p>PICTURES taken at this Establishment
+<lb/>are not excelled in this country—so say
+<lb/>his numerous patrons. The public are in-
+<lb break="no"/>vited to call and judge for themselves. O2</p><p>MESSRS. HARPER &amp; BROTHERS
+PUBLISH THIS DAY,
+Elements of Morality and Polity.
+BY PROF. WHEWELL.
+</p><p>THIS valuable new production, from the pen of
+<lb/>one if the most eminent scholars of the age,
+<lb/>exhibits, in a most lucid, exact, and elegant style,
+<lb/>the great principles of moral, political, and ecclesi-
+<lb break="no"/>astical science in a far more complete and methodi-
+<lb break="no"/>cal manner than has ever met been presented to the
+<lb/>Public. In offering this great work to the American
+<lb/>reader, the publisher begs leave to introduce it as
+<lb/>the commencement- of a new and a tractive series
+<lb/>of sterling books, to be issued by them, under the
+<lb/>general designation of</p><p>HARPER’S NEW MISCELLANY;
+the volumes of which will be legibly printed, in
+duodecimo, on fine paper, and
+Bound, in extra Muslin Gilt—Price
+Fifty Cents a Volume,
+</p><p>and issued at short intervals. To render accessible
+<lb/>to the million, the fullest advantages of popular in-
+<lb break="no"/>struction in the various divisions of human know-
+<lb break="no"/>ledge, is tile design of the above series. It is appa-
+<lb break="no"/>rent in the present day, that books of intrinsic value
+<lb/>are demanded by the people. Formerly the popu-
+<lb break="no"/>lar taste preferred mainly works of mete amusement
+<lb/>—the great body of readers now seek them as vehi-
+<lb break="no"/>cles of general knowledge books of a more per-
+<lb break="no"/>manently valuable caste—devoted to some of the
+<lb/>departments of science, or general literature. A
+<lb/>new race has sprung up, glowing with the first
+<lb/>energies of youth, requiring more expanded ideas
+<lb/>of the world in  which they live, and a more reliable
+<lb/>and well-digested knowledge of the men. and the
+<lb/>events of other times and countries. A class of
+<lb/>books expressly adapted to this demand, it is the
+<lb/>aim of the publishers to supply; and at a price so
+<lb/>exceedingly cheap that every person of ordinary
+<lb/>taste and advantages may thus become possessed
+<lb/>of a</p><p>Complete Library of the Best Litera-
+ture of the Age.
+</p><p>In this collection it is intended to include the ben
+<lb/>productions in every department of knowledge;
+<lb/>popular philosophical treatises on topics of univer ’
+<lb/>sal interest; the most compact and brilliant histori-
+<lb break="no"/>cal books; valuable biographical memoirs; modern
+<lb/>voyages and travels, See.; together with scientific
+<lb/>and other collateral divisions; in the selection of
+<lb/>all which, the most careful discrimination will be
+<lb/>observed A mere glance over the wide domain of
+<lb/>our English literature will exhibit much yet unex-
+<lb break="no"/>plored and uncultivated, from which might be ga-
+<lb break="no"/>thered the fruits of a rich, luxuriant harvest; besides
+<lb/>which, the ever-teeming issues of the European
+<lb/>press open a vast revenue of literary wealth, from
+<lb/>which the above collection may be liberally suppli-
+<lb break="no"/>ed. Original productions from American writers
+<lb/>will also occasionally be introduced. In submitting,
+<lb/>therefore, the esteemed work of Prof. Whewell
+<lb/>as a kind of first fruits of their New Miscellany,”
+<lb/>the publishers deem it only necessary to add, that
+<lb/>their arrangements for carrying forward the enter-
+<lb break="no"/>prise being of the most complete and efficient kind,
+<lb/>hey confidently rely upon their efforts being met
+<lb/>with a ready response from the entire reading com-
+<lb break="no"/>munity.</p><p></p><p>This, they venture to believe, will be insured to
+<lb/>the r Miscellany, no less from the intrinsic value
+<lb/>if the collection, than from its unparalleled economy; each volume being elegantly produced, bound</p><p>IN HANDSOME AND SUBSTANTIAL STYLE. FITTED WITH'
+JUT FARTHER EXPENSE FOR PERMANENT PRESERVA-
+</p><p>tion in the library; the whole series being issued
+<lb/>in uniform binding, while the price of each volume
+<lb/>will be only Fifty Cents—far below the cost of
+<lb/>any similar series of books yet published in this,</p><p>are, it is believed, any other country.
+</p><p>PIANOFORTES.—THOMAS H.—CHAMBERS,
+<lb/>(formerly Conductor to Dubois and Stodart),
+<lb/>No. 385 Broadway, will keep a complete assortment
+<lb/>if the latest approved Grand Action Piano Fortes,
+<lb/>of the most superior quality; such as he is prepared
+<lb/>of guarantee for their excellence of Tone, Touch,
+<lb/>and External Finish, and to elude in any climate,
+<lb/>a liberal discount from the standard prices. Piano
+<lb/>Fortes Tuned and Repaired. Piano Fortes always
+<lb/>on here.</p><p>PENMANSHIP.
+Reopening of goldsmiths writing
+</p><p>ACADEMY, 289 Broadway. LA Farge Build-
+<lb break="no"/>ings corner of Reade Street. Terms reduced to
+<lb/>THREE DOLLARS, AND NO EXTRA CHARGE.</p><p></p><p>Mr. Oliver B. Goldsmith respectfully informs the
+<lb/>citizens of New York and Brooklyn, that his rooms
+<lb/>are now open, during the day and evening, for Pu-
+<lb break="no"/>puils and Visiters. Mr. G's specimens of</p><p>1	PENMANSHIP
+</p><p>has received the First Premium Five Years, from
+<lb/>the American Institute, and he guarantees to all in
+<lb/>TEN easy AND INTERESTING EXERCISES,
+<lb/>a free and elegant style of writing that the pupils
+<lb/>cannot possibly ever lose in their future practice.</p><p>For sale at the Academy GOLDSMITH'S GEMS
+OF PENMANSHIP.
+Ladies’ Class meets daily at 11 o’clock. Gentle
+men’s day and evening. See Circular. s18
+<pb n="218"/>
+J, F. BROWNE &amp; CO.
+MANUFACTURER OF THE
+IMPROVED PATENT DOUBLE-ACTION HARP,
+By Royal Letters Patent, London. Established 1810. (Many years with Erard.
+JF. BROWNE respectfully informs his Friends and the Musical World, that he has established himself for the manufacture
+• and importation of these very beautiful instruments, at
+281 BROADWAY, and 73 1-2 CHAMBERS STREET.
+His arrangements are such as to enable him to transact business at European prices, thereby saving purchasers the high duties
+imposed by Tariff on these Instruments.
+</p><p>J. F. Browne would observe, these Harps are constructed on the most approved principles, with all the modern improvements of
+<lb/>London and Paris, are unequalled in brilliancy of tone, fineness of touch, and perfectness of mechanism. Particular care is taken
+<lb/>to fit them for the extremes of climate in this country, in which respect they will be found far superior to any of European manufac-
+<lb break="no"/>ture, imported in the usual way.</p><p>These Harps are patronized by the elite of musical taste and professional talent in Europe; among the latter, he would mention
+N. C. Boscha, who invariably selects from this establishment.
+J. F. Browne begs to offer the opinions of some of the first professional talent in this country.
+</p><p>Mr. J. F. Browne, Sir Having had for several years past, the opportunity of making a professional use of your Harps, and of
+<lb/>testing their qualities, it affords me pleasure to certify, that in point of tone, workmanship, and above all, a solidity that stands proof
+<lb/>against the inconstancy of our trying climate, they have in all cases given me the most entire satisfaction.</p><p>January, 1845.	I am yours, CHARLES THIBAULT, No. 40 Beach St., N. Y.
+</p><p>Dear Sir I write to express the delight I experienced in performing on one of your Harps at Sig. Casella’s Concert in this city —
+<lb/>The mechanism is perfect, and the quality of Tone certainly superior to any harp I have heard for many years. I remember my old
+<lb/>Master, Boscha, always gave the preference to your Harps, indeed he himself used no other. Yours most truly, H. G. TRUST
+<lb/>Philadelphia, March 4th, 1844.</p><p></p><p> Mr. J. F. Browne, Sir I have much pleasure in saying, that the Harp of your make I performed on at the St. George’s Society
+<lb/>Concert, is, in brilliancy of tone, touch, and elegance of workmanship, the finest I ever played on. This will apply to all your Harps.
+<lb/>The grand six and a half Gothic Double action, is a most splendid instrument. Yours, with respect, ELIZABETH SLOMAN.
+<lb/>New York, January 16th, 1845.	A pupil of N.C. Boscha</p><p></p><p>Mr. J. F. Browne, Sir Having at your request closely scrutinized your double-action Harps, I find they possess the best quali-
+<lb break="no"/>ties of the first makers in Europe combined. That in the ease of touch, by which the most brilliant tone is obtained in perfection and
+<lb/>ease of modulation, they arc superior to any I have used; their elegance of exterior must gratify the most refined taste Your new
+<lb/>Grand Gothic six and a half octave, is the most splendid effort of art yet produced in the musical world; it will give me great pleasure
+<lb/>in recommending your Harps at every opportunity.	Yours Truly, HENRY HORN</p><p>January 12th, 1845.	An eminent professor, and Member of the Royal Academy.
+</p><p>These are but a very small part of the testimonials received, but will suffice to show the estimate of persons every wav capable of
+<lb/>making a correct decision. J. F. Browne has also received the Franklin Medal of the Society of Arts, Philadelphia for his splendid
+<lb/>improvements in this delightful Instrument.	</p><p>Harps from 300 to 1000 dollars. Harps repaired, strings, &amp;c.
+The southern literary messenger
+B.B MINOR, Proprietor. Published monthly,
+at Richmond. Va. Price Five Dollars per year.
+</p><p>The MESSENGER has been established since
+<lb/>1835, has a large subscription list, and is the principal organ of Southern opinion
+<lb/>Subscriptions received by John Bisco, at the office
+<lb/>of the “Broadway Journal,  135 Nassau street.</p><p>JUST PUBLISHED BY H. G. DAGGERS, 30 Ann
+Street, New York.
+</p><p>THE COTTON LORD By Mrs. Stone A Ro
+<lb/>mance of the Rich and Poor, written by a lady of
+<lb/>brilliant talents. 25 Cents.</p><p></p><p>FRANKENSTEIN, by Mrs. Marry W. Shelley,
+<lb/>wife of the illustrious poet. “It is among the most
+<lb/>exciting and terrible of modern romances."—Tri
+<lb/>bune. 25 Cents.</p><p></p><p>LAWRIE TODD, by John Galt, with an original
+<lb/>preface by the original Lawrie Todd, viz: Grant
+<lb/>Thorburn, Esq. “Mr. Thorburn’s Preface is worth
+<lb/>more than the price asked fur the novel."25 Cents
+<lb/>THE NUN: or, Life in a Convent. By one of
+<lb/>the Sisterhood “A terrible exposition of the secret
+<lb/>practices of Roman Catholics.’’ 25 Cents.</p><p></p><p>POOR JACK. By Captain Marryatt, author of
+<lb/>Midshipman Easy, Peter Simple, &amp;c. 25 Cents
+<lb/>N. B. All of the above will be sent for One Dollar to any person ordering them through Postmas-
+<lb break="no"/>ters. who are by law authorized to remit money to
+<lb/>publishers. Any Postmaster ordering the above
+<lb/>shall be presented with either novel he may select.</p><p>ÆOLIAN ATTACHMENT.
+</p><p>HERMANN'S SARONI, Professor of Music, 111
+<lb/>Leonard street, New York, teaches the Piano
+<lb/>Forte, with or without Coleman's celebrated At
+<lb/>tachment.</p><p></p><p>PIANOFORTES-H. WORCESTEB, NO. 139
+<lb/>THIRD AVENUE, Corner of 14th Street, res
+<lb/>pectfully informs his friends and the public, that hr
+<lb/>has a good assortment of Piano Fortes, in Rosewood
+<lb/>and Mahogany cases, from 6 to 7 octaves. Persons
+<lb/>wishing to purchase will find it to their advantage
+<lb/>to call and examine before purchasing elsewhere.</p><p></p><p>BEETHOVEN'S MOUNT OF OLIVES AND|
+<lb/>the SEVEN SLEEPERS -During the week of
+<lb/>the American Musical Convention —The sublime
+<lb/>Oratorio of the Mount of Olives, by the immortal
+<lb/>Beethoven, and the Seven Sleepers, by Dr. Lowe,
+<lb/>will be performed at the Tabernacle, on Thursday
+<lb/>evening, the 9th October next, under the direction of
+<lb/>MR. GEORGE LODER.</p><p></p><p>The Chorus and Orchestra will be full and effect-
+<lb break="no"/>ive, and the solo parts will be sustained by resident
+<lb/>talent</p><p></p><p>Mr. H. C. TIMM will preside at the Organ.
+<lb/>Tickets, 50 cents each, may be obtained on and
+<lb/>after Thursday next, at the principal music stores
+<lb/>Subscribers will receive three tickets for one dollar
+<lb/>as usual.</p><p>HENRY MEIGGS, 446 Broadway.
+</p><p>G. H. DERWORT, PROFESSOR OF SINGING. 
+<lb/> Guitar and Piano Forte, has opened a class
+<lb/>for Young Ladies, from 7 to 10 years of age, among
+<lb/>whom are three of his own daughters, whom he
+<lb/>proposes to thoroughly instruct in the art of Singing
+<lb/>Mr Derwort’s system is the result of many years'
+<lb/>observation and experience, during which he has
+<lb/>successfully taught in Germany, London, and .New
+<lb/>York. His method cannot fail to impart to his pu
+<lb/>pils a clear perception and a thorough knowledge
+<lb/>of the grammatical principles of music with the
+<lb/>ability to harmonize any simple given melody.</p><p></p><p>Parents and guardians are invited to call at his
+<lb/>Rooms, 427 Broadway, when every inquiry will be
+<lb/>answered.</p><p>Terms $20 per annum, payable quarterly in ad
+vance. Lessons three times a week.
+Private instruction as heretofore.
+</p><p>PIANO FORTE MANUFACTURER-JAMES
+<lb/>PIRSSON, 88, 90, &amp; 92 Walker Street, near
+<lb/>Elm. A Large Stock of the finest instruments al
+<lb/>ways on hand. Terms moderate. FOR SALE—A
+<lb/>Splendid Harp, nearly new. To be sold at a great
+<lb/>bargain for cash.</p><p>WEDDING, VISITING, &amp; PROFESSIONAL.
+CARDS, engraved and printed at VALEN-
+TINE'S, 1 Beckman street—Lovejoy's Hotel.
+J BALLARD, PROFESSOR OF THE GUITAR,
+• Singing, and Flute, No. 135 8pring street.
+</p><p>CARD OF REMOVAL.—MR. W. A. KING,
+<lb/>Professor of Music and Teacher of the Piano-
+<lb break="no"/>Forte and Organ, has Removed to the First House
+<lb/>above Twenty-Fifth Street on the Rail-Road (4th
+<lb/>Avenue)</p><p></p><p>Our First Volume.—A few copies of
+<lb/>the first volume of the Broadway Jour-
+<lb break="no"/>nal are for sale at the office, either in
+<lb/>numbers or neatly bound.</p><p>AGENTS.
+Redding &amp; Co., Boston, Mass.
+R. G. H. Huntington, Hartford, Ct.
+M. Baullemet, Mobile, Ala.
+Robinson &amp; Jones, Cincinnati, O.
+D. M. Dewey, Rochester, N. Y.
+J. Robertson, Syracuse, N. Y.
+W. E. Russell, Schenectady, N. Y
+Levi Willard, Troy, N. Y.
+G. Jones, Albany. N. Y.
+S. F. Hoyt, Newburgh, N. Y.
+Shurtz &amp; Wilde, Baltimore, Md.
+Colon &amp; Adriance, Philadelphia.
+Thos. H. Peade, New-Haven, Ct.
+J. C. Morgan, New-Orleans.
+W. W. Kingslev, New-London, Ct.
+G. N. Beesley, Utica, N Y.
+H. B. Strang, Peekskill, N. Y.
+Haliburton &amp; Dudley Boston, Mass.
+S. Thompson, Worcester, Mass.
+Peter Cooke, Hartford, Ct.
+H. Eaten, Providence, R. I.
+Safford &amp; Park, Norwich. Ct.
+John Tomlin, P. M. Jackson, Tenn.
+S. Hart, Sen., Charleston, 8. C.
+</p></div>
+        </body>
+        <back>
+          <!-- here is a sample place for contextual information: -->
+          <div type="editorial">
+            <listPerson>
+              <person>
+                <persName><!-- canonical name --></persName>
+                <birth>
+                  <placeName><!-- where born; date on when= of <birth> --></placeName>
+                </birth>
+                <death>
+                  <placeName><!-- where died; date on when= of <death> --></placeName>
+                </death>
+              </person>
+            </listPerson>
+          </div>
+        </back>
+      </text>
+</TEI>

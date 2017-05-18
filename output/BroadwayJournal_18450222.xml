@@ -1,0 +1,2209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above is the "XML declaration"; it is not -->
+<!-- required, but we recommend using it -->
+<?xml-model href="../schemas/exercise.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../schemas/exercise.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- the two lines above are processing instructions for finding the schema; -->
+<!-- they are intended for oXygen, but other software might use them, also -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="your own CSS"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- put title here --></title>
+        <author>
+          <persName><!-- author's name here --></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><!-- publisher here --></publisher>
+        <availability>
+          <ab><!-- copyright or copyleft information here --></ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+      <text>
+        <front>
+          <!-- front matter, if any, goes in <div>s, here -->
+        </front>
+        <body>
+          <!-- main document goes here, possibly divided into <div>s -->
+              <div><p>﻿THE BROADWAY JOURNAL.
+VOL. 1. NEW YORK, SATURDAY, FEBRUARY 22, 1845. N° 8.
+</p><p>Truth, whether in or out of fashion, is the measure of knowledge and the busi-
+<lb break="no"/>ness of the understanding; whatsoever is beside that, however authorised by con-
+<lb break="no"/>sent or recommended by variety, is nothing but ignorance, or something worse.</p><p>Locke.
+REVIEWS.
+</p><p>The Sanitary Condition of the Laboring Population of New
+<lb/>York. With suggestions for its improvement. A discourse (with
+<lb/>additions) delivered on the 30th December, 1844, at the Repository
+<lb/>of the American Institute. By John H. Griscom, M. D., Fellow
+<lb/>of the College of Physicians and Surgeons; Physician of the New
+<lb/>York Hospital; late Physician of the city and eastern dispensaries.
+<lb/>New York; Harper &amp; Brothers, 82 Cliff street. 1845.</p><p></p><p>If any evidence were needed to prove the utter incapacity
+<lb/>of the men into whose hands the government of this great
+<lb/>city has fallen, to discharge the duties of their fearfully re-
+<lb break="no"/>sponsible station, the following extract from the preface of
+<lb/>this important pamphlet would furnish it.</p><p></p><p>“ The subject matter of the following pages was originally addres-
+<lb break="no"/>sed, in the form of a letter, to the Chief Magistrate of the city. Its
+<lb/>preparation was undertaken, principally with a view to an exposition
+<lb/>of the true principles which should regulate the action of public bodies,
+<lb/>in matters relating to the health of cities, in a knowledge of, or con-
+<lb break="no"/>cern for, which, recent events had shown our own munic pal legislature
+<lb/>to be somewhat deficient. Appreciating fully the importance of its
+<lb/>facts and suggestions, the Mayor transmitted the communication to a
+<lb/>co-ordinate branch of the City Government, recommending it to their
+<lb/>serious attention. After several weeks’ deliberation upon it, the com-
+<lb break="no"/>mittee to whom it was referred arrived at the conclusion, embodied
+<lb/>in the following language quoted from their report: ‘Your committee do
+<lb/>not profess to be judges of the subject, or in other words, they do
+<lb/>not think it proper at this time, to go into such a measure,’ and they
+<lb/>recommended that the paper be returned to its author.”</p><p></p><p>We do not intend to cast any peculiar blame on the Native
+<lb/>American party, as the politicians are called who have the
+<lb/>welfare of our citizens in their hands at present, because we
+<lb/>believe that either of the other two parties who strove for the
+<lb/>management of our municipal affairs would have acted in
+<lb/>the same manner. In truth, our politicians have yet to learn
+<lb/>their alphabet in the art of government; but the misfortune
+<lb/>of it is, that their instructors, the people, are wofully defi-
+<lb break="no"/>cient in this kind of knowledge themselves. The happiness
+<lb/>of the people seems never to be thought of in municipal legis-
+<lb break="no"/>latures. The exact objects aimed at by our Common Coun- 
+<lb/>cil it would be difficult toascertain. The spending of a good 
+<lb/>deal of money, and the best way of getting it from the peo-
+<lb break="no"/>ple, seem to be the only definite notions of government that
+<lb/>any of our boards of aldermen have had during the past
+<lb/>twenty years. The present party in power regard the read-
+<lb break="no"/>ing of some particular books in the district schools as the 
+<lb/>great point to be settled by them ; and while the people are
+<lb/>literally dying in consequence of inhaling the unhealthy mi-
+<lb break="no"/>asma of filthy streets, the party that has the power to purge
+<lb/>the atmosphere, and make the city a desirable residence,
+<lb/>wastes all its energies in forcing a certain part of the children
+<lb/>under their charge to take their first lessons in reading out of
+<lb/>particular books which are repugnant to the feelings of their
+<lb/>parents. It matters not a whit to a denizen of our streets
+<lb/>what the city fathers have done or are doing, so long as the
+<lb/>thoroughfares and byways are nearly impassable for filth.
+<lb/>If it were an object to the citizens of this great metropolis, to
+<lb/>tax themselves at the enormous rate which they were com-
+<lb break="no"/>pelled to do for the sake of pure water, it is quite as much
+<lb/>of an object to them to tax themselves for the sake of pure
+<lb/>air ; and we have no doubt that taxation would be submitted</p><p></p><p>to as cheerfully in one case as in the other. Clean streets
+<lb/>would keep many a family in New York that now is com-
+<lb break="no"/>pelled to seek for a healthier home in Brooklyn, or Jersey
+<lb/>City, or Staten Island. Gentlemen who have moved over
+<lb/>upon Long Island, after living many years in the city,
+<lb/>find that they make a very great saving in their doctor’s
+<lb/>bills.</p><p></p><p>Dr. Griscom says; “ A highly respectable friend, a distin-
+<lb break="no"/>guished advocate, informed me lately, that some of his chil-
+<lb break="no"/>dren had not had a day’s illness during the two years they
+<lb/>had been at school in the country, while the others, residing
+<lb/>at home, though in a comparatively salubrious position in
+<lb/>the city, cost him from twenty to thirty dollars each, for
+<lb/>medicine and medical attendance.”</p><p></p><p>And yet in spite of this experience on the part of this dis-
+<lb break="no"/>tinguished advocate, he will continue to reside in the city,
+<lb/>when he might by a very trifling sacrifice live in the country,
+<lb/>and preserve his own and his children’s health. We know
+<lb/>several distinguished advocates whose families live ten or
+<lb/>twelve miles from the City Hall, who contrive to be pretty
+<lb/>constant in their attendance at the courts. There is very lit-
+<lb break="no"/>tle more inconvenience, for a lawyer, in living on Staten
+<lb/>Island, than in living in Chelsea or Union Square; while the
+<lb/>increased vigor which they derive from daily crossing the
+<lb/>water and breathing the pure air of the country, enables them
+<lb/>to accomplish quite as much labor as the time lost in travel-
+<lb break="no"/>ling to and from their office would do. It is an unaccounta-
+<lb break="no"/>ble delusion that keeps men confined in the city when busi-
+<lb break="no"/>ness will allow of a residence in the country. Setting aside
+<lb/>all the enjoyments of a rural home, the cheapness of it should
+<lb/>induce a prudent man to prefer it. A tolerably respectable
+<lb/>house in town costs from four hundred to eight hundred dol-
+<lb break="no"/>lars per annum. Within ten or twelve miles of the Battery,
+<lb/>a comfortable country house with an orchard, garden, and
+<lb/>so forth, may be had at from one to two hundred dollars ; an
+<lb/>extra hundred dollars will cover all the expenses of travel,
+<lb/>while the gain in health would be worth a sum which can-
+<lb break="no"/>not be estimated in dollars and cents. Dr. Griscom very
+<lb/>clearly proves that a city residence cannot be healthy, even
+<lb/>in the most favorable situations; what it must be then, in
+<lb/>the least favorable, the following appalling statement will
+<lb/>snow.</p><p></p><p>"Almost every one can recall to mind, some proof of the effects of
+<lb/>nauseous odors, of the inhalation of foul air, or of sleeping in a small
+<lb/>confined apartment, upon his own health and feelings. These effects
+<lb/>may have been only temporary, but they will serve to show that a pro-
+<lb break="no"/>longed continuance of them, must, in reason, produce permanently bad
+<lb/>results upon the mental and corporeal powers. If the inhaled air (one
+<lb/>great source of the life, health, and vigor of the animal structure) is
+<lb/>deteriorated in quality, or diminished in quantity, below the standards
+<lb/>necessary for a perfect decarbonization of the blood in the lungs, the
+<lb/>blood necessarily becomes burdened with impurities, and fails to impart
+<lb/>to the system the qualities demanded by nature for the due mainten-
+<lb break="no"/>ance of health and strength. Every city resident who takes a stroll
+<lb/>into the country can testify to the difference between the two atmos-
+<lb break="no"/>pheres of the two situations;—the contrast of our out-door (to say
+<lb/>nothing of the in-door) atmosphere, loaded with the animal and veg-
+<lb break="no"/>etable exhalations of our streets, yards, sinks, and cellars—and the air
+<lb/>of the mountains, rivers, and grassy plains, needs no epicurean lungs
+<lb/>to detect it. The superior corporeal activity, and the mental exhilara-
+<lb break="no"/>tion imparted by it, are the prima facie proofs of its superiority. Com-
+<lb break="no"/>pare the pale face of the city belle, or matron, after the long confine-
+<lb break="no"/>ment of the winter and spring, with the same countenance in the fall,
+<lb/>upon her return from a lew weeks’ tour to the Springs and Niagara,
+<lb/>and observe whether the return of the long absent rose upon the cheek</p><p><pb n="114"/>
+is not accompanied with a greater elasticity of frame, and a happier
+and stronger tone of mind.
+</p><p>“ Descend a few steps further, from the airy and well-lighted cham-
+<lb break="no"/>ber and parlor, to the confined apartments of the pent-up court, and
+<lb/>the damp, secluded cellar; draw a contrast between the gay inhabi-
+<lb break="no"/>tant of the former, and the attenuated tenant of the latter, and we
+<lb/>may then judge of the influences of the air which they respectively
+<lb/>respire.</p><p></p><p>“ Observe, further, the vast difference in the development of frame,
+<lb/>healthiness of countenance, and power of endurance, between the chil-
+<lb break="no"/>dren of the farmer, and offspring of the city resident.</p><p>“ The following facts show, by figures, the sad condition in which
+a very large number of our people may be said barely to exist.
+</p><p>“ As a great part of the population of these places are destitute of
+<lb/>the means of paying for medical assistance, the duty of ministering to
+<lb/>them in hours of sickness, falls upon the Dispensary Physicians. I
+<lb/>find, upon examining the records of their labors, the reports of the
+<lb/>three medical charities for the year ending March, 1844, there were
+<lb/>prescribed for at the offices, and the homes of the poor, at the
+<lb/>Northern Dispensary,           13,317 Patients,</p><p>Eastern          “	17,107	“
+New York      "	23,858	“
+Total, 54,282
+</p><p>From this number a deduction is to be made of those vaccinated, be-
+<lb break="no"/>ing 4505. In visiting the sick poor at their homes, however, it hap-
+<lb break="no"/>pens very frequently that some are prescribed for whose names are
+<lb/>neglected to be entered, so that it is perfectly safe to estimate the
+<lb/>number of sick persons who received aid from these charities, to be
+<lb/>over 50,000 in one year. In the corresponding year there were admit-
+<lb break="no"/>ted into the Alms House Hospital 2332 patients, and into the City
+<lb/>Hospital about 1000, exclusive of seamen, making a total of over
+<lb/>53,000, without enumerating the sick poor attended by private cha-
+<lb break="no"/>rity.”</p><p>[To be continued.]
+THE ART OF THE USE OF COLOR IN IMITATION IN PAINTING.
+NO. II.
+BY WILLIAM PAGE.
+</p><p>There are, as we have before stated, only three primitive
+<lb/>colors in Nature or Art, and when any of these, or the com-
+<lb break="no"/>pounds made from them, are brought into contact by being
+<lb/>placed near or against each other, it is found that their ap-
+<lb break="no"/>parent brilliancy is increased, or set off by the contrast, &amp;c.
+<lb/>As for instance, Red, when seen by the side of Green, ap-
+<lb break="no"/>pears more Red by the contact,—Green being the other two
+<lb/>primitives combined into one color. In like manner, Yellow
+<lb/>is affected by Purple, and Blue by Orange ; so that for simple
+<lb/>contrast, we have but to take one primitive color, no matter
+<lb/>which, and combine the other two, to make an opposition
+<lb/>to the first, such as all times and nations have accepted as,
+<lb/>agreeable to the eye; whereas, any two of the primitive
+<lb/>colors, brought directly together, produces a discord, often
+<lb/>very harsh and disagreeable in itself, but when skilfully
+<lb/>used by the artist, becoming a great power in his hands, to
+<lb/>drive together into a more intimate harmony the less discor-
+<lb break="no"/>dant colors used.</p><p></p><p>These primitives, when all mixed together, produce Brown.
+<lb/>This is the universal color of Nature, and the grand harmo-
+<lb break="no"/>nizer of those old masters, who understood colors the best;
+<lb/>and which Brown, many moderns have observed as making
+<lb/>up the greater proportion of the tone of the pictures of the
+<lb/>best colorists, and the want of which, in modem schools, as
+<lb/>I shall show, is but another proof of that deficiency of know-
+<lb break="no"/>ledge of colors in this day, that I have more than hinted at.
+<lb/>This Brown color, as I said, being composed of Red,
+<lb/>Yellow, and Blue, is capable of infinite variations, as it
+<lb/>may pass from reddish-brown to blackish-brown, or yellow-
+<lb break="no"/>ish-brown, at the will of the painter; so that, if he desires
+<lb/>to make a Red more powerful by the opposition to it of his
+<lb/>ground or surrounding color, he has but to make it (the
+<lb/>ground) tend in its hue, towards greenish-brown ; or if he
+<lb/>would merge it in, or harmonize it with the surrounding
+<lb/>ground-color, he makes the aforesaid ground of a reddish-
+<lb break="no"/>brown, for these two opposite principles of harmony and con-
+<lb break="no"/>trast, comprehend all that this external application of color
+<lb/>can do. For, when the painter would make any one of the</p><p></p><p>primitive colors more striking to the eye, he surrounds it with
+<lb/>a compound mostly composed of the other two, thereby form-
+<lb break="no"/>ing the greatest opposition; and when he would harmonize
+<lb/>or soften its effect to the eye, he uses least of these opposites.
+<lb/>A few experiments made on white paper in water colors,
+<lb/>with Red, Yellow, and Blue, will soon enable any artist to
+<lb/>thread all the intricacies of the whole scale of color, and their
+<lb/>possible oppositions and harmonies, as matter of mere con-
+<lb break="no"/>trast and harmony of external color. This, and what grows
+<lb/>immediately out of this, is all the superficial knowledge of
+<lb/>what is called the present English School of Painting, of
+<lb/>which we Americans have taken to ourselves more than can
+<lb/>do us good, unless we learn better where to bestow it, in its
+<lb/>proper place, subject to higher laws, the laws of the imita-
+<lb break="no"/>tion, or the reproduction of Nature’s works.</p><p></p><p>It is so notorious as to cause comment to be made the
+<lb/>world over, wherever there are to be found modern, and
+<lb/>good old Pictures, that the new are light, or white and fee-
+<lb break="no"/>ble, or glaring in color, when compared with the old, or even
+<lb/>good copies from them. The Royal Academy Exhibitions
+<lb/>strike all observers in this, whether they be Englishmen or
+<lb/>Americans, as being an assemblage of bright colors and
+<lb/>white-wash, having no type any where in Nature, but only
+<lb/>like itself, or other modern exhibitions of pictures, whether
+<lb/>on the continent of Europe, or here in America, ever the same
+<lb/>crude, feeble, gray, garish, unharmonised patches of gaudy
+<lb/>colors and staring whiteness. Whereas, the better works of
+<lb/>the old Painters, particularly those who can lay claim to any
+<lb/>knowledge of color, are uniformly found to be low in tone,
+<lb/>rich, brown and harmonious, the flesh (the test of color in Art)
+<lb/>in that medium between light and dark, where only the great-
+<lb break="no"/>est amount of color can be found, so that, the flesh in Titian’s
+<lb/>pictures, according to the best critics, is perhaps the lowest
+<lb/>in its local color ever painted. This has been variously ac-
+<lb break="no"/>counted for by different writers, as owing to the age of the
+<lb/>pictures, time being supposed to have sunken them to their
+<lb/>present low scale, &amp;c., &amp;c., all of which is insufficient to ex-
+<lb break="no"/>plain satisfactorily the fact, as there are even old pictures of
+<lb/>Titian’s time, or earlier, as light and crude as any modem
+<lb/>English or French, when, if time would have done this thing
+<lb/>for one, it would, being no respecter of persons, have done it
+<lb/>for all. But there can be given a clear and satisfactory solu-
+<lb break="no"/>tion of this problem, that shall show to common sense that
+<lb/>instead of its having been lime or accident that has made
+<lb/>pictures which were originally bad, or indifferent, good, the
+<lb/>painters who produced them really knew the Art which they
+<lb/>professed and practised, more thoroughly than those who
+<lb/>pretend to this knowledge in these days. Indeed, the old
+<lb/>Painters had only Nature to study, from which they drew
+<lb/>deep truths, and principles, such as could be safely trusted lo,
+<lb/>and did universally produce results, that modems look upon
+<lb/>as the offspring of a happier genius, than we are blessed
+<lb/>withal; though it was the inevitable consequence of energetic
+<lb/>mind, devoted to the analysis of those principles which alone
+<lb/>can form a solid basis for true Art, and be learned from Na-
+<lb break="no"/>ture, our true school-mistress.</p><p></p><p>Thus much of color as we had treated in this article, before
+<lb/>we made this digression, a child of twelve years of age may
+<lb/>learn in a few months of teaching; and this has been spun
+<lb/>out by various authors, into more volumes than would be ne-
+<lb break="no"/>cessary to tell of the whole rise and fall of empires, as well
+<lb/>as Arts, yet this is all that modern Art has learned from the
+<lb/>wonderful works of earlier Painters, together with what
+<lb/>Science has done for us, and the increase of knowledge.</p><p></p><p>In that medium degree, equally removed from the extremes
+<lb/>of light and dark, which we mentioned in our first article,
+<lb/>occur in nature all the most powerful colors, and no where</p><p><pb n="115"/>
+</p><p>else, for more light must weaken, or more dark must obscure
+<lb/>them. Thence the necessity that that most difficult of sub-
+<lb break="no"/>stances to be imitated, human flesh, should be placed so low
+<lb/>in the scale of light, as to allow all the purest color to pass
+<lb/>through its plane, or the range of light which it occupies in the
+<lb/>picture. This, any man may see the truth of, who has endea-
+<lb break="no"/>vored conscientiously to copy nature, or even looked atten-
+<lb break="no"/>tively at such copy, when it is made.</p><p></p><p>We now see a good reason why good old pictures are low
+<lb/>in tone, not dark, or black, as too many of the specimens
+<lb/>that reach our shores are, for if their lowness of tone is truly
+<lb/>attained, it is so deceptive as to seem to reflect more light,
+<lb/>than the lightest picture gives out.</p><p></p><p>Such modern pictures as are an approach in lowness of
+<lb/>tone to either nature or the works of true colorists, are liable
+<lb/>to be what is termed leathery, and grow more and more so
+<lb/>with every year after being painted ; whereas the old have
+<lb/>almost the tenderness of nature, which tenderness is the very
+<lb/>opposite of the leathery quality; this latter quality increases
+<lb/>by the darkening of the surface of the color, and is often in-
+<lb break="no"/>creased by the changing of the oils. It is so common in the
+<lb/>English pictures where there is an attempt to paint on a low
+<lb/>key, that all kinds of vehicles are supposed to be better, as
+<lb/>they seem to promise to overcome this difficulty, which they
+<lb/>attribute to the use of Megilps, &amp;c. &amp;c. But it has a deep-
+<lb break="no"/>er origin. The truth is, that whenever colors are used, no
+<lb/>matter how pure they be, in a picture, their tendency will be
+<lb/>to change darker on the surface, thereby becoming leathery,
+<lb/>for this is the inevitable quality of darker, and particularly
+<lb/>the warmer colored browns, passed over lighter and left so.
+<lb/>Now the opposite quality of the leathery is always produced
+<lb/>by passing a lighter opaque color over a darker one. This,
+<lb/>when known and well applied, will enable any one to rid his
+<lb/>pictures of this quality, though the flesh be as low as that
+<lb/>of Titian, and without which I believe that even he would
+<lb/>have worked in vain to produce any approach to nature,
+<lb/>such as he has made, this being the way of nature herself,
+<lb/>and therefore the best.</p><p></p><p>Now as human flesh occurs in this medium degree between
+<lb/>light and dark, which, we have mentioned, is composed of
+<lb/>the three primitive colors, in such subtle arrangement as to
+<lb/>baffle all attempts of mere eye, and hand in monkey imita-
+<lb break="no"/>tion, to render them intelligibly, and must yet be given be-
+<lb break="no"/>fore any thing can be done worthy of our opportunities, and
+<lb/>what has been accomplished by others in less inteliigent
+<lb/>times, let us try to follow the light which nature presents in
+<lb/>the investigation of her works, and the analysis of her prin-
+<lb break="no"/>ciples. For we cannot by studying the pictures of the old
+<lb/>masters, as we can in nature, separate the layers of color
+<lb/>used in their progress, nor learn the mode of their produc-
+<lb break="no"/>tion, now when the hands that executed, and the minds that
+<lb/>produced them have gone beyond the reach of our question-
+<lb break="no"/>ing, and left us nothing but the results of their labors, from
+<lb/>which we barely learn that they alone, of all the professed
+<lb/>disciples of Art, have understood the language even, in
+<lb/>which Art must speak or remain tongue-tied, or at the best
+<lb/>lisp, like a little child, but more like an aged man, that has
+<lb/>reached his second childishness, and fills up the hour with
+<lb/>bis empty babble.</p><p></p><p>But I doubt not that we shall be able to show that there
+<lb/>is yet a way to attain to what now makes them “ the Divine
+<lb/>in Art;" so conspicuous above us; and that by the simplest
+<lb/>means, such as could not but have been suggested to reason-
+<lb break="no"/>ing minds, of sufficient self-dependence to throw aside all,
+<lb/>that they had not themselves tested, as worthless, beginning
+<lb/>anew in the true school of nature, as children who have the</p><p>whole Art to learn, and not taking for granted any thing but
+the deductions of their own reason or experience.
+</p><p>Now I propose to give the sketch of a process whereby a
+<lb/>head may be painted, and though from the complicated na-
+<lb break="no"/>ture of words, and particularly when used by one who has
+<lb/>had other things than words to study, as in my case, I can-
+<lb break="no"/>not hope to make it simple to the simple, though if it be
+<lb/>well thought over, and applied with tolerable skill, will prove
+<lb/>its truth in the success—at least showing its capacity for the
+<lb/>grandest results. At all events, let no man condemn it un-
+<lb break="no"/>til he can see a flaw in the reasoning, or has tested its truth
+<lb/>or falseness, by an actual experiment—when, if he cannot
+<lb/>produce a better picture by it, I fear not to declare that he
+<lb/>cannot produce a good one at all.</p><p>WHY ARE NOT THE SCIENCES BETTER UNDERSTOOD ?
+</p><p>Under this head it is proposed to make a simple inquiry,
+<lb/>which doubtless thousands can answer with quite as little
+<lb/>trouble, as it is to propound the question. But though thou-
+<lb break="no"/>sands can give a ready answer to the inquiry, yet there are
+<lb/>millions who cannot, and therefore, it is to them that the
+<lb/>question may more properly be put—“ why the Sciences are
+<lb/>not better understood ?” That it is a lamentable fact, that
+<lb/>the phenomena of many of the simple and most practical
+<lb/>things of life are not understood, no one will deny—why this
+<lb/>is the case is the question. It cannot be that there is not
+<lb/>sufficient interest in these phenomena; because it is well
+<lb/>known that the understanding of the laws which explain
+<lb/>these things are more conducive to the happiness of mankind
+<lb/>than all other knowledge put together. In fact, civilization
+<lb/>could not progress without it, and though thousands and
+<lb/>thousands are applying the laws every day, yet they do
+<lb/>not know how they do it. Every woman and child is apply-
+<lb break="no"/>ing some one of the laws for their comfort every day of their
+<lb/>lives, yet, how few are they of this great mass of persons,
+<lb/>even if the adults be taken, that can explain the reason why
+<lb/>they are warmer in a woollen blanket than in a cotton one of
+<lb/>equal weight ?—or why a man may go into an oven, dressed
+<lb/>in a woollen cloak, and remain there long enough to broil a
+<lb/>beef steak, without being injured, while in any other gar-
+<lb break="no"/>ment he would be roasted alive—or why a white hat is cool-
+<lb break="no"/>er than a black one—or why a rough stove, gives off more
+<lb/>heat than a polished one—or a black stove more than a tin
+<lb/>one. Now, that these are but few of the simple questions of
+<lb/>well-known facts of every day occurrence, cannot be doubted;
+<lb/>but, as simple as they are, and as easily as they could be an-
+<lb break="no"/>swered by any child, if once directed to the subject, there
+<lb/>are thousands who never for a moment give their attention
+<lb/>to the subject. But these are not the only illustrations, be-
+<lb break="no"/>cause there are the several branches of science, equally as
+<lb/>applicable to phenomena around us.</p><p></p><p>The subject of heat however is applied to such practical
+<lb/>purposes, that it is singular that it should not be more under-
+<lb break="no"/>stood--and particularly the laws which would explain many</p><p></p><p>of the phenomena of heat, experienced almost every minute
+<lb/>in the day. The apparent cold of iron, on taking hold of it,
+<lb/>or heat of wood, is so well known, that it would be superflu-
+<lb break="no"/>ous to mention it; were it not equally as apparent that a
+<lb/>great majority of persons do not know why it is so. They
+<lb/>know that it is so, because it gives them a painful sensation
+<lb/>on a frosty morning to pick up an iron bar, while a piece of
+<lb/>wood that has lain beside it, and is of the same tempera-
+<lb break="no"/>ture, is much warmer to handle. The simple fact of wrap-
+<lb break="no"/>ping up a piece of ice in a woollen blanket to preserve it, is
+<lb/>known to every porter in the country, yet how few can tell</p><p><pb n="116"/>
+</p><p>why it is that the blanket which is warmest in winter, will
+<lb/>not melt ice in the summer,—or why a black or blue blanket
+<lb/>would melt the ice when a white one would preserve it.</p><p></p><p>These things are of so common an occurrence, that it
+<lb/>would be natural to suppose every person would know
+<lb/>them; yet it is far from being the case. This want of
+<lb/>knowledge on these every day matters does not speak much
+<lb/>for the information of those who are not in possession of it.
+<lb/>The simple operation of a pump, which every boy has work-
+<lb break="no"/>ed at many a time, is apparently one of the least under-
+<lb break="no"/>stood. A majority of the young men, who are exceed-
+<lb break="no"/>ingly well dressed, would be apt to say, “ that a pump
+<lb/>sucks the water up from the well”—if asked for an explana-
+<lb break="no"/>tion of the operation of pumping—or if a similar enquiry
+<lb/>were to be made to a young man of considerable accom-
+<lb break="no"/>plishments in a ball room, but engaged in the liquor
+<lb/>trade, why it is that the syphon he uses to take liquors
+<lb/>from a cask performs the operation, he would be very likely
+<lb/>to say by suction, which certainly is one of the vulgar ways
+<lb/>of exhausting a pipe of liquor, but nevertheless is far from
+<lb/>being the true cause for that simple operation.</p><p></p><p>All have more or less used the “ sucker,” as it is usually
+<lb/>termed by boys, in raising up bricks or other smooth sub-
+<lb break="no"/>stances, by means of a piece of wet leather patted down on
+<lb/>it. This simple operation is as equally one of the known
+<lb/>laws of pneumatics as that of the atmospheric rail-road;
+<lb/>and the laws which govern one would explain that of the
+<lb/>other.</p><p></p><p>The pressure of fifteen pounds to the square inch of the
+<lb/>atmosphere, may easily be conceived to be an extraordinary
+<lb/>amount of force to be applied. The pressure on the human
+<lb/>body to a person not acquainted with the laws of pneumatics,
+<lb/>seems to be incredible. That there should be a pressure of
+<lb/>about fifteen tons on the human body, makes a person of con-
+<lb break="no"/>siderable good sense look a little credulous at the idea of his
+<lb/>having to shoulder such a load as that every day; and he
+<lb/>would very soon begin to imagine that the burdens of this
+<lb/>life were great indeed. But if in addition to this, he were
+<lb/>told that on a rainy day, when the “ atmosphere was so heavy
+<lb/>and thick," that two or three tons of atmospheric pressure
+<lb/>were taken off his shoulders, he would he very likely to say,
+<lb/>“ Come—come, Mr. Philosopher, that is putting it on, and
+<lb/>taking it off rather too thick. What! on a rainy day the at-
+<lb break="no"/>mosphere lighter than on a bright sun-shining day ? See
+<lb/>here, sir, can you tell how many beans five blue beans make,
+<lb/>if shook up in a bag?” Now as ridiculous as all this ap-
+<lb break="no"/>pears, it nevertheless is true.</p><p></p><p>Many young persons have this impression on their mind,
+<lb/>and unfortunately have such a particular desire to be accom-
+<lb break="no"/>plished gentlemen, to be familiar with the name of Signora
+<lb/>Pico, and others of the opera—or the last new step in the
+<lb/>Polka dance, and other amusements of the sort, that they
+<lb/>would not know these simple every day things, because they
+<lb/>are not fashionable.</p><p></p><p>It would be idle to attempt to illustrate this subject as
+<lb/>fully as it would permit, as it would occupy too much space.
+<lb/>And the cases that have been cited are only such as are of
+<lb/>such simple use, that it is much to be wondered at, that
+<lb/>they cannot be as thoroughly explained by any young man,
+<lb/>as can the tune of the last new opera, the steps in a qua-
+<lb break="no"/>drille, or the latest cut of the Imperial or Moustache of some
+<lb/>recently imported German or French Count. If this were
+<lb/>the case, it would be a source of great credit to the young
+<lb/>men generally ; but unfortunately it cannot be done.</p><p>The love of some of the frivolities of the day, have more
+attractions than the useful sciences; whether it is that the
+</p><p>name of science conveys to the mind of the young man the
+<lb/>idea of something very abstruse, requiring minds like those of
+<lb/>Bacon, Galileo, Newton and Franklin, to explore their mys-
+<lb break="no"/>teries, it is difficult to say; but it is very natural to suppose
+<lb/>that something of this kind must deter them from the enqui-
+<lb break="no"/>ry, or else they would make a venture to read such works as
+<lb/>Brewster’s Optics, Arnott’s Physics, and hundreds of other
+<lb/>volumes, which would not only be more valuable to them
+<lb/>than most reading that they could undertake, but would be
+<lb/>equally as pleasing; for it is an absurdity to suppose that
+<lb/>science has no pleasures, because all the phenomena in na-
+<lb break="no"/>ture can be explained by her laws; and how much more
+<lb/>gratifying it must be to any person to be able to explain the
+<lb/>causes of these phenomena. Most truly, the satisfaction of
+<lb/>being able to set a person right, who has stumbled into
+<lb/>the error that ice is formed at the bottom of the river, and
+<lb/>then rises up to the surface to be dovetailed together, would
+<lb/>be more pleasing, as well as more to the credit of the person,
+<lb/>than being able to correct a false step at a cotillion.</p><p></p><p>This error is not an imaginary case, but one of real occu-
+<lb break="no"/>rence, from a person who possesses as much good sense as
+<lb/>the majority of young men, and occupies as respectable a posi-
+<lb break="no"/>tion. But it is a case, and not unlike thousands to be met
+<lb/>with every day, manifesting as much ignorance upon practi-
+<lb break="no"/>cable subjects as to their laws as this. Not knowing these
+<lb/>things, does not presuppose want of capacity to understand
+<lb/>them; but a want of proper appreciation for their acquisi-
+<lb break="no"/>tion. In the cases mentioned there has been no attempt to
+<lb/>select such as it is required that a person should be able to
+<lb/>answer, because if that were the case he could easily learn
+<lb/>by heart the usual modes of explaining their phenomena;
+<lb/>but it has been to direct the attention to palpable cases of
+<lb/>ignorance, not only of these things, but the application of the
+<lb/>laws governing them. They should be known. The laws
+<lb/>of mechanism, heat, hydraulics, hydrostatics and pneumatics,
+<lb/>as well as of optics, and in fact all phenomena of na-
+<lb break="no"/>ture, should be as well understood ns that of any species of
+<lb/>learning knowu. Every person can appreciate this know-
+<lb break="no"/>ledge. There is a tangible form to it, by which, through
+<lb/>life, it can be made available in more ways than one to pro-
+<lb break="no"/>mote happiness. While the same may not be said of the
+<lb/>advantages from reading the best of Scott’s, or other novels
+<lb/>and romances that can be found. They may afford some
+<lb/>pleasure to excite the mind, and leave pleasing recollections
+<lb/>of such characters as Ivanhoe and Rebecca; but they never
+<lb/>can give as much pleasure as would be derived from the
+<lb/>knowledge of these laws. Besides the pleasure of being able
+<lb/>to explain these phenomena, it has the great advantage of
+<lb/>leading to many useful inventions. On the subject of heat
+<lb/>alone, there is field enough yet to exhaust the mind of some
+<lb/>halt a dozen Davy's, in applying it to the most advantage for
+<lb/>manufacturing purposes, and that of warming houses. For
+<lb/>it is a fact that there is double the quantity of fuel used in
+<lb/>houses to warm them, that is required, owing to the simple
+<lb/>circumstance of not knowing how to use it. Fuel generally
+<lb/>is but half consumed, and even of that which is consumed, a
+<lb/>great portion of it is lost, owing to the bad arrangement of
+<lb/>radiation. Enquiries into this matter may be made by any
+<lb/>one—and though a Davy or Farraday might be able to dis-
+<lb break="no"/>cover the mode of economising fuel sooner than a mere su-
+<lb break="no"/>perficial reader of the subject, yet it does not follow that
+<lb/>they may not turn the knowledge to good account, with a
+<lb/>possibility of making an improvement on the mode of using
+<lb/>fuel to generate steam, or for warming houses. In chemis-
+<lb break="no"/>try the application of its principles are so universal, that
+<lb/>nothing is touched but is governed by its laws. The bread</p><p><pb n="117"/>
+</p><p>that is partaken of at each meal, has to be made by as fixed
+<lb/>laws of chemistry, as that of preparing gases—or the boiling
+<lb/>of potatoes by equally as well known chemical laws ; yet of
+<lb/>the millions who eat of the bread and potatoes, if they
+<lb/>were told that there was a science in boiling the potatoes,
+<lb/>they would be likely to think it rather too “ small potatoe”
+<lb/>a science, for them to condescend to learn its laws. It would
+<lb/>not be genteel to know how a potatoe was boiled, or why it
+<lb/>changed from a nasty hard vegetable, to a delicate bread-like
+<lb/>substance, by simply putting it into boiling water. But
+<lb/>though it might not be genteel, it would certainly be very
+<lb/>creditable, and perhaps detract none the less from any per-
+<lb break="no"/>son’s claims to gentility to be in possession of such an amount
+<lb/>of knowledge. In fact, the elementary principles of physics
+<lb/>should be more thoroughly studied in the schools, and forced
+<lb/>upon the mind of the child, that he may, on coming to matu-
+<lb break="no"/>rity, feel more interest in the subject. As it is now, most
+<lb/>young men have no inclination that way. The name of sci-
+<lb break="no"/>ence has too much of the abstruse about it to attract the at-
+<lb break="no"/>tention ; and the extravagant notions of gentility, which the
+<lb/>great mass of the young men in the city have, of patronizing
+<lb/>the operas and Pinteux—and the young and old and junior
+<lb/>bachelor’s balls, or getting a red flannel shirt on to run after
+<lb/>an engine or hose cart, have become a serious evil to them.
+<lb/>Their love of these amusements, without a proper cultivation
+<lb/>of the mind, has had the tendency to lower very much the
+<lb/>estimated intelligence among them; though in dress, and
+<lb/>general appearance, they betray all the accomplishments of
+<lb/>very learned gentlemen, and it is not until you put to them
+<lb/>any of the simple questions of natural philosophy that it is
+<lb/>discovered they are not what they appear to be, that all
+<lb/>is not gold that glitters—and that a tailor has made the more
+<lb/>pleasing part of them.</p><p>C. L. BARRITT.
+THE GREAT TOWER OF TARUDANT.
+BT ROBERT OLIVER.
+</p><p>So Arphaxad proceeded with a step that constantly grew
+<lb/>bolder and more vigorous. He removed the most faithful
+<lb/>officers of the king, and supplied their places by creatures of
+<lb/>his own—evil spirits whom his magic had clothed with the
+<lb/>form and flesh of humanity. He issued all orders, heard all
+<lb/>complaints, judged all causes, and in fine assumed all the
+<lb/>royal functions, which he exercised without deigning even to
+<lb/>consult the king. Upon the latter, indeed, he at length
+<lb/>dared to lay a spell, under the influence of which the monarch
+<lb/>shut himself up in the interior of his palace, and spent his
+<lb/>whole time in studying books of magic and in practising in-
+<lb break="no"/>cantations, the mode of performing which, the Egyptian had
+<lb/>pretended to teach him ; but in these he never could succeed,
+<lb/>for the spell of the crafty magician so besotted his brain that
+<lb/>he understood little of what he read, and remembered not one
+<lb/>half of the purposely obscure and complicated instructions he
+<lb/>had received.</p><p></p><p>But though reduced to this pitiable state, Abdallah yet
+<lb/>loved, and had faith in the Egyptian, for so strongly was he
+<lb/>charmed, that he did not perceive his own condition, but still
+<lb/>believed himself a king, and thought that bis industrious vi-
+<lb break="no"/>zier merely relieved him of the toils and cares of government,
+<lb/>that he might have leisure for loftier and more agreeable
+<lb/>pursuits. Neither were the people dissatisfied, for though
+<lb/>they now never saw their king, they doubted not that his
+<lb/>retirement was owing to his intense devotion to the affairs of
+<lb/>the kingdom; and so long as those were well administered,
+<lb/>they cared little what passed within the palace.</p><p></p><p>Emboldened by impunity, Arphaxad allowed his ambition
+<lb/>full play. He proclaimed his intention of building in the
+<lb/>very centre of the city of Tarudant, a tower that should ex-
+<lb break="no"/>ceed in size and magnificence all that the world had ever
+<lb/>seen. And the people shouted and applauded the underta-
+<lb break="no"/>king, as one that would confer great glory on the nation.</p><p></p><p>Nor was their approbation lessened, when they were called
+<lb/>upon to labor at the work, and to contribute of their gold
+<lb/>and silver and precious stones towards its embellishment;
+<lb/>lor the Egyptian persuaded them that inconceivable benefits
+<lb/>would flow from its erection. So, cheerfully they commenced
+<lb/>the building, not dismayed, though a tenth part and that the
+<lb/>fairest of their city was demolished to make room for the
+<lb/>foundation. Cheerfully they labored, willingly they con-
+<lb break="no"/>tributed of their wealth, and rapidly rose the tower. Story
+<lb/>after story was added, each more magnificent than the other,
+<lb/>until at length so great a height was reached, that the work-
+<lb break="no"/>men on the top could barely be discerned from the ground.</p><p></p><p>The work went briskly on. Multitudes of supernaturally
+<lb/>stout and active genies toiled side by side with human la-
+<lb break="no"/>borers, and architects of more than mortal craft guided the
+<lb/>progress of the structure. Materials became scarce, and first
+<lb/>the great wall of Tarudant, and then its chief houses and
+<lb/>those of the provincial cities were thrown down to support
+<lb/>them, and finally the royal palace itself was demolished,
+<lb/>with the exception of the single apartment to which the king
+<lb/>had of late confined himself. '</p><p></p><p>Still the people were called upon, and still the people
+<lb/>came to labor. More and more of their riches was demand-
+<lb break="no"/>ed, and yet it was freely given. Higher, higher rose the
+<lb/>tower, piercing far above the clouds, and seeming to enter
+<lb/>the very heavens. The supply of stones was not yet suffi-
+<lb break="no"/>cient. The public works which had conferred such pros-
+<lb break="no"/>perity upon Tarudant, the canals, roads, bridges, and aque-
+<lb break="no"/>ducts were despoiled, and their granite and marble added to
+<lb/>the mighty edifice.</p><p></p><p>At length it was finished, and wonderful indeed was the
+<lb/>work. Prodigious in breadth as well as height, superb with
+<lb/>many-hued marbles, with the finest porphyry, the most trans-
+<lb break="no"/>parent alabaster, glowing with gold and gems, and brilliant
+<lb/>with silver, brass, and ivory. Immediately on its completion,
+<lb/>Arphaxad dismissed the human laborers, and accompanied
+<lb/>only by his attendant genies, of whom he had gathered an
+<lb/>innumerable host, entered the tower and shut himself up
+<lb/>therein.</p><p></p><p>And now the people, having nearly spent their strength,
+<lb/>and entirely exhausted their treasure in the building of this
+<lb/>tower, looked up at it with pride and exultation, and waited
+<lb/>for the blessings that the Egyptian had promised should flow
+<lb/>from it. They waited in vain. Nothing came, nothing de-
+<lb break="no"/>scended. Still they waited, still in vain. They began to
+<lb/>murmur, for they lacked bread, having neglected to till their
+<lb/>lands while working for the magician, and having parted
+<lb/>with every thing wherewith they might have bought bread
+<lb/>in other countries. Their murmurs swelled to complaints
+<lb/>and reproaches, not unmingled with curses. They called
+<lb/>loudly upon the Egyptian, who answered not, for he was
+<lb/>busied with his incantations in the highest story of the tow-
+<lb break="no"/>er, where their mightiest shouts were heard only as the gent-
+<lb break="no"/>lest whispering of the west wind. Maddened to desperation,
+<lb/>they at length assaulted the building, each man catching up
+<lb/>a stone and hurling it against the great brazen gates. They
+<lb/>flew open, and the multitude rushed in. When a fifth part
+<lb/>had entered, the gates closed again with a tremulous roar,
+<lb/>crushing many who were pressing for admittance.</p><p></p><p>The multitude found themselves in a vast circular hall,
+<lb/>the floor of which was of rough rocks, and the lofty sides
+<lb/>cased with broad plates of gold, highly burnished, but with-
+<lb break="no"/>out figure or inscription. The ceiling of sculptured ivory, at
+<lb/>a height beyond the reach of a strongly shot arrow, rested on
+<lb/>columns of green marble, around the upper part of whose
+<lb/>shafts immense serpents were lazily twining, their hideous
+<lb/>heads swaying to and fro, up and down, and uttering occa-
+<lb break="no"/>sionally thick hisses, accompanied by a gush of breath so
+<lb/>pestiferous that no man could breathe it a moment and live.
+<lb/>The eyes of these serpents glared with a vigilant ferocity,
+<lb/>though the rest of their bodies seemed immersed in languid
+<lb/>indolence, and from those dreadful orbs shone forth the only
+<lb/>light which illumined the hall, a light so dim and strange,
+<lb/>that when the people first entered, they could see nothing
+<lb/>but their own palpitating forms.</p><p></p><p>Stupidly they stared upwards, saying not a word, for the
+<lb/>poisonous fumes from above tainted even the air below, pro-
+<lb break="no"/>ducing a drowsy feeling in those who inhaled it. At length,
+<lb/>some bolder or more impatient than the rest broke the silence,
+<lb/>shouting, “ Come, here is gold, let us take it and buy bread!”</p><p>And they all rushed to the sides of the hall and attempted
+to tear off the golden plates; but they could not, for the
+<pb n="118"/>
+</p><p>smooth surface afforded nothing to take hold of, and besides
+<lb/>their strength was weakened by hunger and benumbed by the
+<lb/>foul vapors they were breathing. They soon desisted, and
+<lb/>sought to quit the tower, but there was no outlet save the
+<lb/>brazen gates, and those defied their utmost efforts. In despair
+<lb/>they flung themselves upon the rocky floor and remained hea-
+<lb break="no"/>vily slumbering until midnight, when they were roused by
+<lb/>the intolerable thirst produced by the hot and stifling air.
+<lb/>They looked up, but there was no light. The serpents were
+<lb/>asleep, and their eyes shot forth no gleams. Then amid the
+<lb/>thick darkness, all with one voice gasped forth, “Water, wa-
+<lb break="no"/>ter, give us water or we die!”</p><p></p><p>Suddenly laughter sounded through the tower, scornful,
+<lb/>fiendish laughter, and then again all was still. The serpents
+<lb/>awoke, and for a moment swung their heads about uncertain-
+<lb break="no"/>ly, then fixed them pointing downwards, and opening wide
+<lb/>their mouths, hissed forth floods of waters strong and many,
+<lb/>athwart whose rushing foam, danced with fearful glee the
+<lb/>lurid light of their infernal eyes. Frantically the multitude
+<lb/>drank, but not with pleasure, for the water was bitter and of
+<lb/>a sickish warmth. It continued flowing down upon them,
+<lb/>and rising, until it reached their knees, then their waists, and
+<lb/>presently their armpits. They struggled, shrieked, and beg-
+<lb break="no"/>ged for mercy, but the water came pouring down, until it
+<lb/>was twenty cubits deep, where the last strong swimmer sunk
+<lb/>exhausted, and again horrible laughter pealed throngh the
+<lb/>tower, mingled with the triumphant hissing of the serpents
+<lb/>and the gentle dashing of the calming waters.</p><p></p><p>Meantime the people without the tower finding that they
+<lb/>could not again force open the brazen gates, retired to a little
+<lb/>hill some way off and held a consultation. It suddenly occur-
+<lb break="no"/>red to them that they yet had a king, who once was good,
+<lb/>and wise and brave, and they were astonished that they
+<lb/>had even for a moment forgotten him. Great indeed
+<lb/>must have been the delusion which could blot out all remem-
+<lb break="no"/>brance of the kind and gallant Abdallah. The multitude re-
+<lb break="no"/>solved immediately to seek his protection from the evils in
+<lb/>which they had been involved by their reliance upon the false
+<lb/>Egyptian. “ To the king ! To the king !” they shouted—
+<lb/>“ he will deliver us—he will destroy the magician !”</p><p></p><p>In a body therefore they hurried to the royal palace, and
+<lb/>there being now no guards or officers of state to prevent in-
+<lb break="no"/>trusion, they reached without difficulty the presence of the
+<lb/>king. They found the poor monarch in a dismantled, dirty
+<lb/>apartment, the sole remnant of his superb ancestral palace.
+<lb/>He was reclining on a couch of ivory, adorned with brazen
+<lb/>figures, which had once been gilded so skilfuly as not to be
+<lb/>distinguishable from pure gold. But these were now rusted
+<lb/>over with dingy verdigris, while the ivory itself was so brok-
+<lb break="no"/>en and decayed, that had it not been patched here and there
+<lb/>with pieces of bone it would not have upheld the body of the
+<lb/>king. Little, however, was required to uphold that body.
+<lb/>So emaciated, so woe-begone was it, that emirs who for years
+<lb/>had waited on the royal person, scarcely recognized their sove-
+<lb break="no"/>reign. His eyes were sunken in his head, his beard was en-
+<lb break="no"/>ormously long and matted together, and his whole appearance
+<lb/>squalid with the accumulated dust and filth of years. He was
+<lb/>wrapped in a loose black robe fantastically striped with scar-
+<lb break="no"/>let and purple, but so tattered and dirty that its texture and
+<lb/>hues were scarcely discernible. Before him on the couch lay
+<lb/>a roll of parchment inscribed with mystic characters, on
+<lb/>which his eyes were bent with an expression of painful anxi-
+<lb break="no"/>ety. At his side was an earthen vessel containing a quantity
+<lb/>of dried fish, stale and mouldy, and at the foot of the couch a
+<lb/>fountain of muddy water lazily weltered forth from between
+<lb/>the jaws of a sculptured leopard.</p><p></p><p>Abdallah did not seem conscious of the approach of his
+<lb/>subjects, but continued steadfastly gazing on the magical
+<lb/>book. They stood for a time contemplating him, unable to
+<lb/>speak, for their hearts were very full. At length an old vizier,
+<lb/>mastering his tears and sobs, with trembling voice exclaim-
+<lb break="no"/>ed—</p><p></p><p>"Look up, O king, look up and behold thy faithful people
+<lb/>who have come to thee in their great distress—have come to
+<lb/>thee for refuge and relief.”</p><p></p><p>The king Feebly raising his head, with difficulty opened
+<lb/>his mouth and replied:—“Why do ye trouble me in my stu-
+<lb break="no"/>dies? Seek Arphaxad the Egyptian. He will do what ye
+<lb/>require.” And sinking back upon his couch with a painful
+<lb/>sigh, he again fixed his bleared eyes upon the parchment
+<lb/>roll.</p><p>But the people groaned, and cried, “ Alas, O King! It is
+from this accursed magician that all our miseries flow.”
+</p><p>Again Abdallah looked up, and with a sadly bewildered ex-
+<lb break="no"/>pression demanded, “Why, what hath he done? Governs
+<lb/>he not well and wisely ?”</p><p>“ Come forth, and see with thine own eyes, O king!”
+</p><p>They lifted the monarch to his feet, and would have led
+<lb/>him out, but he was so feeble that he could not stand.
+<lb/>They held him up tenderly, and one of the emirs turning to
+<lb/>the people, said, “Run, some of you, and fetch water from
+<lb/>the fountain that is beside the tomb of the Santon Sidi Edris
+<lb/>—it hath virtue to heal the king’s mind and give his body
+<lb/>strength.”</p><p></p><p>Swift young men started away as he spoke, and quickly
+<lb/>came back with a jar full of water from the holy fountain.
+<lb/>The emirs took it and washed the king, and trimmed his
+<lb/>beard, and put upon him new garments of cloth of gold in
+<lb/>place of the filthy black robe striped with scarlet and purple.
+<lb/>They gave him also of the water to drink and fed him with
+<lb/>bread and figs, so that he seemed like a new man, being w on-
+<lb break="no"/>derfully refreshed. The spell that bound him so long lost its
+<lb/>power. He was restored to his right mind and to his wonted
+<lb/>health ; strength returned to his limbs, fire to his eyes, color
+<lb/>to his cheeks. He stood among his emirs again like their
+<lb/>king, and all the people shouted when they looked upon his
+<lb/>face, for hope, long absent, began to swell their shrunken
+<lb/>hearts.</p><p></p><p>Then a horse was brought to the king, a young horse,
+<lb/>strong and full of fire, on which he mounted and was led to
+<lb/>a neighboring hill, whence he could view the condition of
+<lb/>bis capital. When he beheld its desolation he was struck
+<lb/>with such amazement that he could not speak. But at length
+<lb/>finding his voice, he demanded, “Who hath done this?
+<lb/>What enemy hath ravaged my city?” All the people an-
+<lb break="no"/>swered, “ Arphaxad the Egyptian. He hath done this.”
+<lb/>“Where is he?” asked the king. “Behold!” cried they,
+<lb/>pointing to the tower.</p><p></p><p>Abdallah looked, and his amazement was greater than be-
+<lb break="no"/>fore. Putting spurs to his horse he rode forwards, followed
+<lb/>by all the people, until he came in front of the great brazen
+<lb/>gates of the tower, when he stopped and gazed upon the
+<lb/>wondrous structure. Deep stillness pervaded the edifice;
+<lb/>there was no sign of life or habitation about it, except that
+<lb/>from the upper part there was gushing forth on every side a
+<lb/>thick black smoke which rose in slow whirls till they met
+<lb/>above the tower’s top, when they mingled in one vast spiral
+<lb/>column that went steadily up till it seemed to reach the sky.
+<lb/>There it spread into a dense cloud, that darkened the hea-
+<lb break="no"/>vens and kept the blessed sunlight from ever shining on the
+<lb/>godless fabric. Birds of gigantic size and monstrous shape,
+<lb/>some with twenty wings and some with seven heads, but all
+<lb/>with plumage of the brightest green, were flying about the
+<lb/>wreathing column, now and then dashing into the smoke and
+<lb/>soaring swiftly up into the cloud, or with their vast wings
+<lb/>partly folded suffering themselves to sink down till they al-
+<lb break="no"/>most touched the tower, But these strange creatures made
+<lb/>no sound, and seemed to be idly enjoying the smoke, rather
+<lb/>than seeking after prey.</p><p></p><p>Presently the king commanded the trumpets to be sounded,
+<lb/>and with a loud voice called upon Arphaxad to throw open
+<lb/>the gates and come forth. Thrice he repeated this summons,
+<lb/>and at the third time there was a peal as of thunder far up
+<lb/>in the air. The people huddled-together and looked eagerly
+<lb/>to see what would follow. A door flew open in the middle
+<lb/>of the tower, high above their heads, and disclosed the huge
+<lb/>form of the Egyptian sheathed in armor of brass set with
+<lb/>emeralds. His face could be seen only at moments, because
+<lb/>of the smoke that swept in eddies round his head; but its
+<lb/>expression was of wrath and disdain.</p><p>“Who is it that makes this turmoil at my gates?” he de-
+manded in a voice that sounded like an echo of the thunder.
+</p><p>“ Who is it, audacious wretch ? It is the king thy master.
+<lb/>Come down, open these gates, and humbly throw thyself at
+<lb/>his feet, if thou wouldst avoid the punishment of thy mon-
+<lb break="no"/>strous guilt.”</p><p></p><p>The magician laughed scornfully. “ I know not of whom
+<lb/>you speak. I have no king, I acknowledge no master. I
+<lb/>had forgotten the very existence of the miserable mortal who
+<lb/>styles himself such. But if you wish the gates opened, your
+<lb/>wish shall be granted.”</p><p></p><p>So speaking, he disappeared within the tower, whose great
+<lb/>gates suddenly flew open and let forth a flood of black and
+<lb/>stinking water, bearing along in its impetuous flow the
+<lb/>corpses of those who had perished in the circular hall. So
+<lb/>mighty and swift was the flood that it swept away and</p><p><pb n="119"/>
+</p><p>drowned many of the people, and nothing but the speed of
+<lb/>his horse saved the king. The good steed bore him to a hill
+<lb/>not far off, where he stopped and looked back at the terrible
+<lb/>tower. But there was no time for delay ; as the waters sub-
+<lb break="no"/>sided a host of hideous black genies sallied forth, chasing and
+<lb/>slaying the frightened multitude. A squadron of them
+<lb/>mounted on pale horses and headed by Arphaxad himself pur-
+<lb break="no"/>sued the king, who fled eastwardly towards Mount Atlas.
+<lb/>On the edge of the desert he was overtaken, and the genies
+<lb/>were about to seize him, when a mighty blast of wind swept
+<lb/>down from the mountains, and passing by the monarch struck
+<lb/>his pursuers with such force that they were all thrown upon
+<lb/>the ground, from which none rose alive, except their leader
+<lb/>the magician, who bruised and astonished fled fearfully back
+<lb/>to his tower.</p><p></p><p>Returning thanks to Allah for this timely interposition,
+<lb/>which by showing that he was under divine interposition,
+<lb/>had wonderfully raised his spirits from the consternation pro-
+<lb break="no"/>duced by the dreadful scenes he had witnessed, Abdallah
+<lb/>held on his way across the desert, though quite uncertain
+<lb/>whither he should go, or what he should expect. But some-
+<lb break="no"/>thing whispered to his soul that eastward, in Mount Atlas,
+<lb/>and there only, he would find the means to redeem his king-
+<lb break="no"/>dom and overthrow its proud oppressor.</p><p>(To be Continued.)
+AMERICAN PROSE WRITERS.
+NO. V.
+HENRY T. TUCKERMAN.
+</p><p>As a descriptive limner and critical essayist, the fidelity
+<lb/>and elegance of Mr. Tuckerman’s pen, have procured for him
+<lb/>a large class of admirers, even among those upon whom his
+<lb/>vigorous independence of thought is more or less thrown
+<lb/>away. His bold paper on Shelley, proved, by the attention
+<lb/>it excited, that he possessed far stronger characteristics of
+<lb/>mind, than were to be found in the Elia-like felicity of style
+<lb/>which constituted his first claim to popularity. Unlike
+<lb/>Washington Irving, who, by his melodious combinations of
+<lb/>words, frequently satisfies the reader for exceeding diffuse-
+<lb break="no"/>ness of ideas, Mr. Tuckerman’s quiet beauty of language, and
+<lb/>delicate imagery, often so delight the mind, that we forget
+<lb/>for the moment, the noble thoughts which they garbed ; and
+<lb/>it is not until we have gratified our sense of harmony, that
+<lb/>we fully discern the vigorous ideas which have been thus
+<lb/>conveyed to the intellect. Just as in listening to the music
+<lb/>of Bellini, we are first struck with its exceeding tenderness,
+<lb/>and not until we have bathed our very souls in sweetness, do
+<lb/>we realize its mighty suggestiveness.</p><p></p><p>As an essayist, Mr. Tuckerman is almost without a rival.
+<lb/>His tales, considered merely as tales, are, we think, less suc-
+<lb break="no"/>cessful. They abound in graphic description and in beautiful
+<lb/>language, but they are only sketches. Actions, events, the
+<lb/>commonplace-ism of outward life, which make up so much
+<lb/>of the vraisemblance of a fate, are not his forte. Opinion,
+<lb/>sentiment, the great truths of spirit-life, and their application
+<lb/>to the daily wants of humanity,—these are the subjects
+<lb/>around which his mind and heart find their true occupations.
+<lb/>No one looks with gentler eye upon his kind ; in no heart is
+<lb/>the fountain of sympathy more generous in its outpourings.
+<lb/>But he seeks to do good to man, not by beguiling him from
+<lb/>himself with some well-constructed fiction, but rather by
+<lb/>bringing him to the well-spring of truth, that he may drink
+<lb/>and live.</p><p></p><p>“ Isabel of Sicily” was evidently designed to embody the
+<lb/>results of the author’s observations during a residence upon
+<lb/>that beautiful island. To avoid the egotism usually found in
+<lb/>a traveller’s journal, Mr. Tuckerman has woven a light web
+<lb/>of romance, and upon that embroiders his facts, thus adopting
+<lb/>a precisely opposite course from that of most writers. To its
+<lb/>somewhat injudicious title, may be attributed its want of im-
+<lb break="no"/>mediate popularity in this country, while running through
+<lb/>two editions in England. They who disdain to suffer their
+<lb/>intellect to dally with any thing but truth, are deterred from
+<lb/>looking into a work bearing so fanciful a name, while the
+<lb/>inveterate devourer of fiction is lamentably disappointed, be-
+<lb break="no"/>cause the anticipated novel is not a story of Italian passion.
+<lb/>Yet no one can look into the book a second time, without be-
+<lb break="no"/>ing struck with the acuteness, the clearness of perception,
+<lb/>and the high-toned philosophy of its accomplished author.</p><p></p><p>The “ Italian Sketch-book” is free from this trifling defect
+<lb/>of mere mechanical form, and at an earlier period of our lite-
+<lb break="no"/>rary history, when there were more readers and fewer wri-
+<lb break="no"/>ters, would have instantly secured to its author an enviable
+<lb/>reputation. We say fewer writers, not because Mr. Tucker-
+<lb break="no"/>man has been eclipsed among the many ; but simply because
+<lb/>writing has now become a trade, and, like all other trades,
+<lb/>it is so overstocked, that trickery of all sorts is necessary to
+<lb/>secure a clique of readers for each aspirant after fame, while
+<lb/>the true author, disdaining the petty arts of the mere popu-
+<lb break="no"/>larity-seekers, is often unheard amid the din of noisy de-
+<lb break="no"/>claimers.</p><p></p><p>But, as we said before, it is as the essayist, and especially
+<lb/>the critical essayist, that Mr. Tuckerman occupies his true
+<lb/>position.</p><p></p><p>“ We confess a partiality for the essay. In the literature of our
+<lb/>vernacular tongue it shines conspicuous, and it is environed with the
+<lb/>most pleasing associations. The essay is to prose literature, what the
+<lb/>sonnet is to poetry; and, as the narrow limits of the latter have en-
+<lb break="no"/>closed some of the most beautiful poetic imagery, and finished expres-
+<lb break="no"/>sions of sentiment, within the compass of versified writing, so, many
+<lb/>of the most chaste specimens of elegant periods, and of animated and
+<lb/>embellished prose, exist in the form of essays. * * * A volume of
+<lb/>essays subserves the purpose of a set of cabinet pictures, or a port-
+<lb break="no"/>folio of miniature drawings; they are the multum in parvo of litera-
+<lb break="no"/>ture ; and, perused, as they generally are, in moments of respite from
+<lb/>ordinary occupation, turned to on the spur of mental appetite, they
+<lb/>not unfrequently prove more efficient than belles-lettres allurements of
+<lb/>greater pretension.”</p><p></p><p>Such are Mr. Tuckerman's remarks upon the essay in his
+<lb/>beautiful paper on the “ Characteristics of Lamb.”  He has
+<lb/>done much towards proving his own assertions, and illustra-
+<lb break="no"/>ting his own apt comparison, for not only has he written the
+<lb/>most finished essays, but his hand has also framed the most
+<lb/>Shakesperian sonnets ever penned on this side of the great
+<lb/>waters. His “ Rambles and Reviews” is a book to be left
+<lb/>lying on one’s table,—to be taken up in those moods of the
+<lb/>mind, when, wearied with the petty details of common-place
+<lb/>outer life, we seek refreshment at the well-spring of poetic
+<lb/>truth. The sketches of Italian life and scenery are at once
+<lb/>graphic and suggestive. They are like Claude Lorraine pic-
+<lb break="no"/>tures, not only truthfully drawn and colored, but also possess-
+<lb break="no"/>ing that indescribable charm of atmosphere, which seems to
+<lb/>transport one instantly to the very scene depicted.</p><p></p><p>Yet, if we were called on to rescue any one portion of Mr.
+<lb/>Tuckerman’s prose works from destruction, we should cer-
+<lb break="no"/>tainly lay hold of his “ Thoughts on the Poets.” Never did
+<lb/>the true spirit of poetry find a nobler exponent. If any one
+<lb/>doubts this, let him only read the essay on Goldsmith, full
+<lb/>of a fine discriminating sense of the truthfulness and simpli-
+<lb break="no"/>city which made “poor Goldsmith” so winning as a friend,
+<lb/>so delightful as a writer; then let him turn to the criticism
+<lb/>on Pope, contained in the same volume. Compare the ap-
+<lb break="no"/>preciating warmth with which the critic speaks of the poet,
+<lb/>who</p><p></p><p>“ Cherished throughout his whole life an earnest faith in one better
+<lb/>nature; who realized the universal beauty and power of Love; who
+<lb/>rejoiced in the exercise of all those tender and noble sentiments which
+<lb/>are so much more honorable to man than the highest triumphs of
+<lb/>mind—</p><p>Compare this with his clear and critical perception of Pope,
+</p><p>“ The bright enamel of whose rhymes is like a frozen lake, over
+<lb/>which we glide like a skater before the wind, surrounded by a glitter-
+<lb break="no"/>ing landscape of snow.”</p><p></p><p>The hallowed mystery of a gentle mind, diseased beyond
+<lb/>all leech-craft,—the thrilling picture of a soul full of love and
+<lb/>truth, o’ertasking its powers until it found only darkness in
+<lb/>the infinite,—the melancholy image of a spirit framed but
+<lb/>to fine issues, yet yielding its tones to the rude touch of ap-
+<lb break="no"/>petite, were never more delicately and powerfully depicted
+<lb/>than in Mr. Tuckerman’s criticisms on Cowper, Shelley, and
+<lb/>Burns. Each of those gifted minds could say</p><p></p><p>“ My spirit’s bark Is driven
+<lb/>Far from the shore, far from the trembling throng
+<lb/>Whose sails were never to the tempest given</p><p></p><p>but few, even of their most ardent admirers, could have af-
+<lb break="no"/>forded so discriminating and philosophic an extenuation of
+<lb/>the errors which the brightness of their fame made visible to
+<lb/>the world.</p><p></p><p>Whether he portrays characters like these, or points us to
+<lb/>the more sparkling fancy of Moore, uttering itself in song,—
+<lb/>the chivalric muse of Campbell, breathing its trumpet-voiced
+<lb/>appeal in measured, but heart-thrilling tones,—the fierce and</p><p><pb n="120"/>
+</p><p>passionate spirit of Alfieri proclaiming its powerful will in
+<lb/>Tuscan language but in Runic verse, he ever hears the low
+<lb/>breathed moaning of that oracle which dwells in the sanctu-
+<lb break="no"/>ary of the poet's heart. Himself a true poet, in the highest
+<lb/>and loftiest sense of the term, he knows how to interpret the
+<lb/>dark sayings of humanity.</p><p></p><p>Should it be supposed that the interest of these essays may
+<lb/>depend much upon the associations connected with their sub-
+<lb break="no"/>ject, and that therefore they afford no fair test of Mr. Tuck-
+<lb break="no"/>erman’s powers, we would refer to his “ Lyrical Poetry,” and
+<lb/>his “ Thoughts on Music,” as evidences of his poetic taste
+<lb/>and sensibility, while, for vigor of thought, elegance of dic-
+<lb break="no"/>tion, and aptness of illustration, we can find nothing finer in
+<lb/>our literature, than the “ Philosophy of Travel,”* and “ New
+<lb/>England Philosophy.”* The latter, especially, is remarkable
+<lb/>for its close analysis of, and its unanswerable arguments
+<lb/>against those modes of thinking and acting, which would
+<lb/>subject the warm impulses of the generous heart to the cold
+<lb/>dictation of the calculating head.	e.</p><p>* Published in the Democratic Review.
+CITY AMUSEMENTS.
+</p><p>It is a matter of astonishment, that among all the benevo-
+<lb break="no"/>lent enterprises of the day, no society has yet been formed
+<lb/>for the purpose of inquiring into and bettering the amuse-
+<lb break="no"/>ments of the people. It is a subject of vast importance, and
+<lb/>one worthy of commanding the attention of reformers and
+<lb/>philanthropists. The school-room, the church and the press,
+<lb/>undergo a continual supervision by legal and self-constituted
+<lb/>committees, to see that the public mind be not corrupted by
+<lb/>improper aliment. But the Theatre, the Circus, and other
+<lb/>places of public amusement, are shunned, as though good
+<lb/>people could be contaminated by breathing even their names.
+<lb/>Yet the minds of the young are more powerfully affected
+<lb/>in their amusements, than in their studies, and deeper im-
+<lb break="no"/>pressions are made upon their hearts in the unguarded relax-
+<lb break="no"/>ation of places of recreation, than while listening to weari-
+<lb break="no"/>some lectures or long doctrinal sermons. Unhappily, the
+<lb/>theatre has been so managed for many years in this city, that
+<lb/>a man or woman of delicate sensibilities could not visit it.
+<lb/>But those who have the good of their fellow-beings at heart
+<lb/>are not allowed to indulge in squeamish feelings; and a vir-
+<lb break="no"/>tuous motive will preserve the garments of the adventurer
+<lb/>from contagion, even in passing through the rabble rout of
+<lb/>Comus. It is therefore a duly which good men owe to soci-
+<lb break="no"/>ety to overlook the amusements of the people, and when they
+<lb/>cannot abolish a pernicious amusement, they must strive to
+<lb/>improve it.</p><p></p><p>It seems to be quite impossible to extinguish the love of
+<lb/>dramatic representations. It is one of the earliest tempta-
+<lb break="no"/>tions which beset youth ; and the entire management of the
+<lb/>theatre being in the hands of unprincipled and mercenary
+<lb/>managers, the stage has become a prolific source of corrup-
+<lb break="no"/>tion to our young men. But it should not be so; and it is
+<lb/>the duty of the conservators of our morals to see that the
+<lb/>abuses of the stage, as well as the abuses of the school-room,
+<lb/>be abolished. It is by no means unusual to hear our preach-
+<lb break="no"/>ers denounce the theatre, without ever having been inside of
+<lb/>one; and pronounce anathemas against practices which ne-
+<lb break="no"/>ver had an existence. Of course, those whom it is intended
+<lb/>to benefit by such means only laugh at the ignorance of their
+<lb/>instructors, and persevere in their wicked courses. Our city
+<lb/>preachers and teachers should go the rounds of our public
+<lb/>places of amusement, that they might suggest suitable reme-
+<lb break="no"/>dies for their evils, if any exist. Our foreign missionaries
+<lb/>inquire diligently into the practices of the heathen among
+<lb/>whom they are sent, and become very learned in all the enor-
+<lb break="no"/>mities of pagan worship; they could not combat successfully</p><p></p><p>with their evil influences unless they thoroughly understood
+<lb/>their origin ; neither can our domestic missionaries contend
+<lb/>with the vices which it is their aim to overcome, unless they
+<lb/>thoroughly understand them.</p><p></p><p>The Bishop of London is reported to have made, recently,
+<lb/>a visit in disguise, in company with other benevolent men,
+<lb/>to the lowest haunts of the metropolis; that, by seeing the
+<lb/>actual condition of the lower orders, he might be able to act
+<lb/>intelligently in his endeavors to reform them. This is the
+<lb/>only way in which any good can be done by moral reformers.
+<lb/>Let those who declaim against theatres go to the theatres,
+<lb/>and learn with their own eyes what it is that is offensive in
+<lb/>dramatic representations. Many, we have no doubt, would
+<lb/>be struck with the fine morality of the plays, the purity of
+<lb/>the dialogue, the correct deportment of the actors, and the
+<lb/>forcible lessons of life which the stage presents even in its
+<lb/>lowest and most degraded condition ; and they would doubt-
+<lb break="no"/>less be astonished that an amusement of so refined a nature,
+<lb/>and so capable of conveying moral impressions, should suffer
+<lb/>from the denunciations of religious men. But let them leave
+<lb/>the stage, and turn to the filthy coffee-rooms and punch-
+<lb break="no"/>rooms of the lobbies, where abandoned men and women min-
+<lb break="no"/>gle freely together, where every inducement to licentiousness
+<lb/>and debauchery is held out to the young, as if on purpose to
+<lb/>counteract any good impression which the stage may have
+<lb/>made,—and they would no longer wonder that the Theatre
+<lb/>was denounced by the professedly virtuous ; but they might
+<lb/>well wonder why these filthy holes should be appended to
+<lb/>the theatre, while the lecture-room, the concert-room, and
+<lb/>all other places of amusement, are free from them. The
+<lb/>reason is very obvious. In the time of Charles the Second,
+<lb/>the stage, in common with every other department of art,
+<lb/>was highly immoral; and religious preachers of every deno-
+<lb break="no"/>mination, but mainly puritans, launched their loudest invec-
+<lb break="no"/>tives against it, as well they might; and the feeling against
+<lb/>the stage with us has been inherited from these puritans, and
+<lb/>exists now among their descendants as rankly as with them,
+<lb/>even when the cause which gave it birth has ceased to exist
+<lb/>for nearly a century. None of the indecent plays of Charles
+<lb/>the Second’s time have been represented in our theatres for
+<lb/>fifty years past; but the literature of that period, which was
+<lb/>tinctured with the same moral qualities that disgraced the
+<lb/>stage, is still preserved in our libraries, and we have no
+<lb/>doubt that every clergyman’s bookcase in the city contains
+<lb/>more objectionable reading than is presented on the stage
+<lb/>during a year. The truth is, that the greater number of act-
+<lb break="no"/>ing plays are as moral and prosy as an afternoon sermon ;
+<lb/>for before a play can be put upon the English stage it must
+<lb/>be approved by the Chamberlain, who blots out every coarse
+<lb/>expression and every scene of doubtful morality ; and as we
+<lb/>produce no plays of our own, we present only those that the
+<lb/>English licensers nave pronounced fit for the people.</p><p></p><p>But we still keep up the hereditary cry against the immo-
+<lb break="no"/>ralities of the stage; and one state in the Union forbids by
+<lb/>law any dramatic representation within her borders, when
+<lb/>the stage has become almost as moral as the pulpit. In-
+<lb break="no"/>deed, a good moral is an essential part of every stage perform-
+<lb break="no"/>ance, without which no play can be successful. No other
+<lb/>species of amusement demands this; yet the stage is still
+<lb/>called immoral, religious people are forbidden to frequent the
+<lb/>theatre, and only the reckless and abandoned have courage
+<lb/>to visit it, and it is to suit their tastes, because they form the
+<lb/>chief supporters of the stage, that the objectionable places
+<lb/>which we have hinted at have an existence. But let the thea-
+<lb break="no"/>tre be visited by respectable people, men of refined tastes
+<lb/>and good morals, and the punch-rooms and coffee-rooms</p><p><pb n="121"/>
+</p><p>would soon be abolished, and the people would have what
+<lb/>they continually seek—a place of amusement where they
+<lb/>might derive some moral profit, while indulging in the re-
+<lb break="no"/>laxation from the cares of business which is necessary to pre-
+<lb break="no"/>serve a healthy tone in the moral and physical system.</p><p></p><p>The upper classes, as the rich are called, feel the want of
+<lb/>a place of public amusement, though they have a thousand
+<lb/>resources which the poor lack, and they are striving to esta-
+<lb break="no"/>blish an Italian opera house for their peculiar enjoyment;
+<lb/>and one of our morning papers, that holds the theatre in
+<lb/>such abhorrence as to exclude all dramatic advertisements
+<lb/>from its columns, professes to be in ecstasies with the mea-
+<lb break="no"/>sure. But the Italian opera, in its very highest condition, is
+<lb/>only the recreation of Sybarites ; it appeals only to the ani-
+<lb break="no"/>mal sensations, but makes no aim at the heart, which the
+<lb/>lowest order of dramatic entertainments professes to do. If
+<lb/>half the exertions which are bestowed in attempts to estab-j
+<lb/>lish an Italian opera in this city, were made in behalf of the
+<lb/>theatre to establish it on a proper basis, a place of amuse-
+<lb break="no"/>ment would be furnished for the people which would be ac-
+<lb break="no"/>ceptable and profitable to all classes. An Italian opera never
+<lb/>can succeed in this city. If it cannot in London and Paris
+<lb/>without the aid of government or government officials, how
+<lb/>can it be supported here, where its patrons are fewer and its
+<lb/>expenses higher ?</p><p>Horace Walpole, in one of his letters to Sir Horace Mann,
+writes,—
+</p><p>“ We have got another opera, which is liked; there was to have
+<lb/>been a vast elephant, but the just Directors, designing to give the au-
+<lb break="no"/>dience the full weight of one for their money, made it so heavy that
+<lb/>at the Prova it broke through the stage. It was to have carried
+<lb/>twenty soldiers, with Monticelli on a throne in the middle. There is
+<lb/>a new subscription begun for next year, thirty subscribers at two hun-
+<lb break="no"/>dred pounds each. Would you believe that I am one? You need not
+<lb/>believe it quite, for I am but half an one ; Mr. Conway and I take a
+<lb/>share between us.”</p><p></p><p>This was in the last century, to be sure, but it is by simi-
+<lb break="no"/>-lar means that the Italian Opera is supported now in Lon-
+<lb break="no"/>don; and unless the much talked-of “upper ten thousand’’
+<lb/>are willing to subscribe in this munificent manner for the
+<lb/>amusement of each other, which we doubt exceedingly, an
+<lb/>Italian opera can never flourish among us.</p><p>The Fine Arts
+THE PENNSYLVANIA ACADEMY OF FINE ARTS.
+</p><p>Considering that this institution has only been in operation
+<lb/>thirty-nine years, it has succeeded in accumulating an amount
+<lb/>of bad pictures that would seem almost incredible, were it
+<lb/>not that sincere conviction may be purchased for a quarter of
+<lb/>a dollar. There seems to have existed a kind of chemical
+<lb/>affinity, by which all the worst specimens of Art which came
+<lb/>within the sphere of its attraction were drawn irresistibly
+<lb/>toward it. If this hypothesis be a correct one, we can only
+<lb/>wish that its power of enticement had extended to some more
+<lb/>northerly cities. Institutions of this kind seem to be the
+<lb/>threads around which all the bad taste hitherto held in solu-
+<lb break="no"/>tion in general society hastens to crystallize itself. They
+<lb/>are the ravens sent by Providence to supply mediocrity with
+<lb/>bread in the shape of patronage.</p><p></p><p>We hardly know whereto begin noticing some few of
+<lb/>the many atrocities perpetrated here in the holy name of
+<lb/>Art; but perhaps the fairest way of settling the precedence
+<lb/>will be by the amount of canvass which each artist has ex-
+<lb break="no"/>pended. Perhaps, were we to take the aggregate amount
+<lb/>of Mr. Sully’s canvasses, we should find that he had display-
+<lb break="no"/>ed more of this liberal enthusiasm than any other gentleman
+<lb/>whose “works” are here exhibited, but we doubt not but</p><p></p><p>he will be willing to yield the foremost place to Mr. West,
+<lb/>both because he (Mr. W.) was president of the Royal Acad-
+<lb break="no"/>emy, and because he has sacrificed by far the largest single
+<lb/>canvass upon the altar of professional ambition. “ West’s
+<lb/>celebrated picture of Death on the Pale Horse,” as it is
+<lb/>styled in the panegyrical catalogue, is painted upon a can-
+<lb break="no"/>vass twenty-five feet long by fourteen and a half feet wide,
+<lb/>being almost as large as the foresail of a pilot boat, and if in
+<lb/>such matters, badness may be estimated by the acre, we
+<lb/>should not hesitate to pronounce it the worst picture in
+<lb/>the world. It would be hard to say whether it be more
+<lb/>wanting in the imaginative or the mechanical qualities of a
+<lb/>true painting. In both these respects it is below criticism,
+<lb/>and it were only a waste of time to point out its most striking
+<lb/>absurdities. We cannot help noticing, however, the original-
+<lb break="no"/>ity displayed both in the conception and execution of the flash
+<lb/>of lightning in the left of the picture. The impression con-
+<lb break="no"/>veyed by such electric displays to the mind of ordinary mor-
+<lb break="no"/>tals, is that of extreme swiftness, but precisely the reverse
+<lb/>effect seems to have been produced upon the President of a
+<lb/>Royal Academy. The lightning in the present case wan-
+<lb break="no"/>ders deliberately down and ends in a viscid drop, so that its
+<lb/>general appearance is like what would be produced by the
+<lb/>melting and running down of a ball of molasses candy which
+<lb/>bad been reduced to that extremity upon a street-stall by a
+<lb/>sudden change of weather. We cannot help imagining the
+<lb/>exultation which must have been felt in England when this
+<lb/>monstrosity was fairly rolled up and shipped to this country.
+<lb/>It might almost seem that its being sent hither was the re-
+<lb break="no"/>sult of a plot to give British tourists an additional subject of
+<lb/>merriment. Yet this trumpery has been carte l about the
+<lb/>country in every direction and exhibited, with the conni-
+<lb break="no"/>vances of those who should have known better, as a miracle
+<lb/>of Art. Editors of newspapers, who are supposed ex officio
+<lb/>to know every thing, pay for their tickets to such sickening
+<lb/>shows with half a column of flummery, and the mass of the
+<lb/>people forever after use this picture as a standard in measur-
+<lb break="no"/>ing other pictures which have no President's name attached
+<lb/>to them. In this way incalculable injury is done to the cause
+<lb/>of true Art.</p><p></p><p>Allston’s “ Dead man restored to life,” we have never been
+<lb/>able to admire. It displays none of that artist’s fine qualities.
+<lb/>The coloring is hard and niggardly, the grouping inefficient,
+<lb/>and the whole looks more like an attempt to paint a large
+<lb/>picture than a great one. Haydon's picture of “ Christ’s en-
+<lb break="no"/>try into Jerusalem,” which hangs on another side of the room,
+<lb/>is more in Allston’s style of coloring than his own picture. It
+<lb/>is chiefly interesting for the portraits it contains. We con-
+<lb break="no"/>fess that we think a great crowd of people to be hardly a fit
+<lb/>subject for the painter, unless, indeed, it be at such a distance
+<lb/>as to preclude any attempt at individualizing particular
+<lb/>heads. If the Artist paints all the heads with equal care it
+<lb/>will either seem unnatural, because the eye could not take
+<lb/>them all in at one moment, as in this picture, or it will de-
+<lb break="no"/>prive the figures of all motion and life. In Haydon’s pic-
+<lb break="no"/>tures all the heads in the foreground look too large.</p><p></p><p>Among many pictures which are disgraceful as works of
+<lb/>Art, there is one which is positively disgusting. We allude
+<lb/>to No. 48 in the “ North Gallery.” The subject is stated in
+<lb/>the catalogue as “ Time flogging Cupid.” It is, of course,
+<lb/>by a French Artist, and, as we turned away from it, we
+<lb/>could not help wishing most fervently that the mythology of
+<lb/>the Greeks had made Cupid a cherub, and thus precluded
+<lb/>him from becoming the subject of such an exposure.</p><p></p><p>One of the worst pictures in the exhibition is by Opie, R.
+<lb/>A. The subject is from Gil Blas. If pictures may be esti-
+<lb break="no"/>mated in the same way that puns were by Lamb, who con-</p><p><pb n="122" break="no" />
+</p><p>sidered that badness was one of the postulates for excellence,
+<lb/>this may be ranked as facile princeps in Art. If there can
+<lb/>be anything worse, it must be Mr. Sully’s copy of the same
+<lb/>painting. We can conceive of no object which Mr. S. could
+<lb/>have had in selecting this for imitation, unless it might
+<lb/>have been a desire to excuse in some measure the outrages
+<lb/>of American daubers by multiplying the specimens of one
+<lb/>perpetrated by an Englishman.</p><p></p><p>The Directors of the Academy have learned one artifice
+<lb/>from the picture dealers, and have given to the most fla-
+<lb break="no"/>grant violations of artistic proprieties the names of the dif-
+<lb break="no"/>ferent Great Masters, selected apparently at random. They
+<lb/>seem to have entertained a peculiar spite against Sal-
+<lb break="no"/>vator Rosa, the greater number being ascribed to him.
+<lb/>Time would fail us to enumerate particularly all the wretch-
+<lb break="no"/>ed spoiled canvasses which the “ Academy” have sanctioned
+<lb/>either by their purchase or acceptance. There are a few
+<lb/>good pictures here, chiefly by Flemish artists, but a foreign
+<lb/>visitor would be led to imagine that there were but two or
+<lb/>three American painters, of the works of some of whom the
+<lb/>Academy had succeeded in making almost complete collec-
+<lb break="no"/>tions, and who compared very favorably with the great for-
+<lb break="no"/>eign masters, specimens of whose productions may be found
+<lb/>hung side by side with theirs. We think that Mr. Peale
+<lb/>showed a truly patriotic forbearance in placing his works in
+<lb/>a Museum of his own, where may be seen some ten score of
+<lb/>portraits all with a dab of light like a sprinkling of flour on
+<lb/>the apex of their heads. When a visitor pays his money at
+<lb/>the door of that institution, he knows what he has to expect.
+<lb/>If he does not like the pictures he may look at the mastodon.
+<lb/>At the Academy, if the paintings are not to his taste, he may
+<lb/>look at—at—at—Mr. Pettrick’s statue of Goethe’s Mephis-
+<lb break="no"/>tophiles!</p><p></p><p>We have confined ourselves in this notice chiefly to the
+<lb/>bad pictures in this exhibition, partly because they form by
+<lb/>far the largest proportion, and partly because we think that
+<lb/>most of them disgrace the walls where they hang. We are
+<lb/>indignant that the public taste should continue any longer
+<lb/>to be miseducated by such examples. If we are to have
+<lb/>Academies of Art, let them be useful in one of two ways
+<lb/>Either let them quicken the artistic perceptions of the mass
+<lb/>of the people by collecting good foreign pictures, or good
+<lb/>copies of them; or let them (and this is better) encourage
+<lb/>American Art by purchasing and paying liberally for good
+<lb/>pictures by native artists, especially if the Artists be un.
+<lb/>known. Such institutions should lead the public taste in
+<lb/>some measure, and the purchase of a picture by them should
+<lb/>precede the verdict of popular taste, and not follow it.
+<lb/>America can now point to Artists of whom Italy or Greece
+<lb/>in their best days might have been proud. Why need we
+<lb/>make a collection of tasteless failures with foreign names at-
+<lb break="no"/>tached to them, while we might give employment and per-
+<lb break="no"/>haps bread to such men as Page and Powers !</p><p></p><p>The collection of pictures we have been noticing is the
+<lb/>more disgraceful to Philadelphia, because there is a great
+<lb/>deal of refined taste and judgment there, as well as liberal
+<lb/>and judicious patronage. The piece of statuary by Powers
+<lb/>and the picture by Leutze which we mentioned in our last,
+<lb/>are both for a gentleman of Philadelphia whose private
+<lb/>collection is as honorable to his taste as to his munificence.</p><p>THE PARDONING GOVERNOR.
+</p><p>We have often seen notices of pardons by the late Gover-
+<lb break="no"/>nor of Pennsylvania, but we had no suspicion of the extent
+<lb/>to which he had strained his mercy, until we saw the offi-</p><p></p><p>cial statement of the exact number of convicts whom he set
+<lb/>free before their term of confinement expired. The whole
+<lb/>number of pardons granted by Governor Porter is eight
+<lb/>hundred, of these, fifty-five were granted before trial. Among
+<lb/>the pardoned were several murderers, counterfeiters, bur-
+<lb break="no"/>glars, horse thieves, bigamists, incendiaries, and fraudulent
+<lb/>voters. A fearful list of freedmen. Of what use are laws
+<lb/>that must be executed by lawless men ? These eight hun-
+<lb break="no"/>dred rogues whom Governor Porter set free, the great part
+<lb/>of them beyond doubt to rob and murder again, had been
+<lb/>convicted at great expense to the state; and the neigh-
+<lb break="no"/>borhoods which they had infested, had no doubt looked upon
+<lb/>themselves as happily rid of dangerous members: but the
+<lb/>expense must all be incurred again by the state, and throats
+<lb/>must be cut, and houses fired again, because the governor,
+<lb/>one weak-minded or dishonest man to whom the people gave
+<lb/>power over their lives and fortunes, chose to have it so.
+<lb/>Another Governor is the very opposite of Governor Porter,
+<lb/>either very honest or very hard hearted, and will grant no
+<lb/>pardons under any circumstances, and convicts who had
+<lb/>been accidentally condemned must suffer years of confine-
+<lb break="no"/>ment, because the Governor (the one man again) will have
+<lb/>it so.</p><p></p><p>What absurdity to talk of justice, when the execution of
+<lb/>the law depends upon the whim of an individual ! If one
+<lb/>Governor may pardon eight hundred convicts, why may not
+<lb/>some other Governor hereafter make a general jail delivery
+<lb/>and pardon all convicts. If Governor Porter may pardon fif-
+<lb break="no"/>ty-five indicted criminals before trial, what is there to pre-
+<lb break="no"/>vent some other Governor releasing all offenders before trial ?
+<lb/>Nothing could more plainly show the folly of the majority
+<lb/>of the whole people making a law, and then giving one man
+<lb/>the power to render it null, than the exposure of Governor
+<lb/>Porter’s suspicious mercy. The Americans are strangely
+<lb/>reckless of power: having it in their own hands, and having
+<lb/>never felt the want of it themselves, nor suffered much from
+<lb/>its abuse by others, they give it away as though it were
+<lb/>little worth. They give it to their rulers as though their
+<lb/>rulers were angels, and could not use it improperly. They
+<lb/>are credulous to a degree passing belief. It never seems to
+<lb/>have occurred to the people of the United States, that their
+<lb/>executive officers could do wrong ; to think so would be a re-
+<lb break="no"/>flection upon the people themselves, for the officers, are they
+<lb/>not taken from the people? But the conduct of Governor
+<lb/>Porter of Pennsylvania has caused a suspicion in some minds
+<lb/>that the State Executive enjoys too much power, and a
+<lb/>proposition has already been introduced into the Pennsylva-
+<lb break="no"/>nia legislature requiring the consent of the Senate to a par-
+<lb break="no"/>don by the Governor. In the most democratic state in the
+<lb/>Union, Massachusetts, the advice and consent of the Gover-
+<lb break="no"/>nor’s council is necessary to a pardon.</p><p></p><p>Governor Porter must be a singularly weak-headed man,
+<lb/>or the courts in Pennsylvania must be strangely corrupt, to
+<lb/>allow of eight hundred men being sent wrongfully to prison.
+<lb/>We flatter ourselves that we are governed by our own laws,
+<lb/>but we are mainly governed by the whims of one man to
+<lb/>whom we give power to render null and void all our laws.
+<lb/>An elective monarchy is certainly an improvement upon an
+<lb/>hereditary monarchy, but it is only an improvement, and a
+<lb/>slight one too ; our people are almost as far from believing
+<lb/>that all power rests with them, and that they have pow-
+<lb break="no"/>er to govern themselves, as the subjects of Nicholas or
+<lb/>Queen Victoria.</p><p></p><p>We do not condemn governor Porter; he may have been
+<lb/>moved by merciful considerations in setting the rogues free
+<lb/>that the court had condemned to imprisonment; but he or
+<lb/>the judiciary of the state must have been strangely want-
+<lb break="no"/>ing in honesty or capacity, or so great a number of men
+<lb/>c[o]uld not have been convicted unjustly, or unjustly set
+<lb/>set at liberty.</p><p><pb n="123"/>
+Original Poetry.
+GABRIELLE.
+How I loved thee, dearly loved thee,
+None can tell,
+But the heart that still adores thee,
+Gabrielle!
+Thou hast left me, ay deceived me,
+Know I well;
+But I never can forget thee,
+Gabrielle.
+In the quiet midnight hour
+Thou art nigh :
+In my dreams thy gentle power
+Flitteth by:
+</p><p>And upon my fevered brain
+<lb/>Thy holy spell
+<lb/>Cometh like an olden strain
+<lb/>We loved so well.</p><p>Though unknown and unregretted
+I may fade,
+I shall never cease to love thee,
+Faithless maid;
+For my pathway, lone and dreary,
+Through life’s cell,
+By thy smile was made leas dreary,
+Gabrielle.
+On my grave, when I am gone,
+Drop a tear
+</p><p>For the heart with anguish torn
+<lb/>Now with’ring here;
+<lb/>When departed, think of him
+<lb/>Who loved so well,</p><p>And if then thine eyes should dim,
+Gabrielle ?
+For that tear thy spirit lover,
+Fleet and fast,
+Round thy footsteps e’er shall hover
+Till the last;
+And with music’s sweetest numbers,
+Holy swell:
+Angels bright shall guard thy slumbers,
+Gabrielle.
+February, 1845.
+S. A. W.
+THE WIFE OF LOT.
+“ And the sun was risen upon the earth when Lot entered Zoar.	
+“ But his wife looked back from behind him, and she became a pil-
+lar of salt.
+Genesis.
+“ Arise, and flee hence, and turn not back !”
+The angel to the godly patriarch said—
+“ Tarry thou not for kindred, herd, nor flock !"
+And Lot arose and forth the city fled
+Onward to Zoar. And clinging to his side
+Were they on whom as yet no blemish lay,
+And the true wife—the true, and oh ! how tried !
+With lingering footstep followed on the way.
+</p><p>Alas for her, sad mother ! whose torn heart
+<lb/>Felt love’s strong chain to these her being bind;
+<lb/>Yet clave to them, her being’s other part—</p><p>To them, the doomed, that she had left behind.
+</p><p>And Lot sped onward, while the sandy plain
+<lb/>Gleam’d ’neath their hurrying feet. But Zarah turned—
+<lb/>And lo! on Sodom fell the fiery rain,</p><p>And the far mountains heaved, and wildly burned,
+</p><p>And from their summits fiercely hurled their blaze,
+<lb/>As hurls high Jove his thunderbolts in ire;
+<lb/>Lighting the roofs, till ’neath her frenzied gaze
+<lb/>The city flamed like one vast funeral pyre.</p><p>And oh ! the agony that rent her breast,
+While from her eyes the heart’s warm torrent burst—
+To know the forms her arms maternal pressed,
+Were ashes there beneath yon pile accursed.
+“ Alas !” she wildly cried, “ here would I die!
+Mine eyes may look no more on all I cherish!
+Too much for life henceforth were memory !
+Since they are saved, with these, oh ! let me perish !''
+</p><p>Oh ! mourning mother! long upon the plain
+<lb/>She stood—her watch in tearful anguish keeping;
+<lb/>Till the warm blood congealed within each vein,
+<lb/>And all to stone she turned with bitter weeping.</p><p>MARY E. HEWITT.
+THE LECTURE ROOM.
+MR. HUDSON'S LECTURE ON HAMLET.
+</p><p>The new lecturer on Shakspeare had been gazetted from
+<lb/>Boston as something of a lion, in which respect we cannot
+<lb/>help considering that he had been very ill classified. His
+<lb/>eye, manner, eagerness, and especially the avidity with
+<lb/>which he pounces upon a truth as if he would tear out the
+<lb/>very heart of the mystery, characterize him as belonging to
+<lb/>the ornithological part of creation—a hawk or vulture, rather
+<lb/>than a lion. He has none of the paces of the lion, nothing
+<lb/>of the roar loud and continuous, or low and dulcet—for your
+<lb/>lion, your literary lion, as wisely remarked by Bottom, is very
+<lb/>apt to degenerate into the sucking dove.</p><p></p><p>Mr. Hudson was expected to make a sensation. He had
+<lb/>made a sensation in Boston—would the canes and gloves of
+<lb/>New York respond? This is, as a question, by no means
+<lb/>necessarily to be answered in the affirmative. Civilization
+<lb/>and intelligence, we are told, are always proportioned to the
+<lb/>density of the population, and New York being huge and
+<lb/>metropolitan, it must be considered that what is a thirty-two
+<lb/>pounder in the provinces is a mere pop-gun here, by the sheer
+<lb/>force of mathematical accumulation. Hence it follows that
+<lb/>New York can bear a celebrity from any other part of the
+<lb/>country, with great equanimity, while the reverse movement
+<lb/>has frequently called to mind the frog in the fable. What-
+<lb break="no"/>ever Mr. Hudson maybe elsewhere, in New York he is
+<lb/>simply a man, a cultivated man, originally of strong mind
+<lb/>and vigorous perception, with these rare natural faculties
+<lb/>strengthened by judicious reading. Here let him appear
+<lb/>what he is, and he will be welcome. Anything extrinsic is
+<lb/>“ leather and prunella.” There are one or two points of
+<lb/>manner about Mr. Hudson that, we might as well state it at
+<lb/>once, however telling they may be elsewhere, can be dis-
+<lb break="no"/>pensed with to advantage here. Such are some of the un-
+<lb break="no"/>utterable chokings, the ineffable grins, and the foolish apolo-
+<lb break="no"/>gy which preceded the lecture. His own laugh at one
+<lb/>point betrayed him—at a peculiarly abdominal utterance of
+<lb/>the word practical, during which he tied up his own muscles
+<lb/>to relax those of the company. If the thing is to be done in
+<lb/>this way, let it be so advertised. Shakspeare through a horse
+<lb/>collar might draw upon the Park audiences, but the divines,
+<lb/>the lawyers, the literateurs, who graced the Society Library
+<lb/>on Monday evening, can dispense with the wrigglings and
+<lb/>grins with which Mr. Hudson, like the early Methodists, de-
+<lb break="no"/>livers his conceptions. We are not at all disparaging Mr.
+<lb/>Hudson, which we should be, on the contrary, if we took
+<lb/>these painful and ludicrous twistings for any thing natural or
+<lb/>harmonious with the mind within.</p><p></p><p>In our view of a lecture on Shakspeare, we are about to pay
+<lb/>Mr. Hudson a high and deserved compliment, by saying that
+<lb/>his lecture, in tone and thought, might have been written by</p><p><pb n="124"/>
+</p><p>the poet Dana. There was the same inward depth and com-
+<lb break="no"/>mand of the outer world, the same profound constructiveness
+<lb/>and freedom from mere dogmatism. The separate thoughts
+<lb/>may not have been original—that is, uttered for the first time,
+<lb/>a very shabby definition of originality, by the way) but there
+<lb/>was the innate strength of mind to grasp and mould them
+<lb/>into one consistent whole. The thinking was of the right j
+<lb/>manly sort, stopping at no half-way house of decencies, but
+<lb/>going forth right to the end of the journey, fall who might
+<lb/>by the way. Many a bleeding victim was left by Mr. Hud-
+<lb break="no"/>son prostrate on the path. Poor Dr. Paley with his plausi-
+<lb break="no"/>ble morals, an army of pretenders, who seem rather than are,
+<lb/>and a score of politicians. The latter received their death
+<lb/>wound from a gun resting on the shoulder of Polonius. We
+<lb/>shall not readily forget the miserable demagogue whose
+<lb/>secret is to find out the tendencies of the mass, and put him-
+<lb break="no"/>self in the van—“ a trick requiring only long legs, a short
+<lb/>head, and no heart at all." This was one of Mr. Hudson’s
+<lb/>points which told well, and by the way, seeing how much
+<lb/>he himself gains from this harmless stage effect, he might
+<lb/>have spared the poor actors the gird he put in, in the Ophe-
+<lb break="no"/>lia scene—other sayings were as good, but the rapid succes-
+<lb break="no"/>sion of short, close, sinewy sentences, have driven them from
+<lb/>our memory. We remember one happy illustration, refer-
+<lb break="no"/>ring to the noisy pretenders, and the silence of true greatness.
+<lb/>“We hear the crackling of burning straw, but not the rays
+<lb/>of the sun in heaven." These are words that savor not at
+<lb/>all of the mountebank. The pointed antithetical character
+<lb/>of the politician, would have done honor to Butler and the
+<lb/>best of the old Character Writers. The analysis of the cha- J
+<lb/>racter of Hamlet was ingenious, and if not convincing, it was
+<lb/>at least well defended by a numerous light infantry of brilliant i
+<lb/>truths. The ground taken was that Hamlet feigned insanity,
+<lb/>and so closely that he was subject to all the laws of the real
+<lb/>melancholy. The most that can be done with Hamlet is to 
+<lb/>take some theory as a nucleus, like the thread of the sugar
+<lb/>manufacturer, for the crystallization of a whole world of
+<lb/>truth and philosophy. The sarcasm with which that “code
+<lb/>of Chesterfieldianism,” the instructions to 1-aertes, was top-
+<lb break="no"/>pled over, was righteously expended, and the depth of feeling
+<lb/>for Ophelia, was an earnest to us of what we may expect in 
+<lb/>the lecturer's development of the great Shakspearian female
+<lb/>life.</p><p>THE CONCERT ROOM.
+</p><p>“ Musical Criticism.”—Under this head, the editor of the 
+<lb/>Evening Mirror, comments with much indignation upon
+<lb/>some remarks made by us a week or two ago, upon a young
+<lb/>vocalist: he also informs us that we have been most shock-
+<lb break="no"/>ingly mangled by the Brooklyn Daily Advertiser. Now 
+<lb/>this we are really sorry for, as we both respect and esteem
+<lb/>its excellent editor, Dr. Northall, for many reasons.</p><p></p><p>We have not seen his remarks, but we are acquainted
+<lb/>with their import, and we feel ourselves compelled to say,
+<lb/>that considering the very near relationship in which the
+<lb/>doctor stands to the young lady in question, those remarks,
+<lb/>though perfectly natural, were impolitic and in bad taste.</p><p></p><p>In answer to the editor of the Mirror, we must reiterate
+<lb/>what we have before said, that his musical opinions are of
+<lb/>no value; they would not even serve as make weight to a
+<lb/>doubting mind. His criticisms, as criticisms, are without
+<lb/>meaning: being a mere string of strained similies, far-fetch-
+<lb break="no"/>ed images, irrelevant rhapsodies, which, though expressed
+<lb/>by a strange mixture of quaintness and bombast, flippancy
+<lb/>and earnestness, bear no internal evidence that they spring</p><p>either from a knowledge or a love of the subject in discus-
+sion.
+</p><p>The editor of the Mirror has earned, by his after supper
+<lb/>lucubrations, the honorable title of Operatic Puffer; he has
+<lb/>worked hard for the distinction and has justly gained it, but
+<lb/>what benefit his labors have conferred upon the cause of
+<lb/>music it would be impossible to discover. He has endea-
+<lb break="no"/>vored to foster a false standard of taste, by exalting (O pow-
+<lb break="no"/>er of imagination !) merely good talent into superior genius ;
+<lb/>he has encouraged negligence and slovenliness in every de-
+<lb break="no"/>partment, by indiscriminate commendation. This may be
+<lb/>called good nature, but it is not justice, and such a course
+<lb/>of conduct cannot command the respect of any one.</p><p></p><p>Our course must of necessity be entirely opposite to this.
+<lb/>We do not write to elevate the individual at the expense of
+<lb/>the Art, but we are striving to raise the Art by preserving
+<lb/>it and its professors in a course of integrity.</p><p></p><p>Our remarks upon Miss Northall, are designated by the
+<lb/>editor of the Mirror, as injudicious, flippant, and ill-natured.
+<lb/>This is a charge he is by no means justified in making. We
+<lb/>might, with equal justice, accuse him of dishonorable mo-
+<lb break="no"/>tives in writing up Pico at the expense of Borghese ; or we
+<lb/>might say that he puffed up the Opera concern, day after
+<lb/>day, for the sole purpose of gaining the artists’ gratuitous
+<lb/>services at a “ complimentary concert.” We do not say this,
+<lb/>but he has given us a right to do so, by wilfully misconstru-
+<lb break="no"/>ing our intentions. We have done him the justice to be-
+<lb break="no"/>lieve him honest in his intentions, and we have a right to
+<lb/>expect the same consideration from him.</p><p></p><p>We have always endeavored to assist the young, but we
+<lb/>conscientiously believe, that confirming them in their faults,
+<lb/>whatever they may be, by indiscriminate and fulsome flat-
+<lb break="no"/>tery, such as “ one of a brilliant constellation of talent,” &amp;c.,
+<lb/>&amp;c., is not an act of friendship, but on the contrary, an un-
+<lb break="no"/>kind and wilful deviation from the truth, entailing upon the
+<lb/>author well merited contempt for his mendacity, and upon
+<lb/>the subject, a long account of falsely raised expectations, and
+<lb/>a sad history of blighted hopes. Under this conviction, we
+<lb/>have chosen the sterner course ; we may wound and offend
+<lb/>—though never intentionally, at first, but we shall soon be
+<lb/>understood, and we do not fear the result.</p><p></p><p>Gratuitous Services at Charitable Concerts.—We
+<lb/>have neither space nor time this week, to enter upon this
+<lb/>subject as largely as we could wish. We will simply define
+<lb/>the duty the professor owes to the public, when once his
+<lb/>name is announced in the bills as a gratuitous performer.
+<lb/>Having allowed the beneficiary the attraction of his name
+<lb/>(however small that attraction may prove to be) he should
+<lb/>consider that he has made an engagement which he is bound
+<lb/>in honor to fulfil, not only to the letter, but in the spirit.
+<lb/>How very rarely such obligations are observed, we well
+<lb/>know. We will mention two of recent occurrence, illustra-
+<lb break="no"/>ting forcibly how the letter and the spirit of such engage-
+<lb break="no"/>ments are observed.</p><p></p><p>At the benefit concert at the Transfiguration Church,
+<lb/>Madame Pico was announced to sing. She did not appear.
+<lb/>What was to compensate for the absence of the chief attrac-
+<lb break="no"/>tion? Was not this violating the letter of the engagement.
+<lb/>A most exquisite septett by Hummel was to be performed,
+<lb/>Mr. W. A. King taking the piano-forte. Mr. King could get
+<lb/>no perfect rehearsal of the piece, but he was assured that
+<lb/>the persons appointed to play it, had played it frequently
+<lb/>before. He was compelled to be satisfied. In the evening,
+<lb/>when the time came for its performance, there was no one
+<lb/>to play the horn part. There were two horn players pre-</p><p><pb n="125" break="no" />
+</p><p>sent, Messrs. Whoening and Nidds, both efficient, we sup-
+<lb break="no"/>pose, or their reputation is false. They both refused stea-
+<lb break="no"/>dily, the former, mark this well! knowing it well, having
+<lb/>played it before, and seemed quite indifferent to the painful
+<lb/>situation in which Mr. King was placed. All this time the
+<lb/>Director was hurrying the performance on, saying in an au-
+<lb break="no"/>dible voice, “ go on, go on—never mind, play it without the
+<lb/>horn,—we can’t stay here all night.” Mr. King, however,
+<lb/>very justly refused, and finally Mr. Groenvelt, much to his
+<lb/>honor as a man and a musician, undertook to play as much
+<lb/>of the horn part as possible upon the clarionette. The piece
+<lb/>was hurried on by the conductor, Signor Rapetti, in a very
+<lb/>indecent manner, his impatience to retire being evident to
+<lb/>the audience. The septett was beautifully played, under all
+<lb/>these disadvantages, and was beyond a doubt the only wor-
+<lb break="no"/>thy performance of the evening. Even if the gentlemen
+<lb/>hornplayers were not engaged to play in the septett, under
+<lb/>the circumstances, their feelings both as men and as musi-
+<lb break="no"/>cians should have induced them, for the honor of their art,
+<lb/>to afford their necessary aid. But to some men art has no
+<lb/>other signification than cash.</p><p>The violation of the spirit of the agreement rests either
+with the performers or the conductor.
+</p><p>The second instance occurred only last Saturday evening,
+<lb/>at the Benefit Concert of the Italian Opera. After allowing
+<lb/>the names to appear in the advertisements, in the large pos-
+<lb break="no"/>ters and small programmes, (a cheap way to gain notoriety)
+<lb/>when the audience was assembled, excuses were sent from
+<lb/>Madame Arnoult, Miss Northall, Signor De Begnis and Val-
+<lb break="no"/>tellina. Being in fact the sum total of the “ brilliant constel-
+<lb break="no"/>lation,” as the Mirror would say. These excuses were re-
+<lb break="no"/>ceived by the audience with derision and contempt as they
+<lb/>deserved, and we should be glad if the public would mark their
+<lb/>just disgust at such conduct upon their next public perform-
+<lb break="no"/>ance.</p><p></p><p>Madame Otto, Miss De Luce, and a Miss Sobienski, and
+<lb/>Signor Sanquirico, appeared, we understand, but of their
+<lb/>performances we cannot speak, as the customary compliment
+<lb/>of tickets was withheld from us.</p><p>The Drama.
+</p><p>Olympic Theatre.—A new Burlesque, entitled “ Joe Mil-
+<lb break="no"/>ler and his men,” was produced at this theatre last week. It is a tra-
+<lb break="no"/>vestie upon the celebrated melo-drama of the Miller and his Men.
+<lb/>The incidents are identically the same, but the dialogue is done into
+<lb/>doggrel, full of point, wit, and humor. The actors throughout make
+<lb/>a signal failure in their conception of the ger us of burlesque. Instead
+<lb/>of acting burlesque with an intensity of seriousness, and thus height-
+<lb break="no"/>ening the absurdity, they render nonsense still more nonsensical, and
+<lb/>thus miss the point entirely.</p><p></p><p>The scenery throughout the evening was extremely beautiful. Mr.
+<lb/>Bengough has the eye and the feeling of a true artist, with an admira-
+<lb break="no"/>ble power of elaborating his ideas. The piece was of course put upon
+<lb/>the stage in excellent style, but it will not succeed.</p><p></p><p>The Leader of the Orchestra should content himself with playing
+<lb/>the music set down for him, and cease indulging in such very ques-
+<lb break="no"/>tionable "fun.”</p><p></p><p>Chatham Theatre.—This establishment re-opened on
+<lb/>Monday last. During the recess it has been entirely repainted, newly
+<lb/>decorated, and a new stage has also been laid down. It is now, cer-
+<lb break="no"/>tainly, the most elegant theatre in the city.</p><p></p><p>We hate imposition in every way—playing an old piece (the Va-
+<lb break="no"/>grant) with a new name, is a gross imposition. “True Blue” is a
+<lb/>nautical, patriotic, not-to-be-believed drama, Americanised from the
+<lb/>English, in which one Yankee tar does battle with an incalculable
+<lb/>number of Britishers, and whips them all to nothing. Sundry very
+<lb/>equivocal speeches are made, which had much better be omitted.</p><p>Mr. Freer is not at home as the Sailor. Mr. Winans is very droll,
+but somewhat too broad in his acting. Miss Orville, who has a tine
+</p><p>voice and is an elegant dresser, was encored in a very pretty song,
+<lb/>“ When the moon on the lake is beaming,” and received a shower of
+<lb/>bouquets from her admirers.</p><p>“ The Devil in Paris” is postponed for the present.
+NEW ILLUSTRATED WORKS.
+</p><p>The Devotional Family Bible, by the Rev. Alexander Fletcher, A. M., au-
+<lb break="no"/>thor of the Guide to Family Devotion, Scripture History, &amp;c., containing
+<lb/>the Old and New Testaments, with explanatory notes, practical observa-
+<lb break="no"/>tions, copious marginal references, &amp;c., every part embellished with a highly
+<lb/>finished engraving on steel, including views of the principal ; laces men-
+<lb break="no"/>tioned in Scripture, from drawings taken on the spot. New York, R. Mar-
+<lb break="no"/>tin A Co., 26 John street. Part 1st. Price 25 cents.</p><p></p><p>We believe this to be the cheapest and most elegant edition of the
+<lb/>Bible which has been published in this country. The paper and letter-
+<lb break="no"/>press are both of the highest order, and the embellishments, though
+<lb/>copied from pictures which are almost universally known, are execu-
+<lb break="no"/>ted in a style of art to make them acceptable, even to those who al-
+<lb break="no"/>ready possess copies of them from other sources. The view's to be
+<lb/>given in future numbers, from drawings by Catherwood and Bartlett,
+<lb/>will constitute the chief pictorial value of this splendid edition of the
+<lb/>Bible. We have always regarded any efforts of the imagination,
+<lb/>whether executed by the pen or pencil, as sadly out of place on the
+<lb/>page of Holy Writ, and we should, therefore, look with as little favor
+<lb/>upon the Moses, by Sir Joshua Reynolds, in this initial number, as up-
+<lb break="no"/>on the devotional reflections appended to each page, by the Reverend
+<lb/>editor. The majority of Bible readers think differently, we believe,
+<lb/>and to them the reflections and the embellishments of this edition, will
+<lb/>be alike acceptable, while the real illustrations, the actual views of
+<lb/>Bible-places, will be acceptable to all. Our remarks are intended to
+<lb/>apply solely to the principle of Scriptural illustrations, and not to the
+<lb/>merits of those referred to, which are of the highest excellence per se,
+<lb/>and quite beyond the reach of criticism at this day.</p><p></p><p>We cannot claim any particular national credit for the excellence of
+<lb/>this work, for the greater part of it is of foreign manufacture. It is
+<lb/>not, however, a whit the less valuable on that account. The paper is
+<lb/>manufactured in this country, expressly for the work, and several of
+<lb/>the forth-coming designs will be from the burin of Smillie, who stands
+<lb/>at the very head of landscape engravers of the present day. Alto-
+<lb break="no"/>gether, it is a work of great beauty, and we trust that the enterprising
+<lb/>publishers will find a profitable sale for it, as we have little doubt of
+<lb/>their doing.</p><p></p><p>The Apocrypha, we understand, will be published in a separate
+<lb/>part, but uniform with the others, so that subscribers may take it, or
+<lb/>not, at their discretion.</p><p>LITERARY NOTICES.
+A Reply to past or the Bishop's Statement. By John Jay, one of the
+counsel originally employed by the presenting Bishops. Stanford &amp;
+Swords, 139 Broadway.
+</p><p>We have no expectation that Mr. Jay’s pamphlet will be the last
+<lb/>which the unhappy trial of Bishop Onderdonk will call forth, but it is
+<lb/>the last one that we shall notice in our Journal. The Bishop and his
+<lb/>friends appear to have acted with little wisdom In giving notoriety to
+<lb/>the particulars of his singular case. It is greatly to be lamented that
+<lb/>the public mind should have been so disturbed by the controversies
+<lb/>growing out of this trial; it was a matter which concerned the Epis-
+<lb break="no"/>copal Church alone, and the seemingly deep interest which the public
+<lb/>have evinced in regard to it, arises from a pure love of gossip, height-
+<lb break="no"/>ened by the supposed immoralities which were to be revealed. The
+<lb/>harm done to the community by filling the minds of the young with
+<lb/>filthy details of scandalous transactions, and exciting their passions
+<lb/>by the bitter personalities of men who are looked upon as heralds of
+<lb/>peace, is greater, we fear, than the good which many Bishops will
+<lb/>be likely to effect in many years.</p><p></p><p>Mr. Jay’s pamphlet was called out by a rather direct insinuation
+<lb/>against him, in one of the Bishop’s communications to the public,
+<lb/>which he could not well let go unnoticed. His reply is temperate, re-
+<lb break="no"/>spectful and dignified. He has certainly succeeded in freeing him-
+<lb break="no"/>self from any charge of improper conduct or motives in the part he
+<lb/>took towards procuring the presentment of the Bishop ; or in procur-
+<lb break="no"/>ing witnesses after the presentment had been made. It seems to be
+<lb/>a difficult matter, according to Mr. Jay’s Statement, to please the
+<lb/>Bishop and his friends. They complain as loudly against those who
+<lb/>neglected to make charges against him as against those who did.
+<lb/>Considering Use vantage ground which Mr. Jay occupies, we cannot</p><p><pb n="126"/>
+</p><p>but commend the forbearance and christianlike spirit which induced
+<lb/>the exceedingly moderate and forgiving tone of his reply. It would
+<lb/>have been better for all parties, if all who have felt themselves
+<lb/>bound to come before the public with their views and facts had mani-
+<lb break="no"/>ested the same spirit.</p><p>The Age. A Satire pronounced as a Valedictory Poem before the New York
+Society of Literature, at its Second Anniversary, January 23, 1845. By
+Alfred Wheeler. C. Shepard, 191 Broadway.
+</p><p>" In presenting the following Poem,” says Mr. Wheeler in his pre-
+<lb break="no"/>face, “ the author regrets that neither time nor opportunity has been
+<lb/>afforded for such corrections and additions as would, in his humble
+<lb/>judgment, add much to its merit.” Mr. Wheeler has done himself an
+<lb/>injustice by putting forth his Satire without first making the additions
+<lb/>hinted at, for which, we suppose, the " New York Society of Litera
+<lb/>ture” must be held accountable. All the satirical parts of Mr. Whee-
+<lb break="no"/>ler’s “ Satire” appear to have been left out, for we have not been able
+<lb/>to discover anything that bears a resemblance to satire in a very care-
+<lb break="no"/>ful reading which we gave it; and the "personal friends” who urged
+<lb/>its publication before the necessary additions could be made which its
+<lb/>title calls for, showed but little discretion in their friendship for the
+<lb/>satirist. The freedom of the press has put an end to satire. When
+<lb/>men have the privilege to abuse wrong-doers in plain prose, there is
+<lb/>no inducement to insinuate abuse against them under the cover of as-
+<lb break="no"/>sumed names in rhyme. The open blackguardism in which editors of
+<lb/>newspapers and their correspondents indulge, makes all satire in
+<lb/>rhyme appear extremely weak and unpalatable. But the vices of the
+<lb/>age which are every day held up to derision in all manner of ways,
+<lb/>cannot possess much zest when slightly alluded to in ten-syllable ver-
+<lb break="no"/>ses, after the manner of the satirists of the last century.</p><p>Mr. Wheeler satirizes the stage in the following verses, which we
+extract as a specimen of his manner :
+" Now turn we, in our plaudits of the age,
+To scan the beauties of the modern stage.
+I mean not living beauties, who amuse
+Themselves and us with powder, chalk, and rouge;
+But the refinement and legitimacy
+Which make the drama now so rich and racy.
+Time was when men of genius there were needed,
+To act the parts which else would pass unheeded ;
+But now, ’twill answer if they’re almost fools—
+Besides, they make the most efficient tools.
+Thus tragedy and comedy are scarce,
+For both are blended in the vulgar farce;
+And once, ’twas thought, that they who judged the play,
+Around the boxes sat in bright array—
+That honor we’ve accorded to the pit,
+With whom all jest and bombast pass for wit;
+And as they like the mimic rage or tears,
+So they reward with hisses or with cheers.
+The best of every play is never seen—
+That which is hid from us behind the screen ;
+When Hamlet and the Ghost sit tete-a tete,
+Or Richard dead becomes intemperate;
+Or when Othello rants at Desdemona
+Because she didn’t die the way he’d shown her.”
+It is some time since we read the Rosciad, but we think we may
+safely aver that it contains nothing like this.
+</p><p>The "New York Society of Literature” has made us acquainted
+<lb/>with this new satirist, and the satirist has introduced us for the first
+<lb/>time to an acquaintance with the "New York Society of Literature.”
+<lb/>We shall of course hear from the society and the satirist again.</p><p>My own Story; or the Autobiography of a Child. By Mary Howltt. D. Ap-
+pleton &amp; Co., 200 Broadway.
+</p><p>This volume completes the series of “ Tales for the People and
+<lb/>their Children,” written by Mrs. Howitt. It is womanly, gentle, and
+<lb/>gossipping; full of little pathetic episodes, and sketches of in-door
+<lb/>humble life. Those who have read the other books of the series, will
+<lb/>of course read this ; and in reading it will hardly fail to derive as
+<lb/>much profit and enjoyment as the others have imparted.</p><p>The Columbian Lady's and Gentleman's Magazine for March. Israel Post,
+3 Astor House.
+</p><p>The pictorial illustrations of this number of the Columbian arc a
+<lb/>mezzotint by Sadd, from Hilton’s picture of the Raising of Lazarus,
+<lb/>and a line engraving by Jewett and Rolph, from a design by J. L.
+<lb/>Morton of General Putnam’s Escape at Horse Neck. There is a plate
+<lb/>of ladies' fashions for March, neatly colored, which we suppose is not
+<lb/>considered an illustration, it being chiefly valuable for the informa-
+<lb break="no"/>tion it contains, and not for any novel ideas on the aesthetics of dress.
+<lb/>One of the best papers in the Magazine is by Mr. Tuckerman, form-
+<lb break="no"/>ing No. 5 of a series called “ Thoughts on the Poets.” The subject of
+<lb/>the present paper is Gray, for whom Mr. Tuckerman evinces a strong
+<lb/>fellow-feeling, and a very thorough appreciation of his character and
+<lb/>genius.</p><p>Dunigan's Illustrated Edition of the Holy Bible, according to the Douay and
+Rheimish Versions.
+</p><p>Nos. 21, 22, and 23, of this finely illustrated edition of the Roman
+<lb/>Catholic version of the Scriptures, contain three elegantly designed
+<lb/>and engraved family records for births, deaths, and marriages. The
+<lb/>scroll work shows a better taste and a higher degree of knowledge in
+<lb/>this kind of design, than we have before seen in an American publi-
+<lb break="no"/>cation.</p><p>Observations on the best means of Presesrving the Teeth. By M. Levett,
+Dentist, 264 Broadway.
+A neat little pamphlet, with very plain and simple directions for
+keeping the teeth in order.
+The Brigand. By G. P. R. James, Farmer and Daggers, 30 Ann st.
+</p><p>This, we believe, is Cour de Leon, one of Mr. James’s popular no-
+<lb break="no"/>vels ; it will probably be found quite equal, under its new title, to a
+<lb/>new novel by the same author.</p><p>Twenty-Fourth Annual Report or the Bloomingdale Asylum
+for the Insane, for the year 1845.
+</p><p>The condition of the inmates of this well known Institution are so
+<lb/>pleasantly set forth in this report, that the term unfortunate hardly
+<lb/>seems applicable to them. The following short extract in regard
+<lb/>to their social condition at the Asylum sounds very unlike an account
+<lb/>of the insane.</p><p></p><p>“ On one evening of each week a party assembles in the family par-
+<lb break="no"/>lor, for the purpose of social intercourse. The officers and from fifteen
+<lb/>to twenty of the patients, both ladies and gentlemen, are generally
+<lb/>present. The ordinary refreshments of evening parties, are served on
+<lb/>these occasions. Balls are occasionally given, at which a greater
+<lb/>number of the patients assemble than at the parties. At the last en-
+<lb break="no"/>tertainment of this description there were about thirty of each sex,
+<lb/>which does not materially differ from the number ordinarily in atten-
+<lb break="no"/>dance. The festivities ot the evening afforded very general satisfac-
+<lb break="no"/>tion. There was cheerfulness wiihout extreme hilarity, gaiety with-
+<lb break="no"/>out boisterousness, and a pervading disposition to participate in the
+<lb/>enjoyment—to please and to be pleased.</p><p>MUSICAL INTELLIGENCE.
+</p><p>We call the attention of our readers to the advertisement
+<lb/>of Mr. George Loder's Grand Classical Concert, which takes place at
+<lb/>the Apollo Saloon this evening, Feb. 22d. It will be without doubt
+<lb/>the finest concert of the season, and every lover of music should con-
+<lb break="no"/>sider it a duty to attend.</p><p></p><p>A host of talent is at present in New Orleans. Ole Bull,
+<lb/>the Seguins, Frazer, with Van Praag, Borghese, and Perozzi, Henry
+<lb/>Phillips, the Slomans, And a Madame Hammerskold (who both as pi-
+<lb break="no"/>anist and vocalist is spoken of by the New Orleans papers at some-
+<lb break="no"/>thing very great), and some others.</p><p></p><p>Mr. Henry Phillips is said to have made a very profitable
+<lb/>speculation of hit tour through the States. He will return here in the
+<lb/>spring, give a few concerts, perhaps, and return to England to be pre-
+<lb break="no"/>sent at the various Grand Musical Festivals, which would all be im-
+<lb break="no"/>perfect without him.</p><p></p><p>We have one item of news which will, we are sure, be
+<lb/>highly acceptable to our musical friends. The French Opera will be
+<lb/>here about July. That most charming person and sweet singer, Ma-
+<lb break="no"/>demoiselle Calve, will be the leading vocalist. Grand Opera will be
+<lb/>performed, such as Meyerbeer’s Robert le Diable, Les Huguenots,
+<lb/>Auber’s Gustave, Herold’s Zampa, &amp;c. &amp;c. It is, however, said, and
+<lb/>we regret to hear it, that Mons. and Madame Lecourt will not be of
+<lb/>the company. We may be able to report something more definite in
+<lb/>a week or two. The performance will be, we believe, at the Park
+<lb/>theatre.</p><p>THE BROADWAY CARNIVAL.
+</p><p>During the last week this famous thoroughfare presented an ap-
+<lb break="no"/>pearance of gaiety, which few streets in any city of the world could
+<lb/>have equalled. If Boz had been looking from the windows of the
+<lb/>Carlton House, he would have received a very different impression of
+<lb/>the Broadway temperament, from what he did when he made his
+<lb/>notes in regard to that avenue. He would have had no occasion to
+<lb/>lament the absence of organ grinders or ballad singers, for his ears
+<lb/>would have been filled with the merriest chimes of bells that he ever
+<lb/>listened to. The bells that clanged in the ears of Toby Veck were</p><p><pb n="127"/>
+</p><p>dumb bells, compared with the lively jingling little rattlers that filled
+<lb/>the air with music in Broadway, the last week. All the world, but
+<lb/>especially the dressed-up part of it, the women and children, treated
+<lb/>itself to a sleigh ride. Why should it not? It was less expen-
+<lb break="no"/>sive than walking. A glorious ride in a scarlet sleigh, emblazoned
+<lb/>with fanciful devices, covered with buffalo robes and drawn by twenty
+<lb/>milk-white horses, each one wearing gay trappingc of little bells, cost
+<lb/>only sixpence. Whole shoals of infants and nursery maids dashed
+<lb/>along in the highest glee, shouting and clapping their hands from the
+<lb/>very farthest verge of up-towndom, somewhere in the neighborhood
+<lb/>of the Croton reservoir, down to the bowling-green, where they were
+<lb/>whirled round in a style to break the heart of a Jehu lor envy. The
+<lb/>sleighing was not only very fine, and the weather very tempting, but
+<lb/>people knew that it was the last for the season, and so they went to
+<lb/>work to make the most of it; and really we cannot conceive how more
+<lb/>could have been made out of it.</p><p></p><p>Where all the bells came from, all the fine sleighs, all the buffalo
+<lb/>robes, all the prancing horses, all the fine ladies, all the feathers, all
+<lb/>the satins, all the red-cheeked children, all the pretty nurses, all the
+<lb/>laughter, the good humor, the sunshine, the men, the bustle, and the
+<lb/>merriment, we cannot pretend to guess. In the dull month of Febru-
+<lb break="no"/>ary, they were miraculous. Let no foreign traveller ever give his im-
+<lb break="no"/>pressions of New York, until he has seen sleighing in Broadway.
+<lb/>There is nothing like it for fun and jollity in the world. The Carnival
+<lb/>is a Connecticut fast-day in comparison,</p><p></p><p>Notices to Readers and Correspondents.— We have the pleasure
+<lb/>of announcing to our readers, that hereafter, Edgar A. Poe and Henry
+<lb/>C. Watson, will be associated with the Editorial department of our Jour-
+<lb break="no"/>nal. Mr. Watson, will have entire control of the Musical department
+<lb/>of the paper, and will give to it the full benefit of his well known abilities.</p><p></p><p>The illustration which we had intended for this week’s paper, a highly
+<lb/>popular subject, which would have pleased all, and offended none, unfor-
+<lb break="no"/>tunately was spoiled in the cutting, and we have none other to take the
+<lb/>place which we had intended it should occupy. We shall guurd against
+<lb/>such accidents in future.</p><p></p><p>A very good natured gentleman, an editor himself, called at our office to
+<lb/>tell Mr. Bisco, that he thought we had faults. We have not heard of a
+<lb/>more sensible thing since we commenced our editorial career. To relieve
+<lb/>this gentleman’s mind from any anxious doubts that he may entertain in
+<lb/>regard to our perfections, we hasten to assure him that we have faults,
+<lb/>very great ones too, which he has probably never discovered, though we
+<lb/>endeavor to hide them, so that others shall not see them. This may be
+<lb/>hypocrisy, but we believe that this gentleman considered it a fault in us,
+<lb/>that we find fault with others. This would be a very serious fault if it
+<lb/>were done in mere wantonness, or from ill nature, but when fault is
+<lb/>found professionally, there should be no more blame attached to the finder,
+<lb/>than to a physician who informs a patient that his liver is diseased. We
+<lb/>have never troubled ourselves to hunt up mistakes, but aimed solely to
+<lb/>point out errors of principle in the works which we have noticed, and by
+<lb/>this rule we shall always be guided. Personalities will always be avoided
+<lb/>in our columns, but the perpetrator of a false principle in literature or
+<lb/>art, must, of course, be made the object at which the battering-ram of criti-
+<lb break="no"/>cism is directed. But this can be done with a sole view to demolish the
+<lb/>principle, without any intent of injuring the person.</p><p>     We published, a month ago, an account of a new discovery in the art of
+</p><p>reproducing engravings, and called attention to a specimen produced by
+<lb/>the new process, which we had received from London, and hung up in
+<lb/>our office. The Mirror of Tuesday evening, reprints the article, 
+<lb/>and gives credit for it to the Britannia, and at the same time states that
+<lb/>a specimen had been published by the Art-Union of this city. The article
+<lb/>in the Mirror appeared first in the Art-Union, a monthly Magazine,
+<lb/>published in London, in which Magazine the specimen alluded to first
+<lb/>appeared. The American Art-Union of this city has not published any
+<lb/>specimen, as a matter of course. We make this explanation simply be-
+<lb break="no"/>cause the American Art-Union has some twenty-five hundred subscribers,
+<lb/>who might be looking for their copy of the “ specimen," and attach blame
+<lb/>to the officers of the institution for neglecting to send it to them. The
+<lb/>Art-Union, the London Art-Union, and the American Art-Union, are
+<lb/>three very distinct affairs, but a similarity of names leads to very frequent
+<lb/>mistakes by our press, when alluding to them.</p><p></p><p>The "  Crossing’s Sweeper,” is very much to our mind, and creditable
+<lb/>to the author’s heart and talents ; but parts of it are so marred by mere
+<lb/>neglect, that we cannot publish it in its present state, although strongly
+<lb/>tempted to do so.</p><p></p><p>The editor of the Philadelphia Sun has misunderstood our remarks on
+<lb/>the Magazines : we certainly bear them no ill will, and do not see how
+<lb/>they can possibly interfere with our own circulation. We thought that
+<lb/>we paid them a very high compliment in saying that they were the best, I
+<lb/>almost the only patrons of our native writers. We are extremely happy j
+<lb/>to learn that Graham paid Cooper fifteen hundred dollars in seventeen
+<lb/>months, and that Godey keeps almost as many ladies in his pay as the 
+<lb/>Grand Turk ; but we have heard of writers, whose articles are certainly |
+<lb/>equal to any thing of Cooper's that we have seen in Graham, to whom |
+<lb/>that munificent publisher pays nothing.</p><p>MENDELSSOHN’S LOBGESANG.
+Mr. GEORGE LODER respectfully announces to
+
+</p><p>the public of New York that his CLASSICAL CONCERT will take place
+<lb/>at the Apollo Rooms, on February 22d, 1844. (Washington’s Birthday,) when
+<lb/>will be produced, for the first time in America, the</p><p>LOBGESANG, OR HYMN OF PRAISE,
+Allegro Maestoso e Vivace—Allegretto Agitato—Adagio
+Religioso.
+Chorus—“ All men, all things, praise the Lord.”
+Solo—“ Praise ye the Lord,” .... Mrs. E. Loder
+Solo—“ Sing ye praise, all ye redeemed,/ .	. Sig Antognini.
+</p><p>Chorus—“All ye that cried unto the Lord,” ....
+<lb/>Duetto—“ 1 waited for the Lord,” . Mrs. E. Loder, and Miss E. Watson.
+<lb/>Solo—“ The sorrows of death are closing,” ... Sig Antognini.
+<lb/>Chorus—“ The Night is departing,”	....</p><p>Duetto—“ I sing of thy loving kindness,”	.	. Mrs. E. Loder and
+„	, „	Sig Antognini.
+Grand Chorus—“ The Nations offer to the Lord.”
+PART II.
+Overture—“Zauberflote,” •	Mozart.
+New Canzonetta—“ La Veglia,” (canzone del Conte Pepoli)
+Jules Benedict..............Miss De Luce.
+OFFERTORIUM,
+For Voice and Violin Solo .	.	. Mrs. E. Loder and Sig Rapetti.
+Chorus and Orchestra, composed by Vieuxtemps, for the opening of the
+church of St. Renacle, Ververs, Belgium.
+New Song—“ The Soldier’s Glory,” composed and sung by Sig. Antognini.
+Aria—“Cujus Animum,” Mr. Salmonski..................Rossini.
+Overture—“ Des Deux Journee,”....................Cherubini.
+DIRECTOR.............................MR. GEORGE LODER.
+Tickets for sale at the various Music Stores.
+TICKETS ONE DOLLAR—Family Tickets, to admit five persons, Three
+Dollars.
+FAMILY groups
+TAKEN by Mons. EDOUART in an unique style pe-
+</p><p>culiarly his own, which has been patronized by the Crowned heads of Eu-
+<lb break="no"/>rope and the most distinguished families of America. Mons. E. begs to ob-
+<lb break="no"/>serve that his likenesses are true to nature, and that the manner he disposes
+<lb/>of the figures constituting his Family Group has always elicited the highest</p><p>commendation from eminent artists of both hemispheres. The large num-
+ber of groups in his possesion (which are for sale,) evince his natural talent.
+</p><p>     A collection of 150,000 likenesses with autographs ap, ended, preserved in
+<lb/>books and large groupings of distinguished characters, are testimonials of his
+<lb/>unrivalled skill. Those who wish to leave mementos to posterity should not
+<lb/>lose the present opportunity. A call at his exhibition room (free) will satisfy
+<lb/>all that these works are entirely unique and capable of resisting the destruc-
+<lb break="no"/>tive influences of time.—His Fireside Group-, representing the members of
+<lb/>families united, which union must be of short duration, separations occur-
+<lb break="no"/>ing by marriage, change of location and demise, can be faithfully preserved
+<lb/>in the works of Mons. Edouart, thus affording mementos to those remaining,</p><p>of time past, and to posterity, of ancestors long since departed.
+</p><p>Mons. E. leaves for Europe in a short lime. An early visit from patrons
+<lb/>at No. 285 Broadway, near Granite Buildings, is solicited and will receive
+<lb/>immediate attention, or attendance at the family residence if required.</p><p>DISBROW’S RIDING SCHOOL,
+NO. 408, BOWERY, near Astor and La Fayette
+Places. New York.
+Mr. D. has the honor to announce that his School is open Day and Even-
+ing, for Equestrian Tuition and Exercise Riding.
+TERMS:
+Lecture Lessons.
+16 Lessons.........$15 00
+10 “ ................10 00
+4	“	 5	00
+Single Lessons.............2 00
+Road “  ...................2 50
+N. B.—Highly trained and quiet Horses for the Road or Parade, to let.
+Evening Class
+Exercise Riding.
+1 Month........................$12	00
+20 Rides.........................10	00
+10 “ ........................6	00
+Single Rides.......................0	75
+12 Lessons...................$9 00
+Single ** .....................1 00
+20 Rides..................$10 00
+Single Ride...............• ... 0 75
+RULES :
+1.	All Lessons or Rides paid for on commencing.
+2.	One hour allowed for each Lesson or Ride in the School.
+3.	One hour and a half for a Lesson on the Road.
+4.	Hours for Ladies, from 9 A. M. to 3 P. M.
+5. Hours for Gnetlemen, from 3 to 4, and from 7 to 9 1-2 P. M.
+6. No Gentlemen admitted during the hours appropriated to Ladies.
+A card of address is requested rievious to commencing.
+N. B. Gentlemen keeping their hordes at this establishment, will have the
+privilege of riding them in the School gratis.
+DISEASES OF THE TEETH.
+Washington, D. C., May, 1844.
+</p><p>THE neglect of the Teeth is the cause of much suffering
+<lb/>and regret, and should not be disregarded by the most thoughtless.
+<lb/>The undersigned having received the benefit of Dr. A. G. Bigelow’s
+<lb/>professional skill, and believing him well qualified in the science of
+<lb/>Dental Surgery, and an accomplished and skillful operator, we most
+<lb/>cheerfully certify to the ease and safety with which Dr. B. performs
+<lb/>the various and important operations, so essential to the usefulness,
+<lb/>durability, and beauty of the Teeth.</p><p>Hon. J. W. M. Berrien, Geo. Hon. John B. Dawson, La.
+Joshua Herrick, Me.	John H. Lumpkin, Geo.
+James Irvin, Pa.	J. Thompson, Miss.
+Dr. A. G. Bigelow’s Office and Residence, 103 Liberty st., New York.
+CHARLES PERABEAU, Professor of Music,
+No. 9 Whitehall Street, New York.
+<pb n="128"/>
+MARTIN'S SPLENDIDLY ILLUSTRATED FAMILY BIBLE.
+THE DEVOTIONAL FAMILY BIBLE,
+EACH PART EMBELLISHED WITH A SPLENDID ENGRAVING, SUCH AS USUALLY SELLS AT
+A DOLLAR EACH.
+Price only 25 Cents a Part.
+
+THE DEVOTIONAL FAMILY BIBLE, by the REV. ALEXANDER FLETCHER, A.M., Author of the
+</p><p>GUIDE TO FAMILY DEVOTION, SCRIPTURE HISTORY, &amp;c., containing the OLD AND NEW TESTAMENTS, with
+<lb/>different Readings, Marginal References, and Reflections, each Part embellished with a HIGHLY FINISHED ENGRAVING, on Steel,
+<lb/>from subjects by the Great Masters, together with a Series of VIEWS of the principal places mentioned in Scripture,</p><p>From Drawings made on the spot by F. Catherwood &amp; W. H. Bartlett, Esqs.
+R. MARTIN &amp; CO. 26 John St.
+GOLDSMITH'S WRITING AND BOOK-KEEPING ACADEMY,
+NO. 189 BROADWAY, NEW YORK.
+GOLDSMITH’S PREMIUM SYSTEM of Mercan-
+tile and Epistolary Writing, guaranteed to all (old and young)
+in 10 lessons of one hour each. Terms—Five Dollars.
+</p><p>Double Entry Book-Keeping, Fifteen Dollars, for a thorough
+<lb/>course of instruction, including mercantile arithmetic, also Blanks and
+<lb/>Stationery. Payable at the commencement.</p><p>Class Hours—9 A. M., 3, 5 3-4, and 8 P. M. daily for gentlemen,
+and from 11 to 1 o’clock for ladies. Private instruction given.
+For sale “ Goldsmith’s Gems or Penmanship,” elegantly bound.
+Price Five Dollars.
+	From the Courier and Enquirer, July 27, 1844.
+</p><p>Goldsmith’s Gems of Pennmanship.—The Chirographic art is
+<lb/>much more important to mankind than it is generally considered, and
+<lb/>Mr. Goldsmith may well claim to be considered at its head. The
+<lb/>volume before us exhibits more taste and ingenuity, and higher proofs
+<lb/>of manual dexterity than we have ever seen before.</p><p>From the New York Express.
+</p><p>Goldsmith’s Gems of Penmanship.—We have seen the original, as
+<lb/>executed by his own hand, and a more beautiful, and indeed a more
+<lb/>wonderful display of the power of that little instrument which is said
+<lb/>to be “ more potent than the sword,” we never witnessed before.</p><p>KEIGHTLEY’S HISTORICAL WORKS.
+THE HISTORY OF GREECE.—By Thomas Height-
+ley, with notes and additions by G. Toulman Smith, in one volume.
+THE HISTORY OF ROME- By the same author, with notes and addi-
+tions in the same manner, in one volume.
+THE HISTORY OF THE ROMAN EMPIRE—Being a continuation of
+the History of Home. By the same autnor. In one volume.
+</p><p>THE HISTORY OF ENGLAND—From the Invasion of Julius Caesar to
+<lb/>the close of the reign of George IV. By the same author, with notes
+<lb/>and additions as above. In two volumes. Published by</p><p>TURNER &amp; HAYDEN, No. 10 John St.
+PLUMBE DAGUERRIAN GALLERY
+AND PHOTOGRAPHIC DEPOT, 251 Broadway,
+</p><p>Corner of Murray street, (Over Tenny’s Jewelry Store,) awarded
+<lb/>the Medal, four first Premiums, and two “ Highest Honors,” at the
+<lb/>Exhibitions at Boston, New York, and Philadelphia, respectively, for
+<lb/>the best pictures and apparatus ever exhibited.</p><p></p><p>Price of these superb Photographs reduced to that of ordinary ones
+<lb/>at other places, so that no one need now sit for an inferior likeness on
+<lb/>the score of economy.</p><p></p><p>N. B.—Imported German Cameras, also French and American In-
+<lb break="no"/>struments of the very best quality, with plates, cases, chemical polish-
+<lb break="no"/>ing materials, &amp;c., kept constantly on hand. All orders received
+<lb/>promptly attended to.</p><p>THE AMERICAN REVIEW.
+A
+WHIG JOURNAL OF POLITICS, LITERA-
+</p><p>TURE, ART AND SCIENCE. Edited by Geo. S. Colton, and pub-
+<lb break="no"/>lished monthly at 118 Nassau St. New York, and by Wiley A Putnam 161
+<lb/>Broadway, and 6 Waterloo Place, Recent Street, London,—at Five Dollars
+<lb/>per anum in advance—Single Nos. fifty cents.</p><p></p><p>It is the aim of this Review—discarding all national and sectarian influence
+<lb/>—to harmonize in a kindlier acquaintanceship the different sections of the
+<lb/>country ; to set forth more clearly the inexhaustible resources of our territo-
+<lb break="no"/>ry ; to elevate the morals of the people : to withstand pusillanimity at home,
+<lb/>and indignities abroad; to promote American science, and diffuse throughout
+<lb/>the land a higher order of taste in letters and the Arts. Though established
+<lb/>ostensibly on partisan grounds, the Review proposes to itself no mere party
+<lb/>triumph—but the moral, social and literary welfare of the commonwealth.</p><p>The following is from the origional Prospectus issued at Washington by
+the Whig Members of the Twenty-Seventh Congress:
+</p><p>"Earnestly approving of the plan of such a national organ, long needed
+<lb/>and of manifest importance, the undersigned agree to contribute for its pa-
+<lb break="no"/>ges, from time to time, such communications as may be requujte to set forth,
+<lb/>and defend the doctrines held by the united Whig Party of the Union.—Geo
+<lb/>P. Marsh, D. D. Barnard, J. R. Ingersoll, E. Joy Morris, T. L. Clingman, J.
+<lb/>McPheison Berrien, Daniel Webster, Robert C. Winthrop, Thomas Butler
+<lb/>King, Hamilton Fish, J. P. Kennedy, J. Collamer, John J. Hardin, Wm. S.
+<lb/>Archer, Rufus Choate, Alexander H. Stephens.”</p><p></p><p>In addition to these, a number of writers have been enlisted for its various
+<lb/>other departments, so that every number, besides strong political articles,
+<lb/>will contain about 80 pages of Literary Miscellany in History, Biography,
+<lb/>Criticism, Fiction, Poetry. Statistics, Science and the Arts, three or four En-
+<lb break="no"/>graving* of the most finished—the likenesses of men eminent in the present
+<lb/>or past age, will be given in the course of the year. No pains will be spared,
+<lb/>or means left unemployed, to make it the first of American periodicals.</p><p>HUNT'S MERCHANTS’ MAGAZINE
+AND COMMERCIAL REVIEW.
+
+</p><p>BY FREEMAN HUNT, Editor and Proprietor. Pub-
+<lb break="no"/>lished Monthly, at 142 Fulton Street, New York—at Five Dollars
+<lb/>per annum, in Advance.</p><p></p><p>THE MERCHANTS’ MAGAZINE and COMMERCIAL RE-
+<lb break="no"/>VIEW, embraces every subject connected with Commerce, Manufac-
+<lb break="no"/>tures and Political Economy, as follows :—Commercial Legislation ;
+<lb/>Commercial History and Geography; Mercantile Biography; Des-
+<lb break="no"/>criptive, Statistical and Historical Accounts, of the various commodi-
+<lb break="no"/>ties which form the subject of Mercantile transactions; Port Charges ;
+<lb/>Tariffs : Customs and Excise Regulations ; Commercial Statistics of
+<lb/>the United States and the different countries of the world, with which
+<lb/>we have intercourse, including their Physical Character, Population,
+<lb/>Productions, Exports, Imports, Seaports. Monies, Weights, Measures
+<lb/>Finance and Banking Associations, ana Enterprises connected with
+<lb/>Commerce, embracing Fisheries, Incorporated Companies, Railroads,
+<lb/>Canals, Steamboats, Docks, Post Offices, &amp;c.; Principles of Com-
+<lb break="no"/>merce, Finance and Banking, with Practical and Historical Details
+<lb/>and Illustrations; Commercial Law,and Mercantile Law Reports, and
+<lb/>Decisions of Courts in the United States and Europe, including Insu-
+<lb break="no"/>rance, Partnership, Principal and Agent, Bills of Exchange, Sale,
+<lb/>Guaranty. Bankruptcy, Shipping and Navigation, &amp;c., and whatever
+<lb/>else shall tend to develope the resources of the country and the
+<lb/>world, and illustrate the various topics bearing upon Commerce and
+<lb/>Commercial Literature.</p><p></p><p>It has been, and will continue to be, the aim of the Editor and Pro-
+<lb break="no"/>prietor of the Merchants’ Magazine, to avoid every thing of a par-
+<lb break="no"/>ty, political, or sectional bias or bearing, in the conduct of the work
+<lb/>—opening its pages to the free and fair discussion of antagonistic doc-
+<lb break="no"/>trines connected with the great interests of Commerce, Agriculture,
+<lb/>Manufactures and the Currency.</p><p></p><p>Complete sets of the Merchants’ Magazine, embracing eleven
+<lb/>semi-annual volumes, of about 600 large octavo pages each, bringing
+<lb/>it down to December, 1844, inclusive, may be obtained at the Pub-
+<lb break="no"/>lisher’s Office, 142 Fulton-street, New-York, at the subscription price.</p><p></p><p>Publishers of newspapers, in the United States, by giving this
+<lb/>advertisement two or three insertions, and remitting Two Dollars to
+<lb/>the Proprietor, will be entitled to the Magazine for one year.</p><p>Office of Merchants’ Magzine, January 1st, 1845.
+Prospectus of the Broadway Journal.
+To be Published every Saturday.
+</p><p>The Broadway Journal will differ from any of the weekly Peri-
+<lb break="no"/>odicals now published in this city, as it will be made up entirely of
+<lb/>original matter, consisting of Essays, Criticisms on Art and Literature,
+<lb/>Domestic and Foreign Correspondence, and Literary and Scientific
+<lb/>Intelligence.</p><p></p><p>Illustrations will be given as often as good original Designs can
+<lb/>be procured, and drawings and plans of all new public buildings that
+<lb/>have either elegance or novelty to recommend them to notice. Par-
+<lb break="no"/>ticular attention will be given to this department, and no pains spared
+<lb/>to make it worthy ol patronage.</p><p></p><p>Efficient aid has already been secured in the services of some of the
+<lb/>best writers in the country ; but it is hoped that a free channel be-
+<lb break="no"/>ing opened through which true-hearted men may “ let loose their
+<lb/>thoughts,” will be the means of drawing out some of the slumbering
+<lb/>talent amongst us which has not yet been seen afloat on the surface of
+<lb/>our periodical literature.</p><p></p><p>The Broadway Journal will espouse the cause of no political par-
+<lb break="no"/>ty, but will hold itself free to condemn or approve any men or meas-
+<lb break="no"/>ures, that a patriotic regard for the welfare of the country may dictate.
+<lb/>It will be printed on fine paper with clear type, in the Octave form of
+<lb/>16 pages, double columns.</p><p>Terms $3,00 per annum—Single numbers 6 1-4 cts.
+A liberal discount to Periodical Agents.
+All Communications for the Editor must be addressed to the Editor
+or the Broadway Journal, and all letters on business to
+JOHN BISCO, Publisher, 153 Broadway.
+John Douglas, Printer, 68 Ann Street.
+</p></div>
+        </body>
+        <back>
+          <!-- here is a sample place for contextual information: -->
+          <div type="editorial">
+            <listPerson>
+              <person>
+                <persName><!-- canonical name --></persName>
+                <birth>
+                  <placeName><!-- where born; date on when= of <birth> --></placeName>
+                </birth>
+                <death>
+                  <placeName><!-- where died; date on when= of <death> --></placeName>
+                </death>
+              </person>
+            </listPerson>
+          </div>
+        </back>
+      </text>
+</TEI>

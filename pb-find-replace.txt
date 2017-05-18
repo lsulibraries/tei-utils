@@ -1,0 +1,24 @@
+# find replace regex for handling page breaks and numbering:
+
+
+find:
+
+^<lb/>([0-9]{1,3})$
+^<lb( break="no")*/>THE BROADWAY JOURNAL[\.]*
+
+
+replace:
+
+<pb $2 n="$1"/>
+
+
+
+find:
+
+^<lb( break="no")*/>THE BROADWAY JOURNAL[\.]*
+^<lb/>([0-9]{1,3})$
+
+
+replace:
+
+<pb$1 n="$2"/>
