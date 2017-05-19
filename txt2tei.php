@@ -2,14 +2,16 @@
 
 class txt2tei {
 
+    public $settings = array();
+
     function main($ini){
 
-        $settings    = parse_ini_file($ini, true);
-        $output_dir   = $settings['files']['output_dir'];
-        $input_dir   = $settings['files']['input_dir'];
+        $this->settings    = parse_ini_file($ini, true);
+        $output_dir   = $this->settings['files']['output_dir'];
+        $input_dir   = $this->settings['files']['input_dir'];
         $input_files = array_diff(scandir($input_dir), array('..', '.'));
-        $teiheader   = file_get_contents($settings['files']['tei_header_path']);
-        $teiclose    = file_get_contents($settings['files']['tei_close_path']);
+        $teiheader   = file_get_contents($this->settings['files']['tei_header_path']);
+        $teiclose    = file_get_contents($this->settings['files']['tei_close_path']);
 
 
         foreach($input_files as $file){
@@ -17,19 +19,23 @@ class txt2tei {
                 continue;
             }
             $rawtext   = file_get_contents($input_dir.DIRECTORY_SEPARATOR.$file);
-            var_dump($rawtext); die();
-            $cleantext = clean_entities($rawtext);
+            $cleantext = $this->clean_entities($rawtext);
+
+            $postClean = $this->postClean($cleantext);
             
-            
-            $text_elem = get_text_element($cleantext);
+            $text_elem = $this->get_text_element($postClean);
             $outfile   = str_replace('txt', 'xml', $file);
             $rawXML    = $teiheader.$text_elem.$teiclose;
 
-            file_put_contents($output_dir.DIRECTORY_SEPARATOR.get_basename($file).'.xml', $rawXML);
-            $xml       = make_doc($rawXML);
+            file_put_contents($output_dir.DIRECTORY_SEPARATOR.$this->get_basename($file).'.xml', $rawXML);
+            $xml       = $this->make_doc($rawXML);
             //file_put_contents($output_dir.DIRECTORY_SEPARATOR.get_basename($file).'.xml', $xml);
 
         }
+    }
+
+    function postClean($cleantext){
+
     }
 
     function make_doc($raw){
@@ -42,7 +48,7 @@ class txt2tei {
     //outermost wrapper
     function get_text_element($txt){
 
-        $body = get_body_element($txt);
+        $body = $this->get_body_element($txt);
         $text = <<<TEX
           <text>
             <front>
@@ -75,9 +81,8 @@ TEX;
     }
 
     function get_body_element($txt){
-        var_dump($txt);
-        $broken_pages = break_pages($txt);
-        $paragraphized = paragraphize($broken_pages);
+        $broken_pages = $this->break_pages($txt);
+        $paragraphized = $this->paragraphize($broken_pages);
         return $paragraphized;
     }
 
@@ -88,14 +93,6 @@ TEX;
     }
 
     function break_pages($txt){
-        
-        $pairs = array(
-            '#(\-\n+)([0-9]+)\n+THE BROADWAY JOURNAL\.*#' => "$1<pb n=\"$2\" break=\"no\" />",
-            '#(\-\n+)THE BROADWAY JOURNAL\.*\n+([0-9]+)#' => "$1<pb n=\"$2\" break=\"no\" />",
-            '#([0-9]+)\n+THE BROADWAY JOURNAL\.*#' => "<pb n=\"$1\"/>",
-            '#THE BROADWAY JOURNAL\.*\n+([0-9]+)#' => "<pb n=\"$1\"/>",
-        );
-        $txt = preg_replace(array_keys($pairs), array_values($pairs), $txt);
         return $txt;
     }
 
@@ -110,7 +107,7 @@ TEX;
             if(substr_count($p, "\n") > 1){
                 $paragraphized .= $tmp_string."</p>";
                 $tmp_string = '<p>';
-                $paragraphized .= "<p>".delineate_text($p)."</p>";
+                $paragraphized .= "<p>".$this->delineate_text($p)."</p>";
                 $single_lines = false;
             }else{
                 $tmp_string .= $p."\n";
