@@ -22,13 +22,7 @@ class zola2tei extends txt2tei {
             //$cleantext = str_ireplace($distinct, "<distinct type='slang'>$distinct</distinct>", $cleantext);
             $cleantext = preg_replace("/\b$distinct\b/iu", "<distinct type='slang'>$distinct</distinct>", $cleantext);
         }
-        return $this->markChapterHeads($cleantext);
-    }
-
-    function markChapterHeads($txt){
-        $out = preg_replace("/\n\n+([IVX])+\n\n+/U", "<head>$1</head>", $txt);
-        return $out;
-
+        return $cleantext;
     }
 }
 
