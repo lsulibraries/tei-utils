@@ -21,12 +21,12 @@ class txt2tei {
             $rawtext   = file_get_contents($input_dir.DIRECTORY_SEPARATOR.$file);
             $cleantext = $this->clean_entities($rawtext);
 
-            $postClean = $this->postClean($cleantext);
+            $textFeatures = $this->textFeatures($cleantext);
             
-            $text_elem = $this->get_text_element($postClean);
+            $text_elem = $this->get_text_element($textFeatures);
             $outfile   = str_replace('txt', 'xml', $file);
             $rawXML    = $teiheader.$text_elem.$teiclose;
-
+var_dump($output_dir);
             file_put_contents($output_dir.DIRECTORY_SEPARATOR.$this->get_basename($file).'.xml', $rawXML);
             $xml       = $this->make_doc($rawXML);
             //file_put_contents($output_dir.DIRECTORY_SEPARATOR.get_basename($file).'.xml', $xml);
@@ -34,7 +34,7 @@ class txt2tei {
         }
     }
 
-    function postClean($cleantext){
+    function textFeatures($cleantext){
 
     }
 
